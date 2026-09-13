@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "changeId": "poco-thumbnails-2026-09-13",
+  "previousChangeId": "poco-packaging-2026-09-13",
+  "status": "published_verified",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "authorization": "分析して見てもらえるようにしてください。電話番号確認後、ユーザーが「確認しました」と通知。",
+  "changes": [
+    {
+      "episodeId": "poco-03-rain",
+      "videoId": "yMyAsOK6doY",
+      "sourceUrl": "https://studio.youtube.com/video/yMyAsOK6doY/edit",
+      "before": {
+        "type": "auto_generated",
+        "rawLabel": "自動生成サムネイル 2"
+      },
+      "after": {
+        "type": "custom_uploaded",
+        "path": "production/assets/thumbnails/poco-03-rain-v1.png",
+        "sha256": "d221be079fa93cc53602b481089a4315dec007e3e7aefe6001ccd0d700485fcc",
+        "rawButtonLabel": "poco-03-rain-v1.png"
+      },
+      "saveWindow": {
+        "notBefore": "2026-09-13T12:35:42.960Z",
+        "notAfter": "2026-09-13T12:36:04.193Z"
+      },
+      "saveButtonDisabled": true,
+      "publicPageVisualVerified": true
+    },
+    {
+      "episodeId": "poco-01-colors",
+      "videoId": "n-raC3DGh4I",
+      "sourceUrl": "https://studio.youtube.com/video/n-raC3DGh4I/edit",
+      "before": {
+        "type": "auto_generated",
+        "rawLabel": "自動生成サムネイル 2"
+      },
+      "after": {
+        "type": "custom_uploaded",
+        "path": "production/assets/thumbnails/poco-01-colors-v1.png",
+        "sha256": "20ebbffc5525c632ba1c0aecc9ffdebc6eee1782bc63070904c699190456de5a",
+        "rawButtonLabel": "poco-01-colors-v1.png"
+      },
+      "saveWindow": {
+        "notBefore": "2026-09-13T12:36:23.188Z",
+        "notAfter": "2026-09-13T12:36:35.668Z"
+      },
+      "saveButtonDisabled": true,
+      "publicPageVisualVerified": true
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "videoId": "1vvhk6jtLzE",
+      "sourceUrl": "https://studio.youtube.com/video/1vvhk6jtLzE/edit",
+      "before": {
+        "type": "auto_generated",
+        "rawLabel": "自動生成サムネイル 2"
+      },
+      "after": {
+        "type": "custom_uploaded",
+        "path": "production/assets/thumbnails/poco-02-scarf-v1.png",
+        "sha256": "94029b9981c12350a2a2f58678b111df48ebca3dd04f87922b2b8c7f30457dd8",
+        "rawButtonLabel": "poco-02-scarf-v1.png"
+      },
+      "saveWindow": {
+        "notBefore": "2026-09-13T12:36:50.943Z",
+        "notAfter": "2026-09-13T12:37:00.967Z"
+      },
+      "saveButtonDisabled": true,
+      "publicPageVisualVerified": true
+    }
+  ],
+  "publicPageVerification": {
+    "url": "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA",
+    "confirmedAt": "2026-09-13T12:37:39.065Z",
+    "method": "公開チャンネルのショート一覧のスクリーンショットを目視確認",
+    "result": "雨の日、スカーフ、色探しの3枚すべてが対応するタイトルと共に表示されている"
+  },
+  "notes": [
+    "電話番号確認後、通常のファイル選択でアップロード可能になった。電話番号・認証コードは取得していない。",
+    "設定した効果を確認したわけではない。反響は別途24時間・72時間の観測で確認する。",
+    "元の公開日時・動画本体・タイトル・説明・子ども向け設定は今回の変更対象外。"
+  ]
+}

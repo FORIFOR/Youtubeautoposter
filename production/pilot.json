@@ -29,7 +29,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-13T11:11:21.351140+00:00",
+  "updatedAt": "2026-09-13T12:38:29.748461+00:00",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -45,8 +45,9 @@
     "metadataChanges": "production/changes/packaging-2026-09-13.json",
     "earlyAnalysis": "production/analysis/improvement-2026-09-13.md",
     "prototype": "production/analysis/shorter-intro-prototype.json",
-    "customThumbnails": "prepared_requires_phone_verification",
+    "customThumbnails": "published_verified",
     "hypothesisPrototypeRendered": true,
-    "effectConfirmed": false
+    "effectConfirmed": false,
+    "thumbnailChanges": "production/changes/thumbnails-2026-09-13.json"
   }
 }
