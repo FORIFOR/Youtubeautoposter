@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "poco-free-distribution-01",
+  "preparedOn": "2026-09-14",
+  "status": "prepared_pending_destination_account",
+  "mediaBudgetJpy": 0,
+  "paidPromotionPolicy": "last_resort_only_if_efficient",
+  "spendingAuthorized": false,
+  "accountDiscovery": {
+    "userAskedForExistingAccountUrl": true,
+    "destinationAccount": null
+  },
+  "externalPublicationsByAgent": [],
+  "readyAssets": [
+    {
+      "videoId": "DpgabSBgQgk",
+      "sourceFile": "production/renders/poco-04-color-game/r2/poco-04-color-game.mp4",
+      "sourceSha256": "405ca4caf92a27488a740a31b0808c2e3f4ca0bd081f190629350f0bf01a8184",
+      "coverFile": "production/assets/thumbnails/poco-04-color-game-v2.png",
+      "durationSeconds": 24.221354,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "width": 1080,
+      "height": 1920,
+      "sourceMatchesPublishedVideo": true,
+      "destinationPreviewVerified": false
+    },
+    {
+      "videoId": "yMyAsOK6doY",
+      "sourceFile": "production/renders/poco-03-rain/r1/poco-03-rain.mp4",
+      "sourceSha256": "739b672cb685c55e1ba2f5d01eab73acb842ee0424f5d7ba305bc9c841697744",
+      "coverFile": "production/assets/thumbnails/poco-03-rain-v1.png",
+      "durationSeconds": 34.321333,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "width": 1080,
+      "height": 1920,
+      "sourceMatchesPublishedVideo": true,
+      "destinationPreviewVerified": false
+    }
+  ],
+  "drafts": [
+    {
+      "id": "color-game-native",
+      "kind": "native_video",
+      "status": "local_draft",
+      "copyFile": "production/distribution/free-social-posts.ja.md",
+      "videoId": "DpgabSBgQgk",
+      "destination": null,
+      "publishedAt": null,
+      "url": null
+    },
+    {
+      "id": "rain-native",
+      "kind": "native_video",
+      "status": "local_draft",
+      "copyFile": "production/distribution/free-social-posts.ja.md",
+      "videoId": "yMyAsOK6doY",
+      "destination": null,
+      "publishedAt": null,
+      "url": null
+    },
+    {
+      "id": "color-play-guide",
+      "kind": "article",
+      "status": "local_draft",
+      "copyFile": "production/distribution/note-color-play.ja.md",
+      "destination": null,
+      "publishedAt": null,
+      "url": null
+    }
+  ],
+  "measurement": {
+    "relativeCheckpointsHours": [
+      24,
+      72,
+      168
+    ],
+    "activeDeadlines": [],
+    "record": [
+      "published_url",
+      "published_at",
+      "source_platform",
+      "displayed_metric_name",
+      "metric_period",
+      "capture_time",
+      "native_reach",
+      "native_views",
+      "watch_time",
+      "saves",
+      "shares",
+      "available_profile_link_clicks",
+      "youtube_external_traffic",
+      "available_return_viewing",
+      "active_work_minutes"
+    ],
+    "notes": [
+      "Unreported metrics remain null.",
+      "Do not add external video views to YouTube views.",
+      "No cross-platform deduplication or causal attribution claimed.",
+      "Create deadlines only after real publication."
+    ]
+  },
+  "plan": "production/distribution/free-discovery-plan.ja.md"
+}

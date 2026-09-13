@@ -1,7 +1,9 @@
 {
   "schemaVersion": 2,
   "experimentId": "poco-distribution-pilot-01",
-  "status": "analysis_review_pending_no_spend_authorized",
+  "status": "deferred_last_resort_free_distribution_first",
+  "userCostPolicy": "Paid promotion is a last resort and may be adopted only if efficient; no spend authorized.",
+  "freeDistributionPlan": "production/distribution/free-discovery-plan.ja.md",
   "recommendationStatus": "original_proposal_withdrawn_after_goal_and_budget_comparison",
   "analysis": "production/analysis/promotion-simulation-2026-09-14.md",
   "forecastSource": "production/distribution/promotion-forecast-2026-09-14.json",
