@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "displayName": "こぐまのポコのおはなし",
   "handleCandidate": "poco_ohanashi_jp",
-  "description": "こぐまのポコと、毎日の小さな発見へ。\n\n色さがし、なくしもの、雨の日の音。幼児とご家族がいっしょに楽しめる、日本語の短い絵本風のおはなしを届けます。\n\nポコは、黄色いスカーフが目印のオリジナルキャラクターです。絵はAIで生成し、日本語の台本・音声・字幕を組み合わせて制作しています。\n音声：VOICEVOX:四国めたん",
+  "description": "親子で指さし・色さがし・音あそび。こぐまポコと楽しむ、約25〜35秒の日本語ショート絵本です。\n\nはじめての方は「いろあそび3問」へ。あか・きいろ・あお、答えが出る前に親子で指さしてみてください。\nほかにも、きいろいスカーフを探すお話や、雨の音をまねするお話を公開しています。\n\nポコは黄色いスカーフが目印のオリジナルキャラクター。幼児とご家族が一緒に楽しめる、短い問いかけと小さな発見を届けます。\n絵はAIで生成し、日本語の台本・音声・字幕を組み合わせて制作しています。\n音声：VOICEVOX:四国めたん",
   "language": "ja",
   "audience": "kids",
   "avatarPath": "production/assets/poco-channel-avatar.png",
@@ -18,10 +18,24 @@
   ],
   "avatarStatus": "published",
   "avatarSha256": "2278670e76e2facc74c3357d5509839370a2904c0846866ee3f4c26143977c82",
-  "updatedAt": "2026-09-13T08:33:27.839801+00:00",
+  "updatedAt": "2026-09-13T17:30:45Z",
   "creationFormReady": false,
   "termsUrl": "https://www.youtube.com/t/terms",
   "handle": "poco_ohanashi_jp",
   "termsConfirmedByUser": true,
-  "descriptionStatus": "published"
+  "descriptionStatus": "published",
+  "profileLinks": [
+    {
+      "title": "まずは24秒の色あそび",
+      "url": "https://www.youtube.com/shorts/DpgabSBgQgk"
+    },
+    {
+      "title": "ほかのあそびも見る",
+      "url": "https://www.youtube.com/playlist?list=PLfr9v9axUGaM"
+    }
+  ],
+  "homeTabEnabled": true,
+  "featuredPlaylistId": "PLfr9v9axUGaM",
+  "trailerVideoId": "DpgabSBgQgk",
+  "distributionChange": "production/changes/channel-distribution-2026-09-14.json"
 }

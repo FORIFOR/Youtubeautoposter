@@ -10,12 +10,16 @@
     "notAfter": "2026-09-13T15:56:46.754Z"
   },
   "sourceUrl": "https://studio.youtube.com/video/DpgabSBgQgk/edit",
-  "status": "studio_saved_verified",
+  "status": "studio_and_public_verified",
   "evidence": [
     "保存成功メッセージと無効な保存ボタン",
     "Studioプレビューで「いろあそび 3もん！」画像を目視確認"
   ],
-  "publicThumbnailVerification": "pending_propagation; last channel reload still showed previous cover",
+  "publicThumbnailVerification": "confirmed_public_channel_screenshot_2026-09-14_JST",
   "effectConfirmed": false,
-  "reason": "動画フレームの縮小ではキャラクターが小さいため、題材の3色と3問を大きく示す専用カバーに変更"
+  "reason": "動画フレームの縮小ではキャラクターが小さいため、題材の3色と3問を大きく示す専用カバーに変更",
+  "publicVerificationWindow": {
+    "notBefore": "2026-09-13T17:15:37Z",
+    "notAfter": "2026-09-13T17:22:56Z"
+  }
 }

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "poco-distribution-pilot-01",
+  "status": "prepared_in_open_ui_awaiting_budget_and_terms_confirmation",
+  "persistedCampaignId": null,
+  "campaignCreated": false,
+  "launchedAt": null,
+  "spendingAuthorized": false,
+  "termsAccepted": false,
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "videoId": "DpgabSBgQgk",
+  "goal": "audience_growth",
+  "optimization": "channel_engagement_and_follow_on_views",
+  "headline": "親子でいろあそび 3つの色クイズ",
+  "description": "りんご・バナナ・ボール、どっちかな？ こぐまポコと24秒の指さしあそび。",
+  "aiLabel": true,
+  "euPoliticalAd": false,
+  "country": "JP",
+  "language": "ja",
+  "ageGroups": [
+    "18-24",
+    "25-34",
+    "35-44",
+    "45-54",
+    "55-64",
+    "65+"
+  ],
+  "unknownAgeIncluded": false,
+  "genders": "all",
+  "interestSegments": [],
+  "interestNotes": "入力候補を調べたが選択済みチップはない。関心カテゴリの絞り込みは未設定。成人と日本語、親子向けの広告文を使う案。",
+  "budgetProposal": {
+    "totalSpendCeilingJpy": 3000,
+    "mediaBudgetInUiJpy": 2700,
+    "contingencyJpy": 300,
+    "userApprovedCeilingJpy": null,
+    "startDateInUi": "2026-09-14",
+    "endDateInUi": "2026-09-21",
+    "note": "予算未承認。税や手数料を含む請求上限を最終確認する。承認が後日なら日付を再設定。"
+  },
+  "temporaryCardCheck": {
+    "amountJpy": 2000,
+    "uiStatesUsuallyReversedWithin": "1 week",
+    "accepted": false,
+    "notes": "予算とは別の一時的な請求として同意確認が必要。支払情報自体はローカル記録に保存しない。"
+  },
+  "termsUrl": "https://payments.google.com/payments/apis-secure/get_legal_document?ldi=352971",
+  "accountState": "new_Google_Ads_account_selected_in_wizard_not_finalized",
+  "stopPoint": "Payment and billing; final Promote button NOT clicked",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/content/promotions",
+  "estimates": [
+    {
+      "mediaBudgetJpy": 3000,
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-21",
+      "viewsRange": [
+        160,
+        590
+      ],
+      "impressionsRange": [
+        2700,
+        6500
+      ],
+      "engagementsRaw": "100件未満",
+      "kind": "UI_estimate_not_observed_results",
+      "supersededByMediaBudgetJpy": 2700
+    }
+  ],
+  "notes": [
+    "フォームは開いたタブに保持。サービス上の保存済みキャンペーンとは呼ばない。",
+    "本広告は試験露出を得る案。自然なおすすめ順位や収益化到達を保証しない。",
+    "初期3本は直接プロモートしないが広告後の回遊はあり得るため、無作為な対照群とは扱わない。",
+    "承認・開始前のベースラインを取り直す。広告と自然流入は別々の原指標で記録する。"
+  ]
+}

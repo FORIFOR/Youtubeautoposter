@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-distribution-status-2026-09-14T022631+0900",
+  "checkpoint": "ad_hoc_status",
+  "observedAt": "2026-09-13T17:26:31Z",
+  "observationWindow": {
+    "notBefore": "2026-09-13T17:25:47Z",
+    "notAfter": "2026-09-13T17:26:31Z"
+  },
+  "source": "youtube_studio_content_table",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short",
+  "metricDefinition": "youtube_studio_content_table:displayed_cumulative_views:2026-09-13",
+  "videos": [
+    {
+      "episodeId": "poco-01-colors",
+      "videoId": "n-raC3DGh4I",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 32250.0,
+        "maximum": 32344.0
+      },
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "shownInFeed": null,
+      "engagedViews": null,
+      "averageViewDurationSeconds": null
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "videoId": "1vvhk6jtLzE",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 32003.0,
+        "maximum": 32088.0
+      },
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "shownInFeed": null,
+      "engagedViews": null,
+      "averageViewDurationSeconds": null
+    },
+    {
+      "episodeId": "poco-03-rain",
+      "videoId": "yMyAsOK6doY",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 31783.0,
+        "maximum": 31874.0
+      },
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "shownInFeed": null,
+      "engagedViews": null,
+      "averageViewDurationSeconds": null
+    },
+    {
+      "episodeId": "poco-04-color-game",
+      "videoId": "DpgabSBgQgk",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/14",
+      "views": 0,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 5655.0,
+        "maximum": 5726.0
+      },
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "shownInFeed": null,
+      "engagedViews": null,
+      "averageViewDurationSeconds": null
+    }
+  ],
+  "notes": [
+    "ユーザーの配信導線・広告への指摘に対する臨時確認。24/72時間の主要観測ではない。",
+    "観測時刻は取得直後の時計確認による上限。取得操作の範囲も記録する。",
+    "広告未配信。ホームと紹介リンクの変更後、紹介動画枠の追加前の値。",
+    "詳細指標はこの取得では開いていないためnull。広告画面の予測値を実測として入れない。"
+  ]
+}
