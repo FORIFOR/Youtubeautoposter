@@ -2,14 +2,34 @@
   "schemaVersion": 1,
   "id": "poco-free-distribution-01",
   "preparedOn": "2026-09-14",
-  "status": "prepared_pending_destination_account",
+  "status": "execution_started_waiting_for_social_login_and_account",
+  "executionAuthorization": {
+    "userMessage": "それで進めてください",
+    "recordedOn": "2026-09-14",
+    "scope": "Proceed with the free native-video and useful-play-guide distribution plan; no advertising spend.",
+    "nativePublicationAuthorized": true
+  },
   "mediaBudgetJpy": 0,
   "paidPromotionPolicy": "last_resort_only_if_efficient",
   "spendingAuthorized": false,
   "accountDiscovery": {
     "userAskedForExistingAccountUrl": true,
-    "destinationAccount": null
+    "destinationAccount": null,
+    "firstPlatformChecked": "Instagram",
+    "checkedUrl": "https://www.instagram.com/",
+    "checkedDate": "2026-09-14",
+    "visibleState": "login_form_no_authenticated_account",
+    "userActionRequested": "Log in to the account to use and identify its username, or provide an alternative destination URL.",
+    "browserHandoff": "Instagram login page opened in the in-app browser; no credentials entered."
   },
+  "resumeInstructions": [
+    "Confirm the authenticated account matches the user's specified posting destination.",
+    "Read CUA upload guidance, upload the existing color-game MP4, apply the prepared caption and inspect the real publication preview.",
+    "Proceed with the already-authorized free publication; do not ask for the same general publication permission again.",
+    "Record the published URL and observed publication time, then add measurement checkpoints to monitoring.",
+    "Do not treat authentication checks, local drafts or prospect research as external publications."
+  ],
+  "editorialProspectReview": "production/distribution/editorial-outreach-review-2026-09-14.md",
   "externalPublicationsByAgent": [],
   "readyAssets": [
     {

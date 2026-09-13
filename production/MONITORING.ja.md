@@ -4,6 +4,8 @@
 
 対象は `publications.json` にある初期3本と、競合作例調査に基づく追加検証1本。チャンネルIDは `UCpaMwN2CdCok70qTw-EdonA`。
 
+9月14日04時台の追記：ユーザーが無料配信の実行を承認。`distribution/free-distribution.json` の状態はInstagramの投稿用アカウント・ログイン待ち。無料公開の一般的な許可は再度求めない。アカウントは未特定なので推測して投稿しない。実公開URLはまだ0件で、外部配信の新しい観測期限は発生していない。ログイン催促を定期実行のたびに繰り返さず、既存YouTube動画の観測を継続する。
+
 - いろさがし：`n-raC3DGh4I`
 - スカーフ：`1vvhk6jtLzE`
 - 雨の日：`yMyAsOK6doY`
