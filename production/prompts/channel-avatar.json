@@ -1,0 +1,6 @@
+{
+  "method": "built-in image_gen",
+  "reference": "production/assets/poco-01-colors.png",
+  "output": "production/assets/poco-channel-avatar.png",
+  "prompt": "Use case: illustration-story. Asset type: square YouTube channel profile avatar for the original Japanese children's picture-book series 'こぐまのポコのおはなし'. Input image is a character and gouache-style REFERENCE only, not an edit target. Make one single square portrait, no grid. Preserve Poco's identity from the reference: small warm brown cub with rounded ears, oval black eyes, tiny dark nose, creamy muzzle and chest, sunny yellow scarf. Friendly slight smile, front facing, head and shoulders large and centered, both ears and scarf completely inside the central circle-safe area with generous edge margin. Soft warm pale cream background with very subtle watercolor/gouache paper texture. Same gentle painted picture-book look as the reference. Readable as a tiny circular icon. No text, letters, logo, watermark, props, other characters or decorative borders. Output a 1024x1024 PNG."
+}

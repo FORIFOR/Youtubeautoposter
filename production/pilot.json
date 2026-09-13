@@ -2,7 +2,7 @@
   "id": "poco-pilot-01",
   "goal": "実動画を3本公開し、公開24時間・72時間後の反響を分析し、変更点を一つ反映した4本目の動画を作成する",
   "completed": false,
-  "phase": "awaiting_channel",
+  "phase": "awaiting_channel_terms_confirmation",
   "channelUrl": null,
   "channelId": null,
   "audience": "kids",
@@ -29,5 +29,5 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-13T06:39:58.294279+00:00"
+  "updatedAt": "2026-09-13T08:05:07.118851+00:00"
 }
