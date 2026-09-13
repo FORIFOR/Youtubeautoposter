@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {
+    "provider": "VOICEVOX",
+    "speakerId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "speedScale": 0.94,
+    "intonationScale": 1.06
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "publication": {
+    "privacyStatus": "public",
+    "selfDeclaredMadeForKids": true,
+    "defaultLanguage": "ja",
+    "categoryId": "27"
+  },
+  "revision": 2,
+  "id": "poco-01-colors",
+  "title": "あかいのはどっち？ こぐまポコのいろさがし #Shorts",
+  "displayTitle": "いろさがし",
+  "hook": "question",
+  "atlas": "production/assets/poco-01-colors.png",
+  "description": "こぐまのポコと、赤いりんごと青いボールを探そう。色を見分けながら、いっしょに参加できる短いお話です。\n\nオリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #子ども向け",
+  "segments": [
+    {
+      "panel": 0,
+      "speech": "赤いものは、どれかな？",
+      "caption": [
+        "あかいものは",
+        "どれかな？"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 0,
+      "speech": "りんごとバナナ。赤いのは、どっちかな？",
+      "caption": [
+        "あかいのは",
+        "どっちかな？"
+      ],
+      "pauseAfter": 2.0,
+      "question": true
+    },
+    {
+      "panel": 1,
+      "speech": "そう！ りんごだね！",
+      "caption": [
+        "そう！",
+        "りんごだね！"
+      ],
+      "pauseAfter": 0.6,
+      "question": false
+    },
+    {
+      "panel": 2,
+      "speech": "次は、青いもの。青いボール、見つけられるかな？",
+      "caption": [
+        "あおいボールは",
+        "どこかな？"
+      ],
+      "pauseAfter": 2.0,
+      "question": true
+    },
+    {
+      "panel": 2,
+      "speech": "見つけた！ お花の隣に、あったね！",
+      "caption": [
+        "みつけた！",
+        "おはなの となり！"
+      ],
+      "pauseAfter": 0.5,
+      "question": false
+    },
+    {
+      "panel": 3,
+      "speech": "ポコのかごに、りんごとボールが入りました。",
+      "caption": [
+        "りんごと ボールが",
+        "そろったよ"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 3,
+      "speech": "一緒に探してくれて、ありがとう！",
+      "caption": [
+        "いっしょに さがしてくれて",
+        "ありがとう！"
+      ],
+      "pauseAfter": 1.2,
+      "question": false
+    }
+  ],
+  "revisionNotes": {
+    "status": "hypothesis_prototype",
+    "basedOn": "discovery-audit-2026-09-13.md",
+    "change": "自己紹介の1区間だけを省略。問いかけの回答待ち時間や画面構成は維持。",
+    "evidenceLimitation": "視聴者維持率は未到着。改善効果は未確認。",
+    "publication": "not_uploaded"
+  }
+}

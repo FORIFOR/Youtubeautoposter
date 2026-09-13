@@ -1,0 +1,26 @@
+[
+  {
+    "id": "poco-01-colors",
+    "ref": "/Users/shuhei/Projects/Youtubeautoposter/production/renders/qa/poco-01-colors-opening.jpg",
+    "prompt": "Use case: illustration-story. Asset type: portrait 9:16 YouTube Shorts thumbnail for a Japanese preschool picture-book video. Generate ONE complete thumbnail, NOT a contact sheet. Input image is a character, color and illustration-style REFERENCE, not a layout to copy. Preserve the same original small brown bear Poco, cream muzzle/belly, black eyes, yellow scarf. Soft warm painterly picture-book illustration. Fill the frame with a large friendly Poco looking curiously at a vivid red apple and a yellow banana, both very large, separated and unmistakable, in the same sunny garden. Simplify background to keep those two objects salient on a small phone. No added characters. The actual video asks children to choose the red object; do NOT label the answer, add arrows to the apple, or claim an outcome. Strong readable dark Japanese rounded lettering on a light cream area in the upper third, exact two lines: \"あかいのは\" / \"どっち？\". Small unobtrusive series text \"こぐまのポコ\" near bottom inside safe margin. Text is spelled exactly, hiragana, no extra words. Illustration occupies most of frame; avoid large empty margins, fake buttons, timestamps, logos, badges, borders and watermark. Keep all text and key objects away from outer 8%. Beautiful, calm and instantly understandable, never sensational.",
+    "method": "builtin_image_gen",
+    "sourcePath": "/Users/shuhei/.codex/generated_images/01a098db-f8fc-7821-b8a9-ff65890a05e2/exec-00363ca2-7300-43ef-95d4-e09f6b1c7a16.png",
+    "outputPath": "production/assets/thumbnails/poco-01-colors-v1.png"
+  },
+  {
+    "id": "poco-02-scarf",
+    "ref": "/Users/shuhei/Projects/Youtubeautoposter/production/renders/qa/poco-02-scarf-opening.jpg",
+    "prompt": "Use case: illustration-story. Asset type: portrait 9:16 YouTube Shorts thumbnail for an original Japanese preschool picture-book story. Generate ONE complete thumbnail, NOT a contact sheet. Input image is a character and painting-style REFERENCE, not the layout. Same original small brown bear Poco, cream muzzle/belly and black eyes, but his neck is BARE because he is searching for his yellow scarf. Friendly curious expression, a close large Poco and a small garden tree whose branch holds a single bright yellow scarf at upper right; in the story the scarf was caught on a branch. Do not introduce any other character or second scarf. Soft richly colored warm painterly picture-book style, calm green garden simplified to keep bear and scarf legible. Fill frame; no giant blank border. Bold readable dark rounded Japanese lettering on a cream area in upper third, EXACT two lines: \"スカーフ\" / \"どこかな？\". Small series text \"こぐまのポコ\" near bottom within safe margin. No arrows, no fake urgency, no badges, no watermark, no fake UI. Preserve character identity. Keep text and main objects inside 8% safe margin. The illustration should be an accurate appealing entry to a short finding-a-scarf story, readable when tiny.",
+    "method": "builtin_image_gen",
+    "sourcePath": "/Users/shuhei/.codex/generated_images/01a098db-f8fc-7821-b8a9-ff65890a05e2/exec-4582f951-ed1e-47ce-a431-71c9c5682888.png",
+    "outputPath": "production/assets/thumbnails/poco-02-scarf-v1.png"
+  },
+  {
+    "id": "poco-03-rain",
+    "ref": "/Users/shuhei/Projects/Youtubeautoposter/production/renders/qa/poco-03-rain-opening.jpg",
+    "prompt": "Use case: illustration-story. Asset type: portrait 9:16 YouTube Shorts thumbnail for a Japanese preschool picture-book rain-sound story. Generate ONE complete thumbnail, NOT a contact sheet. Input image is a character and painting-style REFERENCE, not its layout. Same original brown cub Poco, cream muzzle/belly, black eyes, yellow scarf. Friendly close-up Poco under a sheltered porch listening with paw near ear; vivid red bucket and a broad green leaf in front collecting gentle raindrops. Soft warm detailed painterly storybook style. Make bear, bucket and leaf large and distinguishable, simplify garden background; fill frame. The actual story imitates rain tapping a bucket and leaf in Japanese narration, no music claims. Bold dark rounded Japanese lettering on a cream area near upper third, EXACT two lines: \"あめは\" / \"どんな おと？\". Small series text \"こぐまのポコ\" near bottom inside safe margin. No added people/animals, no headphones or musical instruments, no scary thunder or storm, no badges, arrows, watermark, fake controls or timestamp. Calm inviting mood and clear shapes for small phone displays. All text and important objects inside outer 8% safe margin.",
+    "method": "builtin_image_gen",
+    "sourcePath": "/Users/shuhei/.codex/generated_images/01a098db-f8fc-7821-b8a9-ff65890a05e2/exec-cd68dc46-4441-4837-8368-0f85b6a57b67.png",
+    "outputPath": "production/assets/thumbnails/poco-03-rain-v1.png"
+  }
+]

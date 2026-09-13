@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "changeId": "poco-packaging-2026-09-13",
+  "status": "metadata_and_playlist_published_thumbnails_pending_verification",
+  "authorization": "分析して見てもらえるようにしてください",
+  "basis": "制作物の内容監査とYouTube公式の発見性・視聴維持の説明。視聴者データは不足。",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "changes": [
+    {
+      "videoId": "n-raC3DGh4I",
+      "episodeId": "poco-01-colors",
+      "sourceUrl": "https://studio.youtube.com/video/n-raC3DGh4I/edit",
+      "before": {
+        "title": "あかいのはどっち？ こぐまポコのいろさがし #Shorts",
+        "description": "こぐまのポコと、赤いりんごと青いボールを探そう。色を見分けながら、いっしょに参加できる短いお話です。\n\nオリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #子ども向け",
+        "playlist": null
+      },
+      "after": {
+        "title": "あかいのはどっち？｜親子で色あそび・こぐまポコの絵本 #Shorts",
+        "description": "親子で楽しむ、約30秒の色あそび。赤いりんごと青いボールを、こぐまのポコといっしょに探そう。\n問いかけのあとは少し待つので、声や指さしで参加してね。\n\n幼児とご家族向けの、オリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・音声・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #色あそび",
+        "playlistId": "PLfr9v9axUGaM"
+      },
+      "saveWindow": {
+        "notBefore": "2026-09-13T11:07:18.777Z",
+        "notAfter": "2026-09-13T11:07:32.671Z"
+      },
+      "verification": "保存ボタンが無効になり、チャンネル公開ページで新タイトル、再生リスト公開ページで全3動画の収録を確認",
+      "thumbnail": {
+        "status": "prepared_requires_phone_verification",
+        "path": "production/assets/thumbnails/poco-01-colors-v1.png",
+        "sha256": "20ebbffc5525c632ba1c0aecc9ffdebc6eee1782bc63070904c699190456de5a",
+        "width": 941,
+        "height": 1672,
+        "visualQA": "文字・色・キャラクター・内容との対応を確認"
+      },
+      "relatedVideo": {
+        "status": "unavailable_made_for_kids",
+        "rawNotice": "子供向けの動画について関連動画を無効にします"
+      }
+    },
+    {
+      "videoId": "1vvhk6jtLzE",
+      "episodeId": "poco-02-scarf",
+      "sourceUrl": "https://studio.youtube.com/video/1vvhk6jtLzE/edit",
+      "before": {
+        "title": "ポコのスカーフ、どこにある？ こぐまのおはなし #Shorts",
+        "description": "大切な黄色いスカーフをなくしたポコ。お花のそば、小さな木の枝。一つずつ確かめながら探す、短いお話です。\n\nオリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #子ども向け",
+        "playlist": null
+      },
+      "after": {
+        "title": "きいろいスカーフはどこ？｜親子でさがしもの・こぐまポコの絵本 #Shorts",
+        "description": "親子で楽しむ、約30秒のさがしもの。なくした黄色いスカーフを、こぐまのポコと探す短い絵本のお話です。\nお花の鉢と小さな木を見ながら、いっしょに考えてみてね。\n\n幼児とご家族向けの、オリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・音声・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #さがしもの",
+        "playlistId": "PLfr9v9axUGaM"
+      },
+      "saveWindow": {
+        "notBefore": "2026-09-13T11:07:51.444Z",
+        "notAfter": "2026-09-13T11:08:14.258Z"
+      },
+      "verification": "保存ボタンが無効になり、チャンネル公開ページで新タイトル、再生リスト公開ページで全3動画の収録を確認",
+      "thumbnail": {
+        "status": "prepared_requires_phone_verification",
+        "path": "production/assets/thumbnails/poco-02-scarf-v1.png",
+        "sha256": "94029b9981c12350a2a2f58678b111df48ebca3dd04f87922b2b8c7f30457dd8",
+        "width": 941,
+        "height": 1672,
+        "visualQA": "文字・色・キャラクター・内容との対応を確認"
+      },
+      "relatedVideo": {
+        "status": "unavailable_made_for_kids",
+        "rawNotice": "子供向けの動画について関連動画を無効にします"
+      }
+    },
+    {
+      "videoId": "yMyAsOK6doY",
+      "episodeId": "poco-03-rain",
+      "sourceUrl": "https://studio.youtube.com/video/yMyAsOK6doY/edit",
+      "before": {
+        "title": "あめのおとは、どんなおと？ ポコの小さな発見 #Shorts",
+        "description": "雨の日、おうちの屋根の下で耳を澄ますポコ。バケツとはっぱに落ちる雨の音を、ことばのリズムで楽しむお話です。\n\nオリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #子ども向け",
+        "playlist": null
+      },
+      "after": {
+        "title": "あめはどんな音？｜親子で音あそび・こぐまポコの絵本 #Shorts",
+        "description": "親子で楽しむ、約35秒の音あそび。バケツに「ぽつぽつ」、葉っぱに「ぱたぱた」。\n雨の音をことばでまねして、こぐまのポコといっしょに楽しむ短い絵本のお話です。\n\n幼児とご家族向けの、オリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・音声・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #音あそび",
+        "playlistId": "PLfr9v9axUGaM"
+      },
+      "saveWindow": {
+        "notBefore": "2026-09-13T11:08:27.619Z",
+        "notAfter": "2026-09-13T11:08:38.651Z"
+      },
+      "verification": "保存ボタンが無効になり、チャンネル公開ページで新タイトル、再生リスト公開ページで全3動画の収録を確認",
+      "thumbnail": {
+        "status": "prepared_requires_phone_verification",
+        "path": "production/assets/thumbnails/poco-03-rain-v1.png",
+        "sha256": "d221be079fa93cc53602b481089a4315dec007e3e7aefe6001ccd0d700485fcc",
+        "width": 941,
+        "height": 1672,
+        "visualQA": "文字・色・キャラクター・内容との対応を確認"
+      },
+      "relatedVideo": {
+        "status": "unavailable_made_for_kids",
+        "rawNotice": "子供向けの動画について関連動画を無効にします"
+      }
+    }
+  ],
+  "playlist": {
+    "id": "PLfr9v9axUGaM",
+    "url": "https://www.youtube.com/playlist?list=PLfr9v9axUGaM",
+    "title": "親子であそぶ こぐまポコの絵本",
+    "privacy": "public",
+    "videoCount": 3,
+    "verification": "公開の再生リストページで全3本の新タイトルとURLを確認"
+  },
+  "limitations": [
+    "3本のタイトル・説明・再生リストをまとめて変更。個々の変更の効果を切り分けるA/B試験ではない。",
+    "変更前後の単純差には公開からの経過時間や流入元の違いが混ざる。",
+    "サムネイルはYouTubeの電話番号確認要求により未適用。",
+    "有料プロモーション・外部告知・追加投稿は実施していない。"
+  ]
+}

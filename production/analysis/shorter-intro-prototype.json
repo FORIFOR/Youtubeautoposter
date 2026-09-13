@@ -1,0 +1,29 @@
+{
+  "status": "rendered_unpublished_hypothesis",
+  "episodeId": "poco-01-colors",
+  "revision": 2,
+  "path": "production/renders/poco-01-colors/r2/poco-01-colors.mp4",
+  "sha256": "7fa5c2274a6352484fa435a1e7b63bf88c10c2ccdd9d40023fffda01e6fa790b",
+  "singleChange": "自己紹介の1区間を省略",
+  "firstAnswerStartSeconds": {
+    "r1": 10.733333333333334,
+    "r2": 7.466666666666667
+  },
+  "durationSeconds": 27.021354,
+  "evidence": [
+    "production/discovery-audit-2026-09-13.md",
+    "production/observations/analytics-audit-2026-09-13.json"
+  ],
+  "effectConfirmed": false,
+  "qa": {
+    "fullDecode": "passed",
+    "format": "1080x1920 H264 + AAC 48kHz",
+    "visualFramesSeconds": [
+      2.5,
+      7.7
+    ],
+    "loudnessLUFS": -18.16,
+    "truePeakDbTP": -1.95,
+    "perceptualFullAudioReview": false
+  }
+}

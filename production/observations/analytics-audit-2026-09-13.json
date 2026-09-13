@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-analytics-audit-2026-09-13",
+  "checkpoint": "pre_packaging_diagnostics",
+  "observations": [
+    {
+      "videoId": "n-raC3DGh4I",
+      "view": "reach",
+      "source": "youtube_studio_analytics",
+      "observedAt": "2026-09-13T11:02:25.037Z",
+      "sourceUrl": "https://studio.youtube.com/video/n-raC3DGh4I/analytics/tab-reach_viewers/period-default",
+      "periodDisplayed": "2026/09/13～現在 公開後",
+      "views": null,
+      "rawViews": "—",
+      "trafficSources": null,
+      "searchTerms": null,
+      "rawNotice": "レポート表示に必要なトラフィック データが不足しています",
+      "shownInFeed": null,
+      "shownInFeedAvailability": "この画面では未表示"
+    },
+    {
+      "videoId": "n-raC3DGh4I",
+      "view": "engagement",
+      "source": "youtube_studio_analytics",
+      "observedAt": "2026-09-13T11:03:32.446Z",
+      "sourceUrl": "https://studio.youtube.com/video/n-raC3DGh4I/analytics/tab-interest_viewers/period-default",
+      "periodDisplayed": "2026/09/13～現在 公開後",
+      "engagedViews": null,
+      "averageViewDurationSeconds": null,
+      "watchTimeHours": null,
+      "rawMetricValue": "—",
+      "retention": null,
+      "rawRetentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。",
+      "stayedToWatchPercentage": null,
+      "rawViewerEngagementNotice": "この期間には表示できるデータがありません"
+    },
+    {
+      "videoId": "1vvhk6jtLzE",
+      "view": "reach",
+      "source": "youtube_studio_analytics",
+      "observedAt": "2026-09-13T11:03:49.176Z",
+      "sourceUrl": "https://studio.youtube.com/video/1vvhk6jtLzE/analytics/tab-reach_viewers/period-default",
+      "periodDisplayed": "2026/09/13～現在 公開後",
+      "views": null,
+      "rawViews": "—",
+      "trafficSources": null,
+      "searchTerms": null,
+      "rawNotice": "レポート表示に必要なトラフィック データが不足しています",
+      "shownInFeed": null,
+      "shownInFeedAvailability": "この画面では未表示"
+    },
+    {
+      "videoId": "1vvhk6jtLzE",
+      "view": "engagement",
+      "source": "youtube_studio_analytics",
+      "observedAt": "2026-09-13T11:04:13.538Z",
+      "sourceUrl": "https://studio.youtube.com/video/1vvhk6jtLzE/analytics/tab-interest_viewers/period-default",
+      "periodDisplayed": "2026/09/13～現在 公開後",
+      "engagedViews": null,
+      "averageViewDurationSeconds": null,
+      "watchTimeHours": null,
+      "rawMetricValue": "—",
+      "retention": null,
+      "rawRetentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。",
+      "stayedToWatchPercentage": null,
+      "rawViewerEngagementNotice": "この期間には表示できるデータがありません",
+      "retry": {
+        "firstAttemptAt": "2026-09-13T11:03:52.582Z",
+        "firstRawNotice": "エラーが発生しました。",
+        "outcome": "同じページを一度開き直し、他の2本と同じダッシュ・データ未到着表示を確認。"
+      }
+    },
+    {
+      "videoId": "yMyAsOK6doY",
+      "view": "reach",
+      "source": "youtube_studio_analytics",
+      "observedAt": "2026-09-13T11:03:55.407Z",
+      "sourceUrl": "https://studio.youtube.com/video/yMyAsOK6doY/analytics/tab-reach_viewers/period-default",
+      "periodDisplayed": "2026/09/13～現在 公開後",
+      "views": null,
+      "rawViews": "—",
+      "trafficSources": null,
+      "searchTerms": null,
+      "rawNotice": "レポート表示に必要なトラフィック データが不足しています",
+      "shownInFeed": null,
+      "shownInFeedAvailability": "この画面では未表示"
+    },
+    {
+      "videoId": "yMyAsOK6doY",
+      "view": "engagement",
+      "source": "youtube_studio_analytics",
+      "observedAt": "2026-09-13T11:03:58.825Z",
+      "sourceUrl": "https://studio.youtube.com/video/yMyAsOK6doY/analytics/tab-interest_viewers/period-default",
+      "periodDisplayed": "2026/09/13～現在 公開後",
+      "engagedViews": null,
+      "averageViewDurationSeconds": null,
+      "watchTimeHours": null,
+      "rawMetricValue": "—",
+      "retention": null,
+      "rawRetentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。",
+      "stayedToWatchPercentage": null,
+      "rawViewerEngagementNotice": "この期間には表示できるデータがありません"
+    }
+  ],
+  "notes": [
+    "視聴回数0だけで、表示されなかったのかスワイプされたのかは判別不能。",
+    "通常のCTR・通知・終了画面の0%をShortsの視聴継続率として使わない。"
+  ]
+}
