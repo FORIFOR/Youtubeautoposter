@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "studyDate": "2026-09-14",
+  "timezone": "Asia/Tokyo",
+  "purpose": "Analyze relevant high-view videos and independently verify awareness/distribution activities.",
+  "selection": "Purposive sample; 7 high-view examples and 1 similar-video contrast. Not a success-rate estimate.",
+  "report": "production/analysis/high-view-discovery-study-2026-09-14.md",
+  "priorObservations": "production/analysis/competitor-benchmarks-2026-09-14.json",
+  "metric": "displayed_lifetime_views_not_unique_viewers",
+  "newObservationTimePrecision": "Approximate minute windows; only reused observations retain exact timestamps.",
+  "videos": [
+    {
+      "videoId": "HiDUWmHkYz8",
+      "url": "https://www.youtube.com/watch?v=HiDUWmHkYz8",
+      "channel": "BabyBus",
+      "views": 996779804,
+      "viewsRounded": false,
+      "publishedDate": "2025-11-07",
+      "durationSeconds": 25,
+      "format": "shorts",
+      "observedWindowJst": ["2026-09-14T04:00:00+09:00", "2026-09-14T04:01:22+09:00"],
+      "evidence": "Expanded public watch description; prior actual-player observations at the beginning and selected positions.",
+      "verifiedDescriptionRoutes": ["themed YouTube video collections", "official website", "X", "Instagram", "Facebook"],
+      "note": "Japanese title does not imply Japanese-only viewing; English color labels/music observed. No daily-growth extrapolation from display updates."
+    },
+    {
+      "videoId": "5A6kj0Jido4",
+      "url": "https://www.youtube.com/watch?v=5A6kj0Jido4",
+      "channel": "サンサンキッズTV",
+      "views": 221952638,
+      "viewsRounded": false,
+      "publishedDate": "2024-04-20",
+      "durationSeconds": 41,
+      "format": "shorts",
+      "observedAt": "2026-09-13T15:38:52.557Z",
+      "evidence": "Reused earlier expanded watch-page and selected actual-player observations; not freshly recaptured."
+    },
+    {
+      "videoId": "NiApv1AXahs",
+      "url": "https://www.youtube.com/watch?v=NiApv1AXahs",
+      "channel": "ボンボンアカデミー",
+      "views": 123659875,
+      "viewsRounded": false,
+      "publishedDate": "2019-09-06",
+      "durationSeconds": 110,
+      "format": "horizontal_song_animation",
+      "observedWindowJst": ["2026-09-14T04:02:00+09:00", "2026-09-14T04:04:00+09:00"],
+      "evidence": "Expanded watch-page count/date, actual player showing 1:50, screenshots at visible player positions 15, 40, and 95 seconds, description structure.",
+      "verifiedDescriptionRoutes": ["concert information", "official website", "song request form", "X", "Facebook"],
+      "note": "This 2019 animation is not the 2017 original performance referred to in the official channel history."
+    },
+    {
+      "videoId": "4cpyl0ffMJc",
+      "url": "https://www.youtube.com/watch?v=4cpyl0ffMJc",
+      "channel": "ボンボンアカデミー",
+      "titleLabel": "やさいのうた・歌アニメ",
+      "views": null,
+      "viewsDisplay": "9250万回視聴",
+      "viewsRounded": true,
+      "publishedDate": null,
+      "publishedAgeDisplay": "4年前",
+      "durationSeconds": 96,
+      "format": "horizontal_song_animation",
+      "evidence": "Channel popular-videos listing only; no detailed viewing this turn."
+    },
+    {
+      "videoId": "5bSLiLaNTP8",
+      "url": "https://www.youtube.com/watch?v=5bSLiLaNTP8",
+      "channel": "ボンボンアカデミー",
+      "titleLabel": "手あそび歌メドレー19曲",
+      "views": null,
+      "viewsDisplay": "7344万回視聴",
+      "viewsRounded": true,
+      "publishedDate": null,
+      "publishedAgeDisplay": "7年前",
+      "durationSeconds": null,
+      "durationTitleDisplay": "36分",
+      "durationListingDisplay": "35分",
+      "format": "horizontal_compilation",
+      "evidence": "Channel popular-videos listing; title and listing length kept distinct. No full-content inspection."
+    },
+    {
+      "videoId": "7VTTXQqCxs4",
+      "url": "https://www.youtube.com/watch?v=7VTTXQqCxs4",
+      "channel": "ボンボンアカデミー",
+      "titleLabel": "かみなりどんがやってきた・鈴木翼／福田翔との共演",
+      "views": null,
+      "viewsDisplay": "2221万回視聴",
+      "viewsRounded": true,
+      "publishedDate": null,
+      "publishedAgeDisplay": "2年前",
+      "durationSeconds": 131,
+      "format": "horizontal_collaboration_song",
+      "evidence": "Channel popular-videos listing only; collaborators stated in title. Incremental views from collaboration unknown."
+    },
+    {
+      "videoId": "NtZrSGCHPCM",
+      "url": "https://www.youtube.com/watch?v=NtZrSGCHPCM",
+      "channel": "ボンボンアカデミー",
+      "views": 5514384,
+      "viewsRounded": false,
+      "publishedDate": "2023-03-19",
+      "durationSeconds": 108,
+      "format": "horizontal_song_animation",
+      "observedAt": "2026-09-13T15:39:43.650Z",
+      "evidence": "Reused earlier watch-page and selected actual-player observations; not freshly recaptured."
+    },
+    {
+      "videoId": "jgxZoIOuavA",
+      "url": "https://www.youtube.com/watch?v=jgxZoIOuavA",
+      "channel": "BabyBus",
+      "views": 1935738,
+      "viewsRounded": false,
+      "publishedDate": "2025-11-20",
+      "durationSeconds": 28,
+      "format": "shorts",
+      "role": "similar_topic_contrast",
+      "observedAt": "2026-09-13T15:30:32.699Z",
+      "evidence": "Reused earlier watch-page and actual-player observations; not freshly recaptured."
+    }
+  ],
+  "listingObservation": {
+    "url": "https://www.youtube.com/@Bom-Bom-Academy/videos?view=0&sort=p&shelf_id=3",
+    "selectedSort": "人気の動画",
+    "observedWindowJst": ["2026-09-14T04:02:00+09:00", "2026-09-14T04:04:00+09:00"],
+    "subscriberDisplay": "127万人",
+    "note": "Current channel scale, not subscriber count at video publication."
+  },
+  "distributionEvidence": [
+    {
+      "url": "https://www.babybus.co.jp/news/23824/",
+      "publisher": "BabyBus",
+      "publishedDate": "2026-08-05",
+      "verified": "Free downloadable toilet-training poster for home/educational use.",
+      "causalContributionToSampleVideo": null
+    },
+    {
+      "url": "https://www.babybus.co.jp/",
+      "publisher": "BabyBus",
+      "verified": "Official navigation to video, apps, audio; multilingual business described.",
+      "causalContributionToSampleVideo": null
+    },
+    {
+      "url": "https://sunsunkidstv.com/goods_arc/gwcraft2021/",
+      "publisher": "サンサンキッズTV",
+      "publishedDate": "2021-05-01",
+      "verified": "Craft materials/instructions, embedded YouTube tutorial and direct watch link; official Instagram feed showing participation invitations and events.",
+      "note": "The embedded craft tutorial is JQH8WQs-wbo, not the dental Short in the benchmark table.",
+      "causalContributionToSampleVideo": null
+    },
+    {
+      "url": "https://page.line.me/wto8931q",
+      "publisher": "サンサンキッズTV",
+      "verified": "Official LINE profile with YouTube routes; audience counts not used as current growth evidence.",
+      "causalContributionToSampleVideo": null
+    },
+    {
+      "url": "https://bom-bom-academy.com/10th/",
+      "publisher": "ボンボンアカデミー",
+      "verified": "Official history: predecessor brand; 2017 song-series expansion; recorded milestones; 2019 split into song and personality/behind-scenes channels.",
+      "note": "Retrospective operator account. Milestones do not identify traffic-source attribution."
+    },
+    {
+      "url": "https://bom-bom-academy.com/news/iroirotankentai-5th.html",
+      "publisher": "ボンボンアカデミー",
+      "publishedDate": "2026-07-01",
+      "verified": "Dance-video submission campaign with practice/easier variants.",
+      "causalContributionToSampleVideo": null
+    },
+    {
+      "url": "https://www.billboard-japan.com/d_news/detail/162104/2",
+      "publisher": "Billboard JAPAN",
+      "publishedDate": "2026-06-05",
+      "period": ["2025-11-24", "2026-05-24"],
+      "verified": "YouTube user-generated-content-only song chart. BomBom-related songs ranked 7, 9, 13 and 14.",
+      "note": "Not original-video views or measured referral traffic. Chart period predates July participation campaign."
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=ja",
+      "publisher": "YouTube",
+      "verified": "Shorts recommendation and search mechanisms; choose-to-view, watch duration/percentage and satisfaction signals; no minimum required posting frequency."
+    }
+  ],
+  "projectImplications": {
+    "mediaBudgetJpy": 0,
+    "paidPromotion": "last_resort_only_if_efficient",
+    "externalPublicationsByAgent": 0,
+    "status": "research_complete_free_distribution_destination_still_unconfirmed",
+    "priorities": ["Useful native video through one relevant audience entry point", "Practical play guide and suitable editorial/creator distribution", "Different play activity via the same route and separate measurement"],
+    "unavailableCompetitorMetrics": ["traffic source shares", "ad spend", "retention", "country split", "incremental impact of distribution activities"],
+    "predictedPocoViews": null
+  }
+}
