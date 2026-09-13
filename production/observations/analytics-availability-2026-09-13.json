@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "checkpoint": "availability_check",
+  "date": "2026-09-13",
+  "videoId": "n-raC3DGh4I",
+  "source": "youtube_studio_analytics",
+  "sourceUrl": "https://studio.youtube.com/video/n-raC3DGh4I/analytics/tab-interest_viewers/period-default",
+  "periodDisplayed": "2026/09/13～現在 公開後",
+  "engagedViews": null,
+  "watchTimeHours": null,
+  "averageViewDurationSeconds": null,
+  "retention": null,
+  "viewerEngagement": null,
+  "rawDisplayedMetricValue": "—",
+  "rawRetentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。",
+  "status": "accessible_data_pending",
+  "notes": ["アクセス経路の動作確認。24時間・72時間の観測として使用しない。"]
+}

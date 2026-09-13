@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-pilot-01-baseline-2026-09-13T08:37:30.767Z",
+  "checkpoint": "baseline",
+  "observedAt": "2026-09-13T08:37:30.767Z",
+  "source": "youtube_studio_content_table",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D",
+  "metricDefinition": "youtube_studio_content_table:displayed_cumulative_views:2026-09-13",
+  "displayedColumns": ["ショート動画", "通知", "公開設定", "日付", "視聴回数", "コメント"],
+  "videos": [
+    {
+      "episodeId": "poco-01-colors",
+      "videoId": "n-raC3DGh4I",
+      "title": "あかいのはどっち？ こぐまポコのいろさがし #Shorts",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "likes": null,
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "sourceDisplayedCommentCount": 0,
+      "averageViewDurationSeconds": null,
+      "averageViewPercentage": null
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "videoId": "1vvhk6jtLzE",
+      "title": "ポコのスカーフ、どこにある？ こぐまのおはなし #Shorts",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "likes": null,
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "sourceDisplayedCommentCount": 0,
+      "averageViewDurationSeconds": null,
+      "averageViewPercentage": null
+    },
+    {
+      "episodeId": "poco-03-rain",
+      "videoId": "yMyAsOK6doY",
+      "title": "あめのおとは、どんなおと？ ポコの小さな発見 #Shorts",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "likes": null,
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "sourceDisplayedCommentCount": 0,
+      "averageViewDurationSeconds": null,
+      "averageViewPercentage": null
+    }
+  ],
+  "notes": [
+    "3本ともYouTube Studioのショート一覧で公開を確認。表示された視聴回数は0。",
+    "公開から数分の初期値であり、24時間・72時間の観測ではない。",
+    "画面の値には反映遅延があり得る。実視聴者数や視聴の質を0と推定しない。",
+    "コメントは子ども向け設定により無効。反響がないことの証拠として扱わない。",
+    "高評価や視聴時間の数値はこの表で確認していないのでnull。",
+    "この出典の値をData APIのviewCountやデモの数値と混ぜない。"
+  ]
+}

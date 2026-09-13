@@ -2,9 +2,9 @@
   "id": "poco-pilot-01",
   "goal": "実動画を3本公開し、公開24時間・72時間後の反響を分析し、変更点を一つ反映した4本目の動画を作成する",
   "completed": false,
-  "phase": "awaiting_channel_terms_confirmation",
-  "channelUrl": null,
-  "channelId": null,
+  "phase": "observing",
+  "channelUrl": "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
   "audience": "kids",
   "comparisonMode": "exploratory_observation",
   "episodes": [
@@ -14,7 +14,7 @@
   ],
   "milestones": {
     "threeFinishedVideos": true,
-    "threeConfirmedPublications": false,
+    "threeConfirmedPublications": true,
     "observations24h": false,
     "observations72h": false,
     "evidenceBasedAnalysis": false,
@@ -29,5 +29,16 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-13T08:05:07.118851+00:00"
+  "updatedAt": "2026-09-13T08:43:01.089972+00:00",
+  "monitoring": {
+    "automationId": "automation",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "localTime": "18:00",
+    "timeZone": "Asia/Tokyo",
+    "check24hDate": "2026-09-14",
+    "check72hDate": "2026-09-16",
+    "source": "youtube_studio_ui",
+    "guide": "production/MONITORING.ja.md"
+  }
 }

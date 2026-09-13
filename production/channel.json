@@ -7,18 +7,21 @@
   "audience": "kids",
   "avatarPath": "production/assets/poco-channel-avatar.png",
   "creationAuthorizedByUser": true,
-  "status": "awaiting_terms_confirmation",
-  "channelId": null,
-  "channelUrl": null,
-  "createdAt": null,
+  "status": "configured",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "channelUrl": "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA",
+  "createdAt": "2026-09-13T08:21:43.090700+00:00",
   "notes": [
     "新規チャンネルの作成はユーザーが許可済み",
     "実際の作成完了画面でチャンネルID・URLを確認するまで作成済みとしない",
     "ハンドル候補は作成完了まで確定ではない"
   ],
-  "avatarStatus": "generated_not_uploaded",
+  "avatarStatus": "published",
   "avatarSha256": "2278670e76e2facc74c3357d5509839370a2904c0846866ee3f4c26143977c82",
-  "updatedAt": "2026-09-13T08:05:07.118851+00:00",
-  "creationFormReady": true,
-  "termsUrl": "https://www.youtube.com/t/terms"
+  "updatedAt": "2026-09-13T08:33:27.839801+00:00",
+  "creationFormReady": false,
+  "termsUrl": "https://www.youtube.com/t/terms",
+  "handle": "poco_ohanashi_jp",
+  "termsConfirmedByUser": true,
+  "descriptionStatus": "published"
 }

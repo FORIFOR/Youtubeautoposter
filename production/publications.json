@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "publications": [
+    {
+      "episodeId": "poco-01-colors",
+      "revision": 1,
+      "videoId": "n-raC3DGh4I",
+      "url": "https://www.youtube.com/shorts/n-raC3DGh4I",
+      "privacyStatus": "public",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": true,
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": null,
+      "publicationWindow": {
+        "notBefore": "2026-09-13T08:27:27Z",
+        "notAfter": "2026-09-13T08:28:17Z"
+      },
+      "confirmedAt": "2026-09-13T08:28:17Z",
+      "source": "youtube_studio_upload_confirmation",
+      "sourceDisplayedDate": "2026/09/13",
+      "notes": [
+        "公開成功画面を確認。秒単位のYouTube公開時刻は未取得。作成操作前と成功確認時の時刻で範囲を記録。"
+      ],
+      "contentHash": "bc85b07d23dcc4ecc70d5b552ea7b7c4bdac60214d1a22fdc4aef68d035a58b4",
+      "durationSeconds": 30.321333
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "revision": 1,
+      "videoId": "1vvhk6jtLzE",
+      "url": "https://www.youtube.com/shorts/1vvhk6jtLzE",
+      "privacyStatus": "public",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": true,
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": null,
+      "publicationWindow": {
+        "notBefore": "2026-09-13T08:31:43Z",
+        "notAfter": "2026-09-13T08:32:24Z"
+      },
+      "confirmedAt": "2026-09-13T08:32:24Z",
+      "source": "youtube_studio_upload_confirmation",
+      "sourceDisplayedDate": "2026/09/13",
+      "notes": [
+        "公開成功画面を確認。秒単位のYouTube公開時刻は未取得。作成操作前と成功確認時の時刻で範囲を記録。"
+      ],
+      "contentHash": "cd55dbecd20290b188702508a940a3ead379a6617c75ff880bc9c962ccdb6da3",
+      "durationSeconds": 31.221333
+    },
+    {
+      "episodeId": "poco-03-rain",
+      "revision": 1,
+      "videoId": "yMyAsOK6doY",
+      "url": "https://www.youtube.com/shorts/yMyAsOK6doY",
+      "privacyStatus": "public",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": true,
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": null,
+      "publicationWindow": {
+        "notBefore": "2026-09-13T08:35:17Z",
+        "notAfter": "2026-09-13T08:36:04Z"
+      },
+      "confirmedAt": "2026-09-13T08:36:04Z",
+      "source": "youtube_studio_upload_confirmation",
+      "sourceDisplayedDate": "2026/09/13",
+      "notes": [
+        "公開成功画面を確認。秒単位のYouTube公開時刻は未取得。作成操作前と成功確認時の時刻で範囲を記録。"
+      ],
+      "contentHash": "739b672cb685c55e1ba2f5d01eab73acb842ee0424f5d7ba305bc9c841697744",
+      "durationSeconds": 34.321333
+    }
+  ]
+}
