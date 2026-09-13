@@ -2,9 +2,18 @@
   "schemaVersion": 1,
   "id": "poco-free-distribution-01",
   "preparedOn": "2026-09-14",
-  "status": "free_distribution_route_selection_effect_unverified",
+  "status": "note_pilot_selected_awaiting_destination_account",
   "routeSelection": {
-    "selectedPlatform": null,
+    "selectedPlatform": "note",
+    "selectedRoute": "parent_play_guide_with_existing_youtube_embed",
+    "decisionOn": "2026-09-14",
+    "decisionFile": "production/distribution/route-comparison-2026-09-14.md",
+    "decisionBasis": "A relevant active topic was observed, existing article and video can be reused, and article exposure/visits plus reported YouTube external traffic can be checked separately. This selects a small experiment, not a platform with proven superior impact.",
+    "youtubeImpactMeasured": false,
+    "comparativeImpactEstablished": false,
+    "existingRelevantAudienceConfirmed": false,
+    "conditionalAlternative": "If the user identifies an available account with relevant existing readers, reassess in favor of that verified audience access.",
+    "nextCandidate": "Threads direct-link post; account, audience fit and actual Insights availability require verification before selection.",
     "instagramYoutubeImpactMeasured": false,
     "instagramPriorityEstablished": false,
     "correction": "Instagram was inspected as a low-production-effort candidate, not selected by measured YouTube traffic impact. Its login is not a prerequisite for the project.",
@@ -23,22 +32,62 @@
     "userAskedForExistingAccountUrl": true,
     "destinationAccount": null,
     "firstPlatformChecked": "Instagram",
-    "checkedUrl": "https://www.instagram.com/",
+    "latestPlatformChecked": "note",
+    "checkedUrl": "https://note.com/login",
     "checkedDate": "2026-09-14",
     "visibleState": "login_form_no_authenticated_account",
-    "userActionRequested": null,
+    "userActionRequested": "Identify the note account to use, or say that no account exists. Posting destination is not inferred from personal accounts.",
     "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
-    "browserHandoff": "Instagram login page opened in the in-app browser; no credentials entered."
+    "browserHandoff": "note login page opened in the in-app browser after route comparison; no credentials entered.",
+    "history": [
+      {"platform": "Instagram", "date": "2026-09-14", "state": "logged_out", "effect": "unmeasured"},
+      {"platform": "note", "date": "2026-09-14", "state": "logged_out", "effect": "unmeasured"}
+    ]
   },
   "resumeInstructions": [
-    "Select a free distribution route using audience access, effort and measurable YouTube outcomes. Instagram is only an unvalidated candidate; do not require its login or infer that popular channels' Instagram use proves large referral impact.",
+    "The first external pilot is now note. Read route-comparison-2026-09-14.md; do not restart generic platform research or ask for Instagram login. No platform has proven superior YouTube impact.",
     "Confirm the authenticated account matches the user's specified posting destination.",
+    "Publish the prepared color-play-guide on note with the existing DpgabSBgQgk YouTube embed and relevant tags. Verify preview and public URL. Do not include the editorial memo in the article.",
     "If a native-video route is selected, read CUA upload guidance, upload the existing color-game MP4, apply the prepared caption and inspect the real publication preview.",
     "Proceed with the already-authorized free publication; do not ask for the same general publication permission again.",
     "Record the published URL and observed publication time, then add measurement checkpoints to monitoring.",
     "Do not treat authentication checks, local drafts or prospect research as external publications."
   ],
   "editorialProspectReview": "production/distribution/editorial-outreach-review-2026-09-14.md",
+  "selectedPilot": {
+    "id": "note-color-play-01",
+    "draftId": "color-play-guide",
+    "targetVideoId": "DpgabSBgQgk",
+    "secondaryVideoId": "yMyAsOK6doY",
+    "discoveryTags": ["おうち遊び", "親子時間", "子育て", "色あそび"],
+    "articleLimitBeforeReview": 1,
+    "postAuthenticationPublicationWorkBudgetMinutes": 30,
+    "observationAndDecisionWorkBudgetMinutes": 30,
+    "budgetInterpretation": "Chosen effort caps, not measured times or performance forecasts. Record research, existing production, account setup, publication and monitoring separately; include them in total effort.",
+    "actualActiveWorkMinutes": null,
+    "audienceEvidence": {
+      "url": "https://note.com/hashtag/おうち遊び?f=new",
+      "observationWindow": {"notBefore": "2026-09-14T04:31:49+09:00", "notAfter": "2026-09-14T04:34:37+09:00"},
+      "displayedArticleCount": "1,011件",
+      "countMeaning": "Tagged article count, not readership or reachable parents.",
+      "selection": "First four entries in the new-article list, not selected by high likes.",
+      "firstFour": [
+        {"url": "https://note.com/mama_work_note/n/n3de85bd6bab0", "ageDisplay": "8時間前", "likes": 1},
+        {"url": "https://note.com/hatokawayama/n/n719952ef85b6", "ageDisplay": "1日前", "likes": 2},
+        {"url": "https://note.com/quiet_pipit6226/n/n4889fda5876c", "ageDisplay": "1日前", "likes": 19},
+        {"url": "https://note.com/mama_work_note/n/n6a9d18871c29", "ageDisplay": "1日前", "likes": 8}
+      ],
+      "limitation": "Only list titles, relative ages and displayed likes inspected. Readers' parental status and referral outcomes unknown. No platform-wide average inferred."
+    },
+    "reviewAfterHours": 168,
+    "decisionRules": [
+      "With negligible article exposure, check visibility and topic fit, then stop duplicating the same article format and reassess the next route.",
+      "With exposure but few visits, consider one title or cover change and record the change time.",
+      "With visits but no confirmed YouTube viewing, inspect embed and invitation, change one element and review after another seven days.",
+      "With reported YouTube referrals or useful article response, assess counts, viewing quality and total effort before a second article using the rain video.",
+      "Suppressed or delayed analytics mean unknown, not zero impact. Small sequential trials do not establish comparative causality. No automatic advertising transition."
+    ]
+  },
   "externalPublicationsByAgent": [],
   "readyAssets": [
     {
@@ -92,9 +141,9 @@
     {
       "id": "color-play-guide",
       "kind": "article",
-      "status": "local_draft",
+      "status": "local_draft_ready_awaiting_account",
       "copyFile": "production/distribution/note-color-play.ja.md",
-      "destination": null,
+      "destination": "note",
       "publishedAt": null,
       "url": null
     }
@@ -115,6 +164,9 @@
       "capture_time",
       "native_reach",
       "native_views",
+      "article_impressions",
+      "article_page_views",
+      "article_inbound_sources",
       "watch_time",
       "saves",
       "shares",
@@ -126,8 +178,11 @@
     "notes": [
       "Unreported metrics remain null.",
       "Do not add external video views to YouTube views.",
+      "note browser analytics distinguish impressions and page views as of September 2026. Neither is a YouTube view, and PV divided by internal impressions is not a strict click-through rate.",
+      "Record YouTube external sources and playback quality only where the actual UI reports them. Source-attributed repeat viewing is unknown unless directly reported; the paid-promotion follow-on metric is not assumed available for this organic pilot.",
+      "Capture a pre-publication baseline and annotate external publication overlap with the existing YouTube observations. Do not replace their strict 24/72-hour checkpoints.",
       "No cross-platform deduplication or causal attribution claimed.",
-      "Create deadlines only after real publication."
+      "Create deadlines only after real publication. Align the existing monitor with the actual external deadlines if needed; capture actual elapsed time and never backfill a missed checkpoint with later values."
     ]
   },
   "plan": "production/distribution/free-discovery-plan.ja.md"
