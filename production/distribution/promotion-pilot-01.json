@@ -1,7 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "experimentId": "poco-distribution-pilot-01",
-  "status": "prepared_in_open_ui_awaiting_budget_and_terms_confirmation",
+  "status": "analysis_review_pending_no_spend_authorized",
+  "recommendationStatus": "original_proposal_withdrawn_after_goal_and_budget_comparison",
+  "analysis": "production/analysis/promotion-simulation-2026-09-14.md",
+  "forecastSource": "production/distribution/promotion-forecast-2026-09-14.json",
   "persistedCampaignId": null,
   "campaignCreated": false,
   "launchedAt": null,
@@ -9,8 +12,16 @@
   "termsAccepted": false,
   "channelId": "UCpaMwN2CdCok70qTw-EdonA",
   "videoId": "DpgabSBgQgk",
-  "goal": "audience_growth",
-  "optimization": "channel_engagement_and_follow_on_views",
+  "withdrawnProposalGoal": "audience_growth",
+  "withdrawnProposalOptimization": "channel_engagement_and_follow_on_views",
+  "currentWizard": {
+    "goal": "video_views",
+    "mediaBudgetJpy": 2700,
+    "step": "budget",
+    "purpose": "forecast_comparison_only",
+    "persistedCampaign": false,
+    "launched": false
+  },
   "headline": "親子でいろあそび 3つの色クイズ",
   "description": "りんご・バナナ・ボール、どっちかな？ こぐまポコと24秒の指さしあそび。",
   "aiLabel": true,
@@ -29,14 +40,14 @@
   "genders": "all",
   "interestSegments": [],
   "interestNotes": "入力候補を調べたが選択済みチップはない。関心カテゴリの絞り込みは未設定。成人と日本語、親子向けの広告文を使う案。",
-  "budgetProposal": {
+  "withdrawnBudgetProposal": {
     "totalSpendCeilingJpy": 3000,
     "mediaBudgetInUiJpy": 2700,
     "contingencyJpy": 300,
     "userApprovedCeilingJpy": null,
     "startDateInUi": "2026-09-14",
     "endDateInUi": "2026-09-21",
-    "note": "予算未承認。税や手数料を含む請求上限を最終確認する。承認が後日なら日付を再設定。"
+    "note": "目的別比較前の旧案で、そのままの実施推奨は撤回。ユーザーは費用対効果の調査・シミュレーションを先に求めている。未承認。"
   },
   "temporaryCardCheck": {
     "amountJpy": 2000,
@@ -46,7 +57,7 @@
   },
   "termsUrl": "https://payments.google.com/payments/apis-secure/get_legal_document?ldi=352971",
   "accountState": "new_Google_Ads_account_selected_in_wizard_not_finalized",
-  "stopPoint": "Payment and billing; final Promote button NOT clicked",
+  "stopPoint": "Returned to Budget for forecast comparison; final Promote button NOT clicked",
   "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/content/promotions",
   "estimates": [
     {
@@ -67,7 +78,8 @@
     }
   ],
   "notes": [
-    "フォームは開いたタブに保持。サービス上の保存済みキャンペーンとは呼ばない。",
+    "フォームは開いたタブに保持。サービス上の保存済みキャンペーンとは呼ばない。現在は調査用の動画視聴回数・媒体2,700円であり、実施案の確定ではない。",
+    "広告の実績がなく、公式予測は校正済みの高精度予測ではない。登録・継続視聴・費用回収の見込みは未確定。",
     "本広告は試験露出を得る案。自然なおすすめ順位や収益化到達を保証しない。",
     "初期3本は直接プロモートしないが広告後の回遊はあり得るため、無作為な対照群とは扱わない。",
     "承認・開始前のベースラインを取り直す。広告と自然流入は別々の原指標で記録する。"

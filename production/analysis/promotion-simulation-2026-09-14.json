@@ -1,0 +1,635 @@
+{
+  "source": "production/distribution/promotion-forecast-2026-09-14.json",
+  "method": "Direct UI ranges plus deterministic cost and yield sensitivity",
+  "isMonteCarlo": false,
+  "confidenceLevel": null,
+  "additionalViewYieldCalibrated": false,
+  "rows": [
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 1000,
+      "cashCostAtFullSpendJpy": 1100.0,
+      "viewsRangeFromUi": [
+        50,
+        220
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        4.545454545454546,
+        20.0
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        5.0,
+        22.0
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            0.5,
+            2.2
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            499.99999999999994,
+            2200.0
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            2.5,
+            11.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            100.0,
+            440.0
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            5.0,
+            22.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            50.0,
+            220.0
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 2700,
+      "cashCostAtFullSpendJpy": 2970.0,
+      "viewsRangeFromUi": [
+        140,
+        540
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        5.0,
+        19.285714285714285
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        5.5,
+        21.214285714285715
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            1.4,
+            5.4
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            550.0,
+            2121.4285714285716
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            7.0,
+            27.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            110.0,
+            424.2857142857143
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            14.0,
+            54.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            55.0,
+            212.14285714285714
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 3000,
+      "cashCostAtFullSpendJpy": 3300.0,
+      "viewsRangeFromUi": [
+        160,
+        590
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        5.084745762711864,
+        18.75
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        5.593220338983051,
+        20.625
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            1.6,
+            5.9
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            559.3220338983051,
+            2062.5
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            8.0,
+            29.5
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            111.86440677966101,
+            412.5
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            16.0,
+            59.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            55.932203389830505,
+            206.25
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 5000,
+      "cashCostAtFullSpendJpy": 5500.0,
+      "viewsRangeFromUi": [
+        260,
+        960
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        5.208333333333333,
+        19.23076923076923
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        5.729166666666667,
+        21.153846153846153
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            2.6,
+            9.6
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            572.9166666666667,
+            2115.3846153846152
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            13.0,
+            48.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            114.58333333333333,
+            423.0769230769231
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            26.0,
+            96.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            57.291666666666664,
+            211.53846153846155
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 10000,
+      "cashCostAtFullSpendJpy": 11000.0,
+      "viewsRangeFromUi": [
+        490,
+        1800
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        5.555555555555555,
+        20.408163265306122
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        6.111111111111111,
+        22.448979591836736
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            4.9,
+            18.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            611.1111111111111,
+            2244.8979591836733
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            24.5,
+            90.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            122.22222222222223,
+            448.9795918367347
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            49.0,
+            180.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            61.111111111111114,
+            224.48979591836735
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 1000,
+      "cashCostAtFullSpendJpy": 1100.0,
+      "viewsRangeFromUi": [
+        450,
+        1100
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        0.9090909090909091,
+        2.2222222222222223
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        1.0,
+        2.4444444444444446
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            4.5,
+            11.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            100.0,
+            244.44444444444446
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            22.5,
+            55.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            20.0,
+            48.888888888888886
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            45.0,
+            110.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            10.0,
+            24.444444444444443
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 2700,
+      "cashCostAtFullSpendJpy": 2970.0,
+      "viewsRangeFromUi": [
+        1200,
+        3100
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        0.8709677419354839,
+        2.25
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        0.9580645161290322,
+        2.475
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            12.0,
+            31.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            95.80645161290323,
+            247.5
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            60.0,
+            155.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            19.161290322580644,
+            49.5
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            120.0,
+            310.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            9.580645161290322,
+            24.75
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 3000,
+      "cashCostAtFullSpendJpy": 3300.0,
+      "viewsRangeFromUi": [
+        1300,
+        3500
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        0.8571428571428571,
+        2.3076923076923075
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        0.9428571428571428,
+        2.5384615384615383
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            13.0,
+            35.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            94.28571428571429,
+            253.84615384615384
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            65.0,
+            175.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            18.857142857142858,
+            50.76923076923077
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            130.0,
+            350.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            9.428571428571429,
+            25.384615384615383
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 5000,
+      "cashCostAtFullSpendJpy": 5500.0,
+      "viewsRangeFromUi": [
+        2500,
+        6400
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        0.78125,
+        2.0
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        0.859375,
+        2.2
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            25.0,
+            64.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            85.9375,
+            220.0
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            125.0,
+            320.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            17.1875,
+            44.0
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            250.0,
+            640.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            8.59375,
+            22.0
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 10000,
+      "cashCostAtFullSpendJpy": 11000.0,
+      "viewsRangeFromUi": [
+        6000,
+        16000
+      ],
+      "mediaCostPerViewArithmeticRangeJpy": [
+        0.625,
+        1.6666666666666667
+      ],
+      "cashCostPerViewArithmeticRangeJpy": [
+        0.6875,
+        1.8333333333333333
+      ],
+      "sensitivity": [
+        {
+          "assumedAdditionalViewsPer100AdViews": 0,
+          "additionalViewsArithmeticRange": [
+            0.0,
+            0.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": null
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 1,
+          "additionalViewsArithmeticRange": [
+            60.0,
+            160.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            68.75,
+            183.33333333333334
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 5,
+          "additionalViewsArithmeticRange": [
+            300.0,
+            800.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            13.75,
+            36.666666666666664
+          ]
+        },
+        {
+          "assumedAdditionalViewsPer100AdViews": 10,
+          "additionalViewsArithmeticRange": [
+            600.0,
+            1600.0
+          ],
+          "cashCostPerAdditionalViewArithmeticRangeJpy": [
+            6.875,
+            18.333333333333332
+          ]
+        }
+      ],
+      "arithmeticIsPrediction": false
+    }
+  ],
+  "zeroBudgetCase": {
+    "adViews": 0,
+    "organicViewsForecast": null
+  },
+  "failureCase": {
+    "deliveryCanBeZero": true,
+    "returnViewsCanBeZero": true
+  },
+  "notes": [
+    "All cost-per-view calculations assume full budget spend and the stated tax assumption.",
+    "The UI bands are not guaranteed bounds or confidence intervals.",
+    "Views and additional views are event counts, not independent or unique viewers.",
+    "Additional-view yields are unmeasured sensitivity parameters, not conversion-rate estimates.",
+    "Native Follow-on Views reporting is available only for audience-growth promotions.",
+    "No guaranteed target budget is derived by scaling beyond observed scenarios."
+  ]
+}

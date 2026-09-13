@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "id": "poco-promotion-forecast-2026-09-14",
+  "source": "YouTube Studio Promote setup, Budget step",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/content/promotions",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "videoId": "DpgabSBgQgk",
+  "conditions": {
+    "language": "ja",
+    "country": "JP",
+    "age": "18+ with all explicit adult bands; unknown excluded",
+    "genders": "all",
+    "interests": [],
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-21",
+    "calendarDaysInclusive": 8,
+    "durationNotes": "UI at media budget 10000 displayed average 1250 JPY/day. Actual delivery duration depends on approval and review timing.",
+    "aiLabel": true,
+    "audienceGrowthOptimization": "channel engagement and follow-on views",
+    "headline": "親子でいろあそび 3つの色クイズ",
+    "description": "りんご・バナナ・ボール、どっちかな？ こぐまポコと24秒の指さしあそび。"
+  },
+  "rows": [
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 1000,
+      "capturedAt": "2026-09-13T17:39:20.171Z",
+      "viewsRange": [
+        50,
+        220
+      ],
+      "impressionsRange": [
+        700,
+        2100
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 50～220 回",
+        "impressions": "推定インプレッション数 700～2,100 回",
+        "engagements": "推定エンゲージメント数 100件未満"
+      },
+      "engagementsAvailability": "censored_below_100",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": false,
+      "actualResults": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 2700,
+      "capturedAt": "2026-09-13T17:40:43.584Z",
+      "viewsRange": [
+        140,
+        540
+      ],
+      "impressionsRange": [
+        2300,
+        5900
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 140～540 回",
+        "impressions": "推定インプレッション数 2,300～5,900 回",
+        "engagements": "推定エンゲージメント数 100件未満"
+      },
+      "engagementsAvailability": "censored_below_100",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": false,
+      "actualResults": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 3000,
+      "capturedAt": "2026-09-13T17:39:28.412Z",
+      "viewsRange": [
+        160,
+        590
+      ],
+      "impressionsRange": [
+        2700,
+        6500
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 160～590 回",
+        "impressions": "推定インプレッション数 2,700～6,500 回",
+        "engagements": "推定エンゲージメント数 100件未満"
+      },
+      "engagementsAvailability": "censored_below_100",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": false,
+      "actualResults": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 5000,
+      "capturedAt": "2026-09-13T17:40:25.830Z",
+      "viewsRange": [
+        260,
+        960
+      ],
+      "impressionsRange": [
+        5300,
+        12000
+      ],
+      "engagementsRange": [
+        77,
+        130
+      ],
+      "rawDisplayed": {
+        "views": "推定視聴回数 260～960 回",
+        "impressions": "推定インプレッション数 5,300～1.2万 回",
+        "engagements": "推定エンゲージメント数 77～130"
+      },
+      "engagementsAvailability": "estimated_range",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": true,
+      "actualResults": false
+    },
+    {
+      "goal": "audience_growth",
+      "mediaBudgetJpy": 10000,
+      "capturedAt": "2026-09-13T17:40:33.621Z",
+      "viewsRange": [
+        490,
+        1800
+      ],
+      "impressionsRange": [
+        10000,
+        24000
+      ],
+      "engagementsRange": [
+        170,
+        250
+      ],
+      "rawDisplayed": {
+        "views": "推定視聴回数 490～1,800 回",
+        "impressions": "推定インプレッション数 1万～2.4万 回",
+        "engagements": "推定エンゲージメント数 170～250"
+      },
+      "engagementsAvailability": "estimated_range",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": true,
+      "actualResults": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 1000,
+      "capturedAt": "2026-09-13T17:41:41.046Z",
+      "viewsRange": [
+        450,
+        1100
+      ],
+      "impressionsRange": [
+        1600,
+        3600
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 450～1,100 回",
+        "impressions": "推定インプレッション数 1,600～3,600 回",
+        "engagements": null
+      },
+      "engagementsAvailability": "not_shown_for_goal",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": false,
+      "actualResults": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 2700,
+      "capturedAt": "2026-09-13T17:41:29.933Z",
+      "viewsRange": [
+        1200,
+        3100
+      ],
+      "impressionsRange": [
+        4000,
+        8500
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 1,200～3,100 回",
+        "impressions": "推定インプレッション数 4,000～8,500 回",
+        "engagements": null
+      },
+      "engagementsAvailability": "not_shown_for_goal",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": false,
+      "actualResults": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 3000,
+      "capturedAt": "2026-09-13T17:41:48.626Z",
+      "viewsRange": [
+        1300,
+        3500
+      ],
+      "impressionsRange": [
+        4500,
+        9500
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 1,300～3,500 回",
+        "impressions": "推定インプレッション数 4,500～9,500 回",
+        "engagements": null
+      },
+      "engagementsAvailability": "not_shown_for_goal",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": false,
+      "actualResults": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 5000,
+      "capturedAt": "2026-09-13T17:42:03.563Z",
+      "viewsRange": [
+        2500,
+        6400
+      ],
+      "impressionsRange": [
+        8200,
+        16000
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 2,500～6,400 回",
+        "impressions": "推定インプレッション数 8,200～1.6万 回",
+        "engagements": null
+      },
+      "engagementsAvailability": "not_shown_for_goal",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": true,
+      "actualResults": false
+    },
+    {
+      "goal": "video_views",
+      "mediaBudgetJpy": 10000,
+      "capturedAt": "2026-09-13T17:42:17.001Z",
+      "viewsRange": [
+        6000,
+        16000
+      ],
+      "impressionsRange": [
+        17000,
+        33000
+      ],
+      "engagementsRange": null,
+      "rawDisplayed": {
+        "views": "推定視聴回数 6,000～1.6万 回",
+        "impressions": "推定インプレッション数 1.7万～3.3万 回",
+        "engagements": null
+      },
+      "engagementsAvailability": "not_shown_for_goal",
+      "rangeIsConfidenceInterval": false,
+      "containsManAbbreviation": true,
+      "actualResults": false
+    }
+  ],
+  "taxAssumption": {
+    "rate": 0.1,
+    "appliesAs": "Japan domestic billing assumption; media budget is modeled before tax",
+    "source": "https://support.google.com/google-ads/answer/2375370?hl=en-AU",
+    "cashCostFormula": "mediaBudgetJpy * 1.10",
+    "finalInvoiceVerified": false
+  },
+  "temporaryAuthorizationHoldJpy": 2000,
+  "holdIsAdExpense": false,
+  "metrics": {
+    "views": "UI describes promotion clicks that lead to watching; not public total views, unique viewers, completed views, or organic engaged Shorts views. Do not infer format-specific billing events solely from this UI wording.",
+    "engagements": "UI describes actions such as subscribing or content interactions after seeing an ad; not subscribers only, unique people, or a guaranteed follow-on count.",
+    "followOnViews": "Native Promote metric available only for audience growth. Counts later videos watched, not unique people."
+  },
+  "limitations": [
+    "New channel with no paid history; no empirical calibration or prediction error estimate.",
+    "UI ranges are model outputs, not guarantees, hard floors, or 95% intervals.",
+    "Delivery may be zero or outside the displayed ranges.",
+    "Goal change also changes placements and optimization; this is not a causal or equal-quality A/B test.",
+    "Forecasts do not identify parents or children actually watching together.",
+    "No distribution of errors; do not sample arbitrary uniform/normal distributions and call them confidence intervals.",
+    "No extrapolation between or beyond sampled budgets."
+  ],
+  "launched": false
+}
