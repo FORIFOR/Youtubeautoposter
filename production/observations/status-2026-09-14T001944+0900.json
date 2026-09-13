@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-status-2026-09-14T001944+0900",
+  "checkpoint": "status_check",
+  "observedAt": "2026-09-13T15:19:44.128Z",
+  "source": "youtube_studio_content_table",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D",
+  "metricDefinition": "youtube_studio_content_table:displayed_cumulative_views:2026-09-13",
+  "displayedColumns": [
+    "ショート動画",
+    "通知",
+    "公開設定",
+    "日付",
+    "視聴回数",
+    "コメント"
+  ],
+  "videos": [
+    {
+      "episodeId": "poco-01-colors",
+      "videoId": "n-raC3DGh4I",
+      "title": "あかいのはどっち？｜親子で色あそび・こぐまポコの絵本 #Shorts",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "likes": null,
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "sourceDisplayedCommentCount": 0,
+      "averageViewDurationSeconds": null,
+      "averageViewPercentage": null,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 24687.128,
+        "maximum": 24737.128
+      }
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "videoId": "1vvhk6jtLzE",
+      "title": "きいろいスカーフはどこ？｜親子でさがしもの・こぐまポコの絵本 #Shorts",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "likes": null,
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "sourceDisplayedCommentCount": 0,
+      "averageViewDurationSeconds": null,
+      "averageViewPercentage": null,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 24440.128,
+        "maximum": 24481.128
+      }
+    },
+    {
+      "episodeId": "poco-03-rain",
+      "videoId": "yMyAsOK6doY",
+      "title": "あめはどんな音？｜親子で音あそび・こぐまポコの絵本 #Shorts",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/13",
+      "views": 0,
+      "likes": null,
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "sourceDisplayedCommentCount": 0,
+      "averageViewDurationSeconds": null,
+      "averageViewPercentage": null,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 24220.128,
+        "maximum": 24267.128
+      }
+    }
+  ],
+  "notes": [
+    "ユーザーの質問に応じた臨時の現状確認。24時間・72時間観測ではない。",
+    "正しいチャンネルIDと3動画IDを確認し、Studioショート一覧で全3本が公開・表示視聴回数0。",
+    "サムネイル更新から約2時間43分〜2時間44分。改善効果の有無は断定できない。",
+    "一覧の表示値とAnalyticsのダッシュを区別。コメント・通知・終了画面の0を反響として使わない。"
+  ],
+  "observedAtLocal": "2026-09-14T00:19:44.128+09:00",
+  "trigger": "user_status_request"
+}

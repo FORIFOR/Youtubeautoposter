@@ -29,17 +29,22 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-13T12:38:29.748461+00:00",
+  "updatedAt": "2026-09-13T15:52:14.605540+00:00",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
     "status": "ACTIVE",
-    "localTime": "18:00",
     "timeZone": "Asia/Tokyo",
     "check24hDate": "2026-09-14",
     "check72hDate": "2026-09-16",
     "source": "youtube_studio_ui",
-    "guide": "production/MONITORING.ja.md"
+    "guide": "production/MONITORING.ja.md",
+    "localTimes": [
+      "01:00",
+      "18:00"
+    ],
+    "supplementalCheck24hDate": "2026-09-15",
+    "supplementalCheck72hDate": "2026-09-17"
   },
   "improvements": {
     "metadataChanges": "production/changes/packaging-2026-09-13.json",
@@ -48,6 +53,13 @@
     "customThumbnails": "published_verified",
     "hypothesisPrototypeRendered": true,
     "effectConfirmed": false,
-    "thumbnailChanges": "production/changes/thumbnails-2026-09-13.json"
-  }
+    "thumbnailChanges": "production/changes/thumbnails-2026-09-13.json",
+    "competitorStudy": "production/analysis/competitor-study-2026-09-14.md",
+    "competitorInformedVideo": "production/analysis/color-game-prototype.json",
+    "competitorInformedVideoPublished": true,
+    "competitorInformedThumbnailChange": "production/changes/color-game-thumbnail-2026-09-14.json"
+  },
+  "supplementalEpisodes": [
+    "poco-04-color-game"
+  ]
 }

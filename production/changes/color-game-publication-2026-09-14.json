@@ -1,0 +1,31 @@
+{
+  "episodeId": "poco-04-color-game",
+  "revision": 2,
+  "videoId": "DpgabSBgQgk",
+  "url": "https://www.youtube.com/shorts/DpgabSBgQgk",
+  "privacyStatus": "public",
+  "selfDeclaredMadeForKids": true,
+  "language": "ja",
+  "category": "教育",
+  "captionsUploaded": true,
+  "customThumbnail": "production/assets/thumbnails/poco-04-color-game-v1.png",
+  "playlistId": "PLfr9v9axUGaM",
+  "copyrightCheck": "no_issues_detected",
+  "publishedAt": null,
+  "publicationWindow": {
+    "notBefore": "2026-09-13T15:51:05Z",
+    "notAfter": "2026-09-13T15:51:32Z"
+  },
+  "confirmedAt": "2026-09-13T15:51:32Z",
+  "source": "youtube_studio_upload_confirmation",
+  "sourceDisplayedDate": "2026/09/14",
+  "contentHash": "405ca4caf92a27488a740a31b0808c2e3f4ca0bd081f190629350f0bf01a8184",
+  "durationSeconds": 24.221354,
+  "study": "production/analysis/competitor-study-2026-09-14.md",
+  "experiment": "competitor_informed_exploratory_pilot",
+  "notes": [
+    "ユーザーの競合調査と対応の依頼に基づく新しい検証動画。既存3本を再投稿したものではない。",
+    "公開成功ダイアログに公開日2026/09/14と動画リンクを確認。YouTube側の秒単位公開時刻は未取得。",
+    "AI生成の絵・VOICEVOX利用は説明文で開示。実在人物・出来事をリアルに改変する項目には非該当として「いいえ」を選択。"
+  ]
+}

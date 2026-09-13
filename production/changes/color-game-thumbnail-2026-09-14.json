@@ -1,0 +1,21 @@
+{
+  "videoId": "DpgabSBgQgk",
+  "episodeId": "poco-04-color-game",
+  "type": "thumbnail_update",
+  "before": "production/assets/thumbnails/poco-04-color-game-v1.png",
+  "after": "production/assets/thumbnails/poco-04-color-game-v2.png",
+  "contentHash": "491fd7aa0dda54d63b348959c0a99330ad2c827edb48b7cc84e255846dddcec2",
+  "saveWindow": {
+    "notBefore": "2026-09-13T15:56:00.919Z",
+    "notAfter": "2026-09-13T15:56:46.754Z"
+  },
+  "sourceUrl": "https://studio.youtube.com/video/DpgabSBgQgk/edit",
+  "status": "studio_saved_verified",
+  "evidence": [
+    "保存成功メッセージと無効な保存ボタン",
+    "Studioプレビューで「いろあそび 3もん！」画像を目視確認"
+  ],
+  "publicThumbnailVerification": "pending_propagation; last channel reload still showed previous cover",
+  "effectConfirmed": false,
+  "reason": "動画フレームの縮小ではキャラクターが小さいため、題材の3色と3問を大きく示す専用カバーに変更"
+}

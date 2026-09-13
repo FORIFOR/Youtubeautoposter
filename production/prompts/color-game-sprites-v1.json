@@ -1,0 +1,7 @@
+{
+  "method": "builtin_image_gen",
+  "prompt": "Use case: illustration-story. Asset type: ONE square transparent sprite atlas for an original Japanese preschool color game video. Reference image: preserve the identity and soft painted picture-book style of the brown bear Poco, cream muzzle and belly, black oval eyes, small brown nose, yellow scarf. Create a clean 2 by 2 grid, invisible grid lines, each sprite completely contained in its own equal quadrant with generous transparent margins. TOP LEFT: only Poco standing full-body, smiling gently, hands empty, facing viewer, yellow scarf, no basket. TOP RIGHT: only one bright RED apple with a tiny green leaf. BOTTOM LEFT: only one clearly YELLOW unpeeled curved banana. BOTTOM RIGHT: only one solid BLUE toy ball with subtle painted texture. Center each subject in its quadrant. Transparent background with genuine alpha, not a painted checkerboard. Soft warm watercolor/gouache textured edges, clear silhouettes, recognizable at phone size. No scenery, no floor, no shadows beyond the objects, no text, no numbers, no labels, no borders, no extra objects, no gradients on the background. This atlas will be cropped into individual sprites by the video compositor, so sprites must not overlap quadrant boundaries.",
+  "reference": "production/assets/poco-01-colors.png",
+  "source": "/Users/shuhei/.codex/generated_images/01a098db-f8fc-7821-b8a9-ff65890a05e2/exec-b3130c57-5475-4b2c-873c-6d5e3398afa5.png",
+  "asset": "production/assets/poco-color-game-sprites-v1.png"
+}

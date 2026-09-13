@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": "YouTube public watch pages expanded description and actual player",
+  "metric": "displayed_lifetime_views",
+  "selection": "purposive examples, not representative/random sample",
+  "limitations": [
+    "no competitor daily growth/retention/traffic/ad-spend data",
+    "mixed formats/languages/channel sizes; separate primary Shorts from adjacent references"
+  ],
+  "videos": [
+    {
+      "videoId": "HiDUWmHkYz8",
+      "url": "https://www.youtube.com/watch?v=HiDUWmHkYz8",
+      "channelLabel": "BabyBus",
+      "publishedDate": "2025-11-07",
+      "durationSeconds": 25,
+      "displayedLifetimeViews": 996396247,
+      "viewsRounded": false,
+      "subscribersDisplay": "582万人",
+      "observedAt": "2026-09-13T15:29:33.457Z",
+      "cohort": "shorts"
+    },
+    {
+      "videoId": "jgxZoIOuavA",
+      "url": "https://www.youtube.com/watch?v=jgxZoIOuavA",
+      "channelLabel": "BabyBus",
+      "publishedDate": "2025-11-20",
+      "durationSeconds": 28,
+      "displayedLifetimeViews": 1935738,
+      "viewsRounded": false,
+      "subscribersDisplay": "582万人",
+      "observedAt": "2026-09-13T15:30:32.699Z",
+      "cohort": "shorts"
+    },
+    {
+      "videoId": "5A6kj0Jido4",
+      "url": "https://www.youtube.com/watch?v=5A6kj0Jido4",
+      "channelLabel": "サンサンキッズTV",
+      "publishedDate": "2024-04-20",
+      "durationSeconds": 41,
+      "displayedLifetimeViews": 221952638,
+      "viewsRounded": false,
+      "subscribersDisplay": "223万人",
+      "observedAt": "2026-09-13T15:38:52.557Z",
+      "cohort": "shorts"
+    },
+    {
+      "videoId": "NtZrSGCHPCM",
+      "url": "https://www.youtube.com/watch?v=NtZrSGCHPCM",
+      "channelLabel": "ボンボンアカデミー",
+      "publishedDate": "2023-03-19",
+      "durationSeconds": 108,
+      "displayedLifetimeViews": 5514384,
+      "viewsRounded": false,
+      "subscribersDisplay": "127万人",
+      "observedAt": "2026-09-13T15:39:43.650Z",
+      "cohort": "song_reference"
+    },
+    {
+      "videoId": "FmyFu8IGW4w",
+      "url": "https://www.youtube.com/watch?v=FmyFu8IGW4w",
+      "channelLabel": "ゆめあるチャンネル",
+      "publishedDate": "2015-04-14",
+      "durationSeconds": 77,
+      "displayedLifetimeViews": 287295,
+      "viewsRounded": false,
+      "subscribersDisplay": "40.4万人",
+      "observedAt": "2026-09-13T15:40:11.498Z",
+      "cohort": "illustrated_reference"
+    }
+  ]
+}

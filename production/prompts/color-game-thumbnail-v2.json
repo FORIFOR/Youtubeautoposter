@@ -1,0 +1,7 @@
+{
+  "method": "builtin_image_gen",
+  "prompt": "Use case: ads-marketing. Asset type: portrait 9:16 YouTube Shorts cover for the ORIGINAL educational video Poco's three color questions. Reference image is identity/style only: Poco the brown bear with cream muzzle and belly, black oval eyes, yellow scarf. Make a very readable soft picture-book cover, filling the frame. Poco's large smiling head and upper body in the upper-middle, a big red apple at bottom-left, a big yellow banana at bottom-right, and a clear solid blue ball in the bottom-center. Keep these three objects separate and large. Warm pale cream background, small gentle leaf accents, generous clear space at top for LARGE DARK BROWN JAPANESE TEXT. Exact text on two lines: \"いろあそび\" and \"3もん！\". The text should be bold rounded Japanese lettering, extremely legible at small thumbnail size. Original painted watercolor texture as reference, inviting and calm, not glittery or crowded. Objects retain unambiguous red/yellow/blue colors. No logo or brand besides Poco, no watermark, no other text. Do not show any answer-check marks; the video contains simple color choices.",
+  "reference": "production/assets/poco-01-colors.png",
+  "asset": "production/assets/thumbnails/poco-04-color-game-v2.png",
+  "source": "/Users/shuhei/.codex/generated_images/01a098db-f8fc-7821-b8a9-ff65890a05e2/exec-e6cc72ad-09de-46c3-935a-7fe94cf0e4b7.png"
+}

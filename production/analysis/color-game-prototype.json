@@ -1,0 +1,78 @@
+{
+  "id": "poco-04-color-game",
+  "revision": 2,
+  "status": "ready_for_review",
+  "videoPath": "/Users/shuhei/Projects/Youtubeautoposter/production/renders/poco-04-color-game/r2/poco-04-color-game.mp4",
+  "durationSeconds": 24.221354,
+  "contentHash": "405ca4caf92a27488a740a31b0808c2e3f4ca0bd081f190629350f0bf01a8184",
+  "inputHash": "057171f1ff6be09452ae14e974e6f4a5c5f317e4df998b853cfdfd343a4a589f",
+  "rendererHash": "4851d6f9b26e456dfd47c7dcd6392573d8f8b26253ce0f6e434d92cf4e8c4890",
+  "atlasHash": "1889958a207d2bd724d7819f14538967e712da8ff4477c2c4ce1029d214a6c19",
+  "firstAnswerSeconds": 3.7,
+  "experiment": {
+    "type": "competitor_informed_exploratory_pilot",
+    "source": "production/analysis/competitor-study-2026-09-14.md",
+    "effectConfirmed": false,
+    "changes": [
+      "冒頭から大きな2択",
+      "問いの重複と自己紹介を省略",
+      "正解の物が動く",
+      "3問を同じルールで展開"
+    ],
+    "confounders": "構成・絵・問題数が同時に変わるため、要素別の因果効果は推定しない"
+  },
+  "publication": {
+    "episodeId": "poco-04-color-game",
+    "revision": 2,
+    "videoId": "DpgabSBgQgk",
+    "url": "https://www.youtube.com/shorts/DpgabSBgQgk",
+    "privacyStatus": "public",
+    "selfDeclaredMadeForKids": true,
+    "language": "ja",
+    "category": "教育",
+    "captionsUploaded": true,
+    "customThumbnail": "production/assets/thumbnails/poco-04-color-game-v2.png",
+    "playlistId": "PLfr9v9axUGaM",
+    "copyrightCheck": "no_issues_detected",
+    "publishedAt": null,
+    "publicationWindow": {
+      "notBefore": "2026-09-13T15:51:05Z",
+      "notAfter": "2026-09-13T15:51:32Z"
+    },
+    "confirmedAt": "2026-09-13T15:51:32Z",
+    "source": "youtube_studio_upload_confirmation",
+    "sourceDisplayedDate": "2026/09/14",
+    "contentHash": "405ca4caf92a27488a740a31b0808c2e3f4ca0bd081f190629350f0bf01a8184",
+    "durationSeconds": 24.221354,
+    "study": "production/analysis/competitor-study-2026-09-14.md",
+    "experiment": "competitor_informed_exploratory_pilot",
+    "notes": [
+      "ユーザーの競合調査と対応の依頼に基づく新しい検証動画。既存3本を再投稿したものではない。",
+      "公開成功ダイアログに公開日2026/09/14と動画リンクを確認。YouTube側の秒単位公開時刻は未取得。",
+      "AI生成の絵・VOICEVOX利用は説明文で開示。実在人物・出来事をリアルに改変する項目には非該当として「いいえ」を選択。"
+    ],
+    "thumbnailChange": "production/changes/color-game-thumbnail-2026-09-14.json"
+  },
+  "visualReview": {
+    "method": "manual_review_of_decoded_frames_for_all_7_segments",
+    "result": "passed",
+    "checked": [
+      "correct object/color in all three rounds",
+      "complete bear silhouette and transparency",
+      "Japanese text fits",
+      "answer frame highlights the correct item"
+    ],
+    "firstAnswerSeconds": 3.7
+  },
+  "audioReview": {
+    "method": "full_stream_decode_loudness_and_VOICEVOX_kana_review",
+    "result": "technical_checks_passed",
+    "integratedLufs": -18.01,
+    "truePeakDbtp": -2.0,
+    "fullAuditoryReview": false,
+    "limitation": "モデル環境では音声入力を聴取できないため、全編の聴感確認は未実施。読みの仮名・音声データ・音量・尺を確認。"
+  },
+  "reviewedAt": "2026-09-13T15:48:28.199697+00:00",
+  "originalFirstAnswerSeconds": 10.733333333333333,
+  "source": "production/analysis/competitor-study-2026-09-14.md"
+}

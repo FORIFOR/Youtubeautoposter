@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-color-game-baseline-2026-09-14T005401+0900",
+  "checkpoint": "publication_baseline",
+  "observedAt": "2026-09-13T15:54:01.655Z",
+  "source": "youtube_studio_content_table",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short",
+  "metricDefinition": "youtube_studio_content_table:displayed_cumulative_views:2026-09-13",
+  "videos": [
+    {
+      "episodeId": "poco-04-color-game",
+      "videoId": "DpgabSBgQgk",
+      "privacyStatus": "public",
+      "sourceDisplayedDate": "2026/09/14",
+      "views": 0,
+      "rawDisplayedViews": "0",
+      "viewsRounded": false,
+      "elapsedSeconds": {
+        "minimum": 149.655,
+        "maximum": 176.655
+      },
+      "comments": null,
+      "commentsAvailability": "disabled_made_for_kids",
+      "shownInFeed": null,
+      "engagedViews": null,
+      "averageViewDurationSeconds": null
+    }
+  ],
+  "notes": [
+    "公開成功後のStudio一覧の初期値。24時間観測ではない。",
+    "同時に公開チャンネルで4本目とサムネイル表示を目視確認。自己再生は行っていない。",
+    "詳細指標は今回の投稿確認で取得していない。"
+  ]
+}
