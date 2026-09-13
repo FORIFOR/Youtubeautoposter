@@ -2,7 +2,14 @@
   "schemaVersion": 1,
   "id": "poco-free-distribution-01",
   "preparedOn": "2026-09-14",
-  "status": "execution_started_waiting_for_social_login_and_account",
+  "status": "free_distribution_route_selection_effect_unverified",
+  "routeSelection": {
+    "selectedPlatform": null,
+    "instagramYoutubeImpactMeasured": false,
+    "instagramPriorityEstablished": false,
+    "correction": "Instagram was inspected as a low-production-effort candidate, not selected by measured YouTube traffic impact. Its login is not a prerequisite for the project.",
+    "criteria": ["access to relevant viewers", "existing usable account", "measurable YouTube visits or follow-on viewing", "total work required"]
+  },
   "executionAuthorization": {
     "userMessage": "それで進めてください",
     "recordedOn": "2026-09-14",
@@ -19,12 +26,14 @@
     "checkedUrl": "https://www.instagram.com/",
     "checkedDate": "2026-09-14",
     "visibleState": "login_form_no_authenticated_account",
-    "userActionRequested": "Log in to the account to use and identify its username, or provide an alternative destination URL.",
+    "userActionRequested": null,
+    "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
     "browserHandoff": "Instagram login page opened in the in-app browser; no credentials entered."
   },
   "resumeInstructions": [
+    "Select a free distribution route using audience access, effort and measurable YouTube outcomes. Instagram is only an unvalidated candidate; do not require its login or infer that popular channels' Instagram use proves large referral impact.",
     "Confirm the authenticated account matches the user's specified posting destination.",
-    "Read CUA upload guidance, upload the existing color-game MP4, apply the prepared caption and inspect the real publication preview.",
+    "If a native-video route is selected, read CUA upload guidance, upload the existing color-game MP4, apply the prepared caption and inspect the real publication preview.",
     "Proceed with the already-authorized free publication; do not ask for the same general publication permission again.",
     "Record the published URL and observed publication time, then add measurement checkpoints to monitoring.",
     "Do not treat authentication checks, local drafts or prospect research as external publications."
