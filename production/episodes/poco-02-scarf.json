@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {
+    "provider": "VOICEVOX",
+    "speakerId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "speedScale": 0.94,
+    "intonationScale": 1.06
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "publication": {
+    "privacyStatus": "public",
+    "selfDeclaredMadeForKids": true,
+    "defaultLanguage": "ja",
+    "categoryId": "27"
+  },
+  "revision": 1,
+  "id": "poco-02-scarf",
+  "title": "ポコのスカーフ、どこにある？ こぐまのおはなし #Shorts",
+  "displayTitle": "スカーフは どこ？",
+  "hook": "payoff_first",
+  "atlas": "production/assets/poco-02-scarf.png",
+  "description": "大切な黄色いスカーフをなくしたポコ。お花のそば、小さな木の枝。一つずつ確かめながら探す、短いお話です。\n\nオリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #子ども向け",
+  "segments": [
+    {
+      "panel": 3,
+      "speech": "見つかった！ ポコの、黄色いスカーフ！",
+      "caption": [
+        "みつかった！",
+        "きいろい スカーフ！"
+      ],
+      "pauseAfter": 0.4,
+      "question": false
+    },
+    {
+      "panel": 0,
+      "speech": "でも、さっきまでは、どこにもなかったんです。",
+      "caption": [
+        "さっきまでは",
+        "なかったのに…"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 0,
+      "speech": "ポコと一緒に、探してみよう。",
+      "caption": [
+        "ポコと いっしょに",
+        "さがしてみよう"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 1,
+      "speech": "お花の鉢のそばに、あるかな？",
+      "caption": [
+        "おはなの そばに",
+        "あるかな？"
+      ],
+      "pauseAfter": 2.0,
+      "question": true
+    },
+    {
+      "panel": 1,
+      "speech": "ここには、ないみたい。",
+      "caption": [
+        "ここには",
+        "ないみたい"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 2,
+      "speech": "今度は、小さな木を見てみよう。黄色いもの、見えるかな？",
+      "caption": [
+        "ちいさな きに",
+        "きいろいもの？"
+      ],
+      "pauseAfter": 2.0,
+      "question": true
+    },
+    {
+      "panel": 2,
+      "speech": "あった！ 枝に引っかかっていたね。",
+      "caption": [
+        "あった！",
+        "えだに かかっていたね"
+      ],
+      "pauseAfter": 0.5,
+      "question": false
+    },
+    {
+      "panel": 3,
+      "speech": "見つかって、よかった。ポコは、にっこり。",
+      "caption": [
+        "みつかって よかった！",
+        "ポコは にっこり"
+      ],
+      "pauseAfter": 1.0,
+      "question": false
+    }
+  ]
+}

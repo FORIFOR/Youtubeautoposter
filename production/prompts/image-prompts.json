@@ -1,0 +1,16 @@
+{
+  "method": "built-in image_gen",
+  "purpose": "Poco pilot scene atlases for video production",
+  "prompts": [
+    {
+      "episode": 1,
+      "prompt": "Use case: illustration-story. Asset type: a production storyboard atlas used as FOUR independent square scene images in a Japanese preschool picture-book video, NOT a poster.\nCreate one high-resolution 2048x2048 square image divided into an EXACT seamless 2x2 grid, equal quadrants. Each quadrant is a complete independent square illustration with its own composition. No gutters, no borders, absolutely no letters/numbers/text/speech bubbles/watermarks. Do not allow objects to cross the exact center grid boundaries.\nVisual style: warm, professional gouache and colored-pencil children's picture book, soft paper texture, clear large shapes, bright natural spring garden. The same original bear Poco in all four: small round cinnamon-brown cub, cream muzzle and tummy, tiny black oval eyes, rounded ears, a short mustard-yellow scarf with two short ends, no other clothing, small woven basket. Friendly understated expression, consistent face and proportions. A human narrator will speak, so no talking mouth poses needed.\nTOP LEFT: Poco with an EMPTY basket at his feet looks at ONE glossy RED apple and ONE clearly YELLOW banana laid side by side on a low pale wooden table in a simple garden. Large, unambiguous fruit colors, both fruits visible and not touching; the apple must be fully red, not yellow or green.\nTOP RIGHT: Same Poco happily picks up the RED apple with one paw. The YELLOW banana remains on the table. His basket is empty beside him.\nBOTTOM LEFT: A single vivid BLUE ball sits on green grass immediately beside one PINK flower. Same Poco with his yellow scarf and basket containing the RED apple looks toward the ball. Blue ball is prominent and entirely visible. No other balls.\nBOTTOM RIGHT: Same smiling Poco holds his basket containing exactly the RED apple and BLUE ball. Yellow scarf remains identical, garden behind him. Both apple and ball clearly visible above basket rim.\nIn every quadrant keep important subjects within the central 85% with useful background around edges. Color accuracy, story continuity and character consistency are essential. These are four illustrations inside one atlas, each will be used separately in video. No UI."
+    },
+    {
+      "episode": 2
+    },
+    {
+      "episode": 3
+    }
+  ]
+}

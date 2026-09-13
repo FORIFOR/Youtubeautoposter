@@ -48,3 +48,7 @@ next-env.d.ts
 .dev.vars*
 .test-build/
 *.tsbuildinfo
+
+.tools/
+.venv-production/
+production/renders/

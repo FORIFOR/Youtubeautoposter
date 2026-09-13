@@ -1,0 +1,33 @@
+{
+  "id": "poco-pilot-01",
+  "goal": "実動画を3本公開し、公開24時間・72時間後の反響を分析し、変更点を一つ反映した4本目の動画を作成する",
+  "completed": false,
+  "phase": "awaiting_channel",
+  "channelUrl": null,
+  "channelId": null,
+  "audience": "kids",
+  "comparisonMode": "exploratory_observation",
+  "episodes": [
+    "poco-01-colors",
+    "poco-02-scarf",
+    "poco-03-rain"
+  ],
+  "milestones": {
+    "threeFinishedVideos": true,
+    "threeConfirmedPublications": false,
+    "observations24h": false,
+    "observations72h": false,
+    "evidenceBasedAnalysis": false,
+    "revisedVideoRendered": false
+  },
+  "rules": [
+    "管理画面・コード・デモの完成だけではゴール達成としない",
+    "投稿先と実動画ID、実際の公開日時を確認する",
+    "欠測をゼロや推定値で補わない",
+    "最初の3本は探索とし、内容の違いが残ることを明示する",
+    "少数データから統計的有意差や原因を断定しない",
+    "分析で使った観測ID・指標・取得時刻を残す",
+    "修正版で変えた要素と、その根拠を記録する"
+  ],
+  "updatedAt": "2026-09-13T06:39:58.294279+00:00"
+}

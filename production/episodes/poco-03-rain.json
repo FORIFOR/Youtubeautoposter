@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {
+    "provider": "VOICEVOX",
+    "speakerId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "speedScale": 0.94,
+    "intonationScale": 1.06
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "publication": {
+    "privacyStatus": "public",
+    "selfDeclaredMadeForKids": true,
+    "defaultLanguage": "ja",
+    "categoryId": "27"
+  },
+  "revision": 1,
+  "id": "poco-03-rain",
+  "title": "あめのおとは、どんなおと？ ポコの小さな発見 #Shorts",
+  "displayTitle": "あめのひの おと",
+  "hook": "question",
+  "atlas": "production/assets/poco-03-rain.png",
+  "description": "雨の日、おうちの屋根の下で耳を澄ますポコ。バケツとはっぱに落ちる雨の音を、ことばのリズムで楽しむお話です。\n\nオリジナルのお話・キャラクターです。絵はAIで生成し、日本語の台本・字幕と組み合わせて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #絵本 #子ども向け",
+  "segments": [
+    {
+      "panel": 0,
+      "speech": "雨の音は、どんな音？",
+      "caption": [
+        "あめの おとは",
+        "どんな おと？"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 0,
+      "speech": "ポコが、おうちの屋根の下で、耳を澄ませています。",
+      "caption": [
+        "やねの したで",
+        "みみを すませよう"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 1,
+      "speech": "バケツに落ちると、ぽつ、ぽつ、ぽつ。",
+      "caption": [
+        "バケツに",
+        "ぽつ ぽつ ぽつ"
+      ],
+      "pauseAfter": 0.7,
+      "question": false
+    },
+    {
+      "panel": 1,
+      "speech": "ポコも一緒に、ぽつ、ぽつ、ぽつ。",
+      "caption": [
+        "いっしょに",
+        "ぽつ ぽつ ぽつ"
+      ],
+      "pauseAfter": 1.6,
+      "question": true
+    },
+    {
+      "panel": 2,
+      "speech": "大きな葉っぱに落ちると、ぱた、ぱた、ぱた。",
+      "caption": [
+        "はっぱに",
+        "ぱた ぱた ぱた"
+      ],
+      "pauseAfter": 0.7,
+      "question": false
+    },
+    {
+      "panel": 2,
+      "speech": "どっちの音が、好きだったかな？",
+      "caption": [
+        "どっちの おとが",
+        "すきだったかな？"
+      ],
+      "pauseAfter": 2.0,
+      "question": true
+    },
+    {
+      "panel": 3,
+      "speech": "あ、雨がやんだよ。空に、虹が出ました。",
+      "caption": [
+        "あめが やんだよ",
+        "にじが でたね"
+      ],
+      "pauseAfter": 0.35,
+      "question": false
+    },
+    {
+      "panel": 3,
+      "speech": "雨の日にも、小さな発見があったね。",
+      "caption": [
+        "あめのひにも",
+        "ちいさな はっけん"
+      ],
+      "pauseAfter": 1.2,
+      "question": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-09-13T06:39:58.294279+00:00",
+  "technicalStatus": "passed",
+  "visualScope": "生成画像3点と完成動画から抽出した質問・回答の代表6フレームを目視確認。全フレームの目視確認ではない。",
+  "listeningReview": "音声全編の聴感確認は未実施。AAC音声の存在・全編デコード・音量を確認。",
+  "publicationStatus": "not_published",
+  "episodes": [
+    {
+      "id": "poco-01-colors",
+      "revision": 1,
+      "path": "production/renders/poco-01-colors/r1/poco-01-colors.mp4",
+      "contentHash": "bc85b07d23dcc4ecc70d5b552ea7b7c4bdac60214d1a22fdc4aef68d035a58b4",
+      "durationSeconds": 30.321333,
+      "fullDecode": "passed",
+      "timelineAndPauses": "passed",
+      "integratedLoudnessLufs": -17.88,
+      "truePeakDbtp": -1.99,
+      "visualFrames": [
+        "colors-question.jpg",
+        "colors-blue.jpg"
+      ],
+      "sceneAndCaptionMatch": "passed_for_inspected_frames",
+      "publication": null
+    },
+    {
+      "id": "poco-02-scarf",
+      "revision": 1,
+      "path": "production/renders/poco-02-scarf/r1/poco-02-scarf.mp4",
+      "contentHash": "cd55dbecd20290b188702508a940a3ead379a6617c75ff880bc9c962ccdb6da3",
+      "durationSeconds": 31.221333,
+      "fullDecode": "passed",
+      "timelineAndPauses": "passed",
+      "integratedLoudnessLufs": -18.57,
+      "truePeakDbtp": -2.0,
+      "visualFrames": [
+        "scarf-question.jpg",
+        "scarf-found.jpg"
+      ],
+      "sceneAndCaptionMatch": "passed_for_inspected_frames",
+      "publication": null
+    },
+    {
+      "id": "poco-03-rain",
+      "revision": 1,
+      "path": "production/renders/poco-03-rain/r1/poco-03-rain.mp4",
+      "contentHash": "739b672cb685c55e1ba2f5d01eab73acb842ee0424f5d7ba305bc9c841697744",
+      "durationSeconds": 34.321333,
+      "fullDecode": "passed",
+      "timelineAndPauses": "passed",
+      "integratedLoudnessLufs": -17.8,
+      "truePeakDbtp": -1.96,
+      "visualFrames": [
+        "rain-bucket.jpg",
+        "rain-leaf.jpg"
+      ],
+      "sceneAndCaptionMatch": "passed_for_inspected_frames",
+      "publication": null
+    }
+  ]
+}

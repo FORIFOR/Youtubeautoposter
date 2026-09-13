@@ -1,0 +1,2 @@
+Pillow==12.3.0
+voicevox_core @ https://github.com/VOICEVOX/voicevox_core/releases/download/0.17.0/voicevox_core-0.17.0-cp310-abi3-macosx_11_0_arm64.whl#sha256=e420c983b0c6eb71ba3d92e89ddf76ba10634e0043b5578a571f11234381f7f6
