@@ -147,7 +147,9 @@ def render(plan_path: Path, synth, only_audio: bool = False) -> dict:
     concat.write_text("\n".join("file '" + str(p).replace("'", "'\\''") + "'" for p in segments))
     final = out / f"{plan['id']}.mp4"
     temporary = out / "completed.part.mp4"
-    run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(concat), "-c:v", "copy", "-af", "loudnorm=I=-18:TP=-2:LRA=7", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "1", "-movflags", "+faststart", str(temporary)])
+    # Keep the final render above the low-bitrate failure mode seen in simple
+    # picture-book boards while preserving the reviewed 1080x1920/30fps format.
+    run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(concat), "-c:v", "libx264", "-preset", "slow", "-profile:v", "high", "-pix_fmt", "yuv420p", "-b:v", "1200k", "-minrate", "1200k", "-maxrate", "1200k", "-bufsize", "2400k", "-x264-params", "nal-hrd=cbr", "-r", str(fps), "-af", "loudnorm=I=-18:TP=-2:LRA=7", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "1", "-movflags", "+faststart", str(temporary)])
     details = probe(temporary)
     video_info = next(s for s in details["streams"] if s["codec_type"] == "video")
     audio_info = next(s for s in details["streams"] if s["codec_type"] == "audio")

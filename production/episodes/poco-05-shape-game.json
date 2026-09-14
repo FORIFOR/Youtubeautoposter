@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {
+    "provider": "VOICEVOX",
+    "speakerId": 2,
+    "credit": "VOICEVOX:四国めたん",
+    "speedScale": 0.94,
+    "intonationScale": 1.06
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "publication": {
+    "privacyStatus": "private_review",
+    "selfDeclaredMadeForKids": true,
+    "defaultLanguage": "ja",
+    "categoryId": "27"
+  },
+  "revision": 2,
+  "id": "poco-05-shape-game",
+  "title": "まる・さんかく・しかく、どれかな？｜親子でかたちクイズ・こぐまポコ #Shorts",
+  "displayTitle": "かたちクイズ",
+  "hook": "question",
+  "atlas": "production/assets/poco-shape-game-atlas-v2.png",
+  "description": "まる・さんかく・しかく、どれかな？\nこぐまのポコと、画面を指さして遊ぶ短いかたちクイズです。答えが出る前に、親子で考える時間をつくってみてください。\n\nオリジナルのキャラクター・台本です。絵はAIで生成した素材と図形を組み合わせ、日本語音声・字幕と動きを付けて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #かたちあそび #子ども向け",
+  "segments": [
+    {
+      "panel": 0,
+      "speech": "まるいのは、どれかな？",
+      "caption": [
+        "まるいのは",
+        "どれかな？"
+      ],
+      "pauseAfter": 3.7,
+      "question": true
+    },
+    {
+      "panel": 1,
+      "speech": "そう！ まるだね。",
+      "caption": [
+        "そう！",
+        "まるだね！"
+      ],
+      "pauseAfter": 1.0,
+      "question": false
+    },
+    {
+      "panel": 2,
+      "speech": "さんかくは、どれかな？",
+      "caption": [
+        "さんかくは",
+        "どれかな？"
+      ],
+      "pauseAfter": 3.7,
+      "question": true
+    },
+    {
+      "panel": 3,
+      "speech": "みつけた！ さんかくだね。",
+      "caption": [
+        "みつけた！",
+        "さんかくだね！"
+      ],
+      "pauseAfter": 1.0,
+      "question": false
+    },
+    {
+      "panel": 0,
+      "speech": "しかくは、どれかな？",
+      "caption": [
+        "しかくは",
+        "どれかな？"
+      ],
+      "pauseAfter": 3.7,
+      "question": true
+    },
+    {
+      "panel": 1,
+      "speech": "みつけた！ しかくだね。",
+      "caption": [
+        "みつけた！",
+        "しかくだね！"
+      ],
+      "pauseAfter": 1.0,
+      "question": false
+    },
+    {
+      "panel": 3,
+      "speech": "いっしょに、かたちをみつけたね！",
+      "caption": [
+        "いっしょに",
+        "みつけたね！"
+      ],
+      "pauseAfter": 1.6,
+      "question": false
+    }
+  ],
+  "experiment": {
+    "type": "topic_and_hook_exploration",
+    "source": "production/analysis/adaptation-2026-09-14.md",
+    "effectConfirmed": false,
+    "fixed": [
+      "日本語・子ども向け・絵本風・問いかけ・字幕・こぐまポコ"
+    ],
+    "changed": [
+      "題材を色から形へ",
+      "冒頭から参加できる問い",
+      "3問の反復",
+      "選択肢以外の背景物を減らし、正解判定の注意を集中"
+    ],
+    "limitation": "r2/r3とは題材と素材が異なる探索動画で、因果効果を推定しない"
+  }
+}

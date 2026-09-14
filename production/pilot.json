@@ -1,6 +1,6 @@
 {
   "id": "poco-pilot-01",
-  "goal": "実動画を3本公開し、公開24時間・72時間後の反響を分析し、変更点を一つ反映した4本目の動画を作成する",
+  "goal": "何本か実動画を公開し、公開後の反響を確認・分析し、根拠のある変更を次の動画へ反映する",
   "completed": false,
   "phase": "observing",
   "channelUrl": "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA",
@@ -10,15 +10,19 @@
   "episodes": [
     "poco-01-colors",
     "poco-02-scarf",
-    "poco-03-rain"
+    "poco-03-rain",
+    "poco-04-color-game"
   ],
   "milestones": {
     "threeFinishedVideos": true,
     "threeConfirmedPublications": true,
+    "fourConfirmedPublications": true,
     "observations24h": false,
     "observations72h": false,
     "evidenceBasedAnalysis": false,
-    "revisedVideoRendered": false
+    "revisedVideoRendered": false,
+    "topicExplorationRendered": true,
+    "topicExplorationPreviewReviewed": true
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -29,7 +33,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-13T15:52:14.605540+00:00",
+  "updatedAt": "2026-09-14T06:16:14.300Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -57,9 +61,17 @@
     "competitorStudy": "production/analysis/competitor-study-2026-09-14.md",
     "competitorInformedVideo": "production/analysis/color-game-prototype.json",
     "competitorInformedVideoPublished": true,
-    "competitorInformedThumbnailChange": "production/changes/color-game-thumbnail-2026-09-14.json"
+    "competitorInformedThumbnailChange": "production/changes/color-game-thumbnail-2026-09-14.json",
+    "qualityAudit": "production/analysis/video-quality-audit-2026-09-14.md",
+    "highBitrateReviewRevision": "production/renders/poco-04-color-game/r3/adaptation.json",
+    "highBitrateEncoderPolicy": "scripts/produce_video.py and scripts/produce_color_game.py",
+    "topicValidationPlan": "production/analysis/topic-validation-plan-2026-09-14.md",
+    "topicExplorationEpisode": "production/episodes/poco-05-shape-game.json",
+    "parentFeedbackCard": "production/distribution/parent-feedback.ja.md",
+    "parentFeedbackSent": false
   },
   "supplementalEpisodes": [
-    "poco-04-color-game"
+    "poco-04-color-game",
+    "poco-05-shape-game"
   ]
 }
