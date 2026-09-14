@@ -37,7 +37,7 @@
     "checkedDate": "2026-09-14",
     "visibleState": "login_form_no_authenticated_account",
     "userActionRequested": "No note account exists. Choose an account-creation method on note (email, Google, X or Apple) and complete the required identity/authentication input. Do not share passwords in chat. The final account-creation submission requires action-time confirmation.",
-    "accountCreationState": "google_account_chooser_waiting_for_user_selection",
+    "accountCreationState": "google_consent_waiting_sensitive_data_confirmation",
     "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
     "browserHandoff": "note signup page opened in the in-app browser; four methods are visible and no credentials or personal data were entered. User takeover is required for method choice and input.",
     "history": [
