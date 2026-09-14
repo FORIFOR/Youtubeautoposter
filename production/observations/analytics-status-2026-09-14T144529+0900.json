@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-analytics-status-2026-09-14T144529+0900",
+  "checkpoint": "quality_growth_followup",
+  "observedAt": "2026-09-14T14:45:29+09:00",
+  "source": "youtube_studio_channel_analytics_content",
+  "sourceUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/analytics/tab-content/period-default",
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "periodDisplayed": "2026/08/16〜2026/09/12（過去28日間）",
+  "videosPubliclyVisible": 4,
+  "channelMetrics": {
+    "views": null,
+    "engagedViews": null,
+    "likes": null,
+    "subscribersNetChange": null,
+    "displayedState": "—"
+  },
+  "shortsDiscovery": {
+    "shownInFeed": null,
+    "howManyChoseToView": null,
+    "trafficSources": null,
+    "displayedMessage": "レポート表示に必要なトラフィック データが不足しています"
+  },
+  "engagement": {
+    "averageViewDuration": null,
+    "averageViewPercentage": null,
+    "retention": null,
+    "displayedMessage": "この期間には表示できるデータがありません"
+  },
+  "videoRows": [
+    {"videoId":"n-raC3DGh4I","privacyStatus":"public","displayedViews":0},
+    {"videoId":"1vvhk6jtLzE","privacyStatus":"public","displayedViews":0},
+    {"videoId":"yMyAsOK6doY","privacyStatus":"public","displayedViews":0},
+    {"videoId":"DpgabSBgQgk","privacyStatus":"public","displayedViews":0}
+  ],
+  "decision": {
+    "dataAvailableForEditorialChange": false,
+    "r3Publication": "hold",
+    "reason": "表示機会・視聴選択・維持率のいずれも取得できず、r3を公開しても品質変更の比較条件を作れないため。",
+    "nextCheck": "既存の24時間・72時間・7日後の観測期限で再確認し、取得できた最初の有効値だけを保存する。"
+  },
+  "limitations": [
+    "公開ページの0回は、視聴者に表示されなかったことと同義ではない。",
+    "Studioの最新カードに0%と表示されても、同じ画面がトラフィックデータ不足を示しているため、視聴維持率の実測値として扱わない。",
+    "広告は未配信、note記事は公開済みだが、この記録には記事PVやリンククリックを混ぜない。"
+  ]
+}
