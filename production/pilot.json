@@ -26,7 +26,8 @@
     "topicExplorationPreviewReviewed": true,
     "fiveConfirmedPublications": true,
     "topicExplorationPublished": true,
-    "initialThreeObservation24hRecorded": true
+    "initialThreeObservation24hRecorded": true,
+    "colorGameObservation24hRecorded": true
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -37,7 +38,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-14T09:03:34Z",
+  "updatedAt": "2026-09-14T16:02:17Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -67,7 +68,10 @@
     ],
     "initialThree24hObservedAt": "2026-09-14T09:03:34Z",
     "initialThree24hObservationFile": "production/observations/analytics-24h-initial3-2026-09-14T180334+0900.json",
-    "initialThree24hDataAvailable": false
+    "initialThree24hDataAvailable": false,
+    "colorGame24hObservedAt": "2026-09-14T16:02:17Z",
+    "colorGame24hObservationFile": "production/observations/analytics-24h-poco-04-color-game-2026-09-15T010217+0900.json",
+    "colorGame24hDataAvailable": false
   },
   "improvements": {
     "metadataChanges": "production/changes/packaging-2026-09-13.json",

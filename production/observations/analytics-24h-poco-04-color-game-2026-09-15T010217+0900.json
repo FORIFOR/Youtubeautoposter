@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-analytics-24h-poco-04-color-game-2026-09-15T010217+0900",
+  "checkpoint": "24h",
+  "observedAt": "2026-09-15T01:02:17+09:00",
+  "source": "youtube_studio_video_analytics_ui_and_public_channel",
+  "sourceUrls": [
+    "https://studio.youtube.com/video/DpgabSBgQgk/analytics/tab-overview/period-default",
+    "https://studio.youtube.com/video/DpgabSBgQgk/analytics/tab-reach_viewers/period-default",
+    "https://studio.youtube.com/video/DpgabSBgQgk/analytics/tab-interest_viewers/period-default",
+    "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA"
+  ],
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "periodDisplayed": "2026/09/14～現在 公開後",
+  "validity": {
+    "rule": "公開後24〜25時間",
+    "videoOnly": "poco-04-color-game",
+    "allElapsedSecondsWithinWindow": true
+  },
+  "video": {
+    "episodeId": "poco-04-color-game",
+    "videoId": "DpgabSBgQgk",
+    "title": "あか・きいろ・あお、どっち？｜親子でいろあそび3問・こぐまポコ #Shorts",
+    "privacyStatus": "public",
+    "publicationWindow": {
+      "notBefore": "2026-09-13T15:51:05Z",
+      "notAfter": "2026-09-13T15:51:32Z"
+    },
+    "elapsedSeconds": {
+      "minimum": 87045,
+      "maximum": 87072
+    },
+    "publicChannelList": {
+      "displayedCumulativeViews": 0,
+      "rawDisplayedViews": "0",
+      "sourceDisplayedState": "公開チャンネルのショート一覧"
+    },
+    "overview": {
+      "views": null,
+      "rawViews": "—",
+      "subscribers": null,
+      "rawSubscribers": "—",
+      "realtimeViews": 0,
+      "realtimeWindow": "過去48時間",
+      "retention": null,
+      "retentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。"
+    },
+    "reach": {
+      "shownInFeed": null,
+      "howManyChoseToView": null,
+      "trafficSources": null,
+      "searchTerms": null,
+      "rawNotice": "レポート表示に必要なトラフィック データが不足しています"
+    },
+    "engagement": {
+      "engagedViews": null,
+      "watchTimeHours": null,
+      "averageViewDurationSeconds": null,
+      "viewerEngagement": null,
+      "rawNotice": "この期間には表示できるデータがありません"
+    },
+    "excludedSignals": [
+      "通知のクリック率0%・ベル通知からの視聴0は、登録者0人表示のため編集判断から除外",
+      "終了画面要素のクリック率0.0%は終了画面未設定のため編集判断から除外"
+    ]
+  },
+  "decision": {
+    "dataAvailableForEditorialChange": false,
+    "interpretation": "公開後24時間の有効窓で公開一覧の累積表示値0を確認したが、Studioでは表示機会、視聴選択、エンゲージビュー、維持率が未取得だった。公開ページの0とAnalyticsのダッシュを同一視せず、表示されなかったことや内容の失敗を断定しない。",
+    "nextAction": "形クイズの24時間窓（2026-09-15 15:25:44〜16:25:44 JST）と、初期3本の72時間窓（2026-09-16 18:00 JST前後）を取得する。",
+    "r3Publication": "hold",
+    "ads": "not_run"
+  },
+  "notes": [
+    "4本目のYouTube側の秒単位公開時刻は未取得のため、公開成功前後のpublicationWindowから経過時間を算出した。",
+    "色の追加検証は冒頭・問題数・正解の動き・高ビットレート等を含む探索であり、この観測だけで個別要素の効果を断定しない。",
+    "自己再生・広告配信・追加外部投稿は行っていない。"
+  ]
+}
