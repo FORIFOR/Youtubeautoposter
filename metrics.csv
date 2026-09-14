@@ -1,0 +1,28 @@
+project_id,対象種別：アカウント／投稿／サイト／リポジトリ／製品,対象IDまたはURL,指標名,値,単位,対象期間の開始,対象期間の終了,数値の取得日時,データ取得元,確認状態,補足
+poco-pilot-01,アカウント,https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA,公開済み動画数,5,本,2026-09-13,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,確認済み,5本すべて公開一覧に表示
+poco-pilot-01,投稿,https://www.youtube.com/shorts/n-raC3DGh4I,累積視聴回数（公開ページ表示）,0,回,公開時刻,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,確認済み,自分で再生していない。外部視聴者のみの値かは除外不能
+poco-pilot-01,投稿,https://www.youtube.com/shorts/1vvhk6jtLzE,累積視聴回数（公開ページ表示）,0,回,公開時刻,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,確認済み,同上
+poco-pilot-01,投稿,https://www.youtube.com/shorts/yMyAsOK6doY,累積視聴回数（公開ページ表示）,0,回,公開時刻,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,確認済み,同上
+poco-pilot-01,投稿,https://www.youtube.com/shorts/DpgabSBgQgk,累積視聴回数（公開ページ表示）,0,回,2026-09-14 00:51 JST,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,確認済み,同上
+poco-pilot-01,投稿,https://www.youtube.com/shorts/YoSuV1PQjTs,累積視聴回数（公開ページ表示）,0,回,2026-09-14 15:25 JST,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,確認済み,同上
+poco-pilot-01,アカウント,https://www.youtube.com/@poco_ohanashi_jp,登録者数,,人,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル,未取得,公開画面に数値が表示されず、0とはしていない
+poco-pilot-01,投稿,https://www.youtube.com/shorts/n-raC3DGh4I,Shown in feed,,回,2026-09-13,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube Studio Analytics,取得不可,「レポート表示に必要なトラフィック データが不足しています」
+poco-pilot-01,投稿,https://www.youtube.com/shorts/1vvhk6jtLzE,Shown in feed,,回,2026-09-13,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube Studio Analytics,取得不可,同上
+poco-pilot-01,投稿,https://www.youtube.com/shorts/yMyAsOK6doY,Shown in feed,,回,2026-09-13,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube Studio Analytics,取得不可,同上
+poco-pilot-01,投稿,https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA,再生リスト数,1,件,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube公開チャンネル・再生リスト,確認済み,4本収録、公開
+poco-pilot-01,投稿,https://www.youtube.com/playlist?list=PLfr9v9axUGaM,再生リスト視聴回数,0,回,公開時刻,2026-09-14 23:52 JST,2026-09-14 23:52 JST,YouTube再生リスト,確認済み,画面表示の0。動画視聴数と同一指標ではない
+poco-pilot-01,アカウント,https://note.com/forifor,フォロワー数,0,人,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,noteプロフィール,確認済み,アカウント全体の値。過去増減は未取得
+poco-pilot-01,アカウント,https://note.com/forifor,フォロー数,1,人,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,noteプロフィール,確認済み,成果ではなくアカウント状態
+poco-pilot-01,投稿,https://note.com/forifor/n/n7798c51bdbed,記事画面のスキ数,4（別タブでは2）,スキ,2026-09-14 13:32 JST,2026-09-14 23:52 JST,2026-09-14 23:52 JST,note記事画面,取得値に表示差あり（外部成果には未算入）,記事画面は「あなたにだけ表示」。一般読者の反応とは確認できない
+poco-pilot-01,投稿,https://note.com/forifor/n/n7798c51bdbed,記事PV／表示数,,回,2026-09-14 13:32 JST,2026-09-14 23:52 JST,2026-09-14 23:52 JST,note,未取得,PVとスキを推測で置き換えていない
+poco-pilot-01,サイト,https://youtube-growth-studio.forifor.chatgpt.site/,Sites本番URL,確認,—,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,Sites get_site／公開ページ,確認済み,access_modeはcustom、一般公開とは確認できない
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,実データ登録動画数,0,本,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,Growth Studio実データ画面,確認済み,現在のアカウント範囲。実動画5本の登録結果ではない
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,収集履歴,0,件,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,Growth Studio接続設定画面,確認済み,「収集履歴はまだありません」
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,YouTube Data API接続,未設定,—,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,Growth Studio接続設定画面、.env不在,確認済み,接続コードの存在と接続済みは別状態
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,YouTube Analytics API接続,未設定,—,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,同上,確認済み,同上
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,デモ登録動画数,8,本,デモ表示,2026-09-14 23:52 JST,2026-09-14 23:52 JST,Growth Studioデモ画面,確認済み（成果から除外）,架空の8本。実績ではない
+poco-pilot-01,リポジトリ,ローカル /Users/shuhei/Projects/Youtubeautoposter,GitHubスター,,個,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,git remote／ローカル確認,未確認,remoteがなく、公開リポジトリURLを確認できない
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,ダウンロード／登録／アクティブ利用者,,件／人,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,公開Sites・リポジトリ,未確認,公開ダウンロードや登録導線を確認できない
+poco-pilot-01,製品,https://youtube-growth-studio.forifor.chatgpt.site/,問い合わせ／商談／有料利用者／売上,,件／人／円,2026-09-14,2026-09-14 23:52 JST,2026-09-14 23:52 JST,公開ページ・資料,未確認,問い合わせ送信・決済は実行していない
+poco-pilot-01,製品,—,広告費,0,円,2026-09-13,2026-09-14 23:52 JST,2026-09-14 23:52 JST,production/distribution/promotion-pilot-01.json、広告未配信記録,確認済み,広告キャンペーンは作成・開始していない
+poco-pilot-01,製品,—,制作費・ツール費,,円,2026-09-13,2026-09-14 23:52 JST,2026-09-14 23:52 JST,経費記録なし,未確認,無料／有料を推測しない
