@@ -109,6 +109,38 @@
         "AI生成の絵・VOICEVOX利用は説明文で開示。実在人物・出来事をリアルに改変する項目には非該当として「いいえ」を選択。"
       ],
       "thumbnailChange": "production/changes/color-game-thumbnail-2026-09-14.json"
+    },
+    {
+      "episodeId": "poco-05-shape-game",
+      "revision": 2,
+      "videoId": "YoSuV1PQjTs",
+      "url": "https://www.youtube.com/shorts/YoSuV1PQjTs",
+      "privacyStatus": "public",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": true,
+      "captionLanguage": "ja",
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": "2026-09-14T06:25:44Z",
+      "publicationWindow": {
+        "notBefore": "2026-09-14T06:25:44Z",
+        "notAfter": "2026-09-14T06:25:44Z"
+      },
+      "confirmedAt": "2026-09-14T06:30:37Z",
+      "source": "youtube_studio_video_metadata_and_ui",
+      "sourceDisplayedDate": "2026/09/14",
+      "sourceTimePublishedSeconds": 1789367144,
+      "notes": [
+        "YouTube Studioの公開完了ダイアログ、ショート一覧で公開状態と動画リンクを確認。",
+        "Studioの動画メタデータにtimePublishedSeconds=1789367144（2026-09-14T06:25:44Z）が表示されたため、publishedAtを秒単位で記録。",
+        "著作権チェックは「問題は検出されませんでした」。日本語字幕SRTをアップロードし、字幕一覧で日本語「公開済み」を確認。",
+        "子ども向け設定は「はい、子ども向けです」。公開直後のショート一覧表示視聴回数は0。"
+      ],
+      "contentHash": "a625615c28cde2e3f3d109f9cbf9621f2aa47ff29ffac733abd5b2db87510db5",
+      "durationSeconds": 29.021333,
+      "study": "production/analysis/topic-validation-plan-2026-09-14.md",
+      "experiment": "topic_and_hook_exploration"
     }
   ]
 }

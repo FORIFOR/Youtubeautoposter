@@ -17,10 +17,15 @@
     "fps": 30
   },
   "publication": {
-    "privacyStatus": "private_review",
+    "privacyStatus": "public",
     "selfDeclaredMadeForKids": true,
     "defaultLanguage": "ja",
-    "categoryId": "27"
+    "categoryId": "27",
+    "videoId": "YoSuV1PQjTs",
+    "url": "https://www.youtube.com/shorts/YoSuV1PQjTs",
+    "publishedAt": "2026-09-14T06:25:44Z",
+    "captionsUploaded": true,
+    "captionLanguage": "ja"
   },
   "revision": 2,
   "id": "poco-05-shape-game",

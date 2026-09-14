@@ -11,7 +11,8 @@
     "poco-01-colors",
     "poco-02-scarf",
     "poco-03-rain",
-    "poco-04-color-game"
+    "poco-04-color-game",
+    "poco-05-shape-game"
   ],
   "milestones": {
     "threeFinishedVideos": true,
@@ -22,7 +23,9 @@
     "evidenceBasedAnalysis": false,
     "revisedVideoRendered": false,
     "topicExplorationRendered": true,
-    "topicExplorationPreviewReviewed": true
+    "topicExplorationPreviewReviewed": true,
+    "fiveConfirmedPublications": true,
+    "topicExplorationPublished": true
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -33,7 +36,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-14T06:16:14.300Z",
+  "updatedAt": "2026-09-14T06:30:37Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -45,10 +48,22 @@
     "guide": "production/MONITORING.ja.md",
     "localTimes": [
       "01:00",
+      "16:00",
       "18:00"
     ],
     "supplementalCheck24hDate": "2026-09-15",
-    "supplementalCheck72hDate": "2026-09-17"
+    "supplementalCheck72hDate": "2026-09-17",
+    "topicExplorationPublishedAt": "2026-09-14T06:25:44Z",
+    "topicExplorationCheck24hDate": "2026-09-15",
+    "topicExplorationCheck72hDate": "2026-09-17",
+    "topicExplorationCheck24hWindowJst": [
+      "2026-09-15T15:25:44+09:00",
+      "2026-09-15T16:25:44+09:00"
+    ],
+    "topicExplorationCheck72hWindowJst": [
+      "2026-09-17T15:25:44+09:00",
+      "2026-09-17T16:25:44+09:00"
+    ]
   },
   "improvements": {
     "metadataChanges": "production/changes/packaging-2026-09-13.json",

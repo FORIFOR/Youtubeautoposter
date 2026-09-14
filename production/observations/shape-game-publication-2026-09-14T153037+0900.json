@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-shape-game-publication-2026-09-14T153037+0900",
+  "checkpoint": "publication_confirmation",
+  "observedAt": "2026-09-14T06:30:37Z",
+  "source": "youtube_studio_ui_and_video_metadata",
+  "sourceUrls": [
+    "https://studio.youtube.com/video/YoSuV1PQjTs/edit",
+    "https://studio.youtube.com/video/YoSuV1PQjTs/translations",
+    "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short"
+  ],
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "episodeId": "poco-05-shape-game",
+  "videoId": "YoSuV1PQjTs",
+  "url": "https://www.youtube.com/shorts/YoSuV1PQjTs",
+  "publishedAt": "2026-09-14T06:25:44Z",
+  "publishedAtSource": "Studio video metadata timePublishedSeconds=1789367144",
+  "privacyStatus": "public",
+  "selfDeclaredMadeForKids": true,
+  "caption": {
+    "language": "ja",
+    "status": "published",
+    "sourceDisplayedDate": "2026/09/14"
+  },
+  "copyrightCheck": {
+    "status": "no_issues_detected",
+    "displayedMessage": "チェックが完了しました。問題は検出されませんでした。"
+  },
+  "contentList": {
+    "publicRowsObserved": 5,
+    "shapeRowPrivacyStatus": "public",
+    "shapeRowDisplayedViews": 0,
+    "shapeRowSourceDisplayedDate": "2026/09/14"
+  },
+  "measurement": {
+    "views": 0,
+    "rawDisplayedViews": "0",
+    "shownInFeed": null,
+    "howManyChoseToView": null,
+    "retention": null
+  },
+  "notes": [
+    "公開完了ダイアログで動画リンクを確認し、コンテンツ→ショート一覧で5本目が「公開」と表示された。",
+    "字幕ページで日本語（動画の言語）の字幕が「公開済み」と表示された。自動字幕起こしは別トラックとして処理中／自動表示であり、手動SRTの確認とは分けた。",
+    "公開直後の累積視聴回数0は、Shortsフィードに表示されなかったことや品質不良を意味しない。24時間・72時間の観測で指標を再取得する。"
+  ]
+}

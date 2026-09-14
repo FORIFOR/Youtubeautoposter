@@ -24,7 +24,7 @@
 - 正解レビュー：`production/renders/poco-05-shape-game/r2/review-answer.jpg`
 - 技術・画面レビュー記録：`production/analysis/poco-05-shape-game-review-2026-09-14.json`
 
-これは公開前の新作であり、公開許可やYouTube動画IDを持たない。既存4本の観測と混ぜず、公開する場合は新しいID・公開時刻・ハッシュを保存する。
+これは公開前レビューを経て、2026年9月14日に公開した。YouTube動画IDは `YoSuV1PQjTs`、公開URLは `https://www.youtube.com/shorts/YoSuV1PQjTs`。Studioの `timePublishedSeconds` から公開時刻 `2026-09-14T06:25:44Z` を取得し、ショート一覧で「公開」、字幕一覧で日本語字幕「公開済み」、著作権チェック「問題は検出されませんでした」を確認した。公開直後の一覧視聴回数は0で、Shortsの表示・視聴選択・維持率はまだ評価しない。既存4本の観測と混ぜず、題材違いの探索として記録する。
 
 ## 保護者から得る利用感
 
