@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "poco-free-distribution-01",
   "preparedOn": "2026-09-14",
-  "status": "note_pilot_draft_ready_for_final_publish_confirmation",
+  "status": "note_pilot_published_observing",
   "routeSelection": {
     "selectedPlatform": "note",
     "selectedRoute": "parent_play_guide_with_existing_youtube_embed",
@@ -17,7 +17,12 @@
     "instagramYoutubeImpactMeasured": false,
     "instagramPriorityEstablished": false,
     "correction": "Instagram was inspected as a low-production-effort candidate, not selected by measured YouTube traffic impact. Its login is not a prerequisite for the project.",
-    "criteria": ["access to relevant viewers", "existing usable account", "measurable YouTube visits or follow-on viewing", "total work required"]
+    "criteria": [
+      "access to relevant viewers",
+      "existing usable account",
+      "measurable YouTube visits or follow-on viewing",
+      "total work required"
+    ]
   },
   "executionAuthorization": {
     "userMessage": "それで進めてください",
@@ -35,15 +40,25 @@
     "latestPlatformChecked": "note",
     "checkedUrl": "https://note.com/login",
     "checkedDate": "2026-09-14",
-    "visibleState": "authenticated_note_publish_settings_open",
-    "userActionRequested": "No further account action is required. The note draft is prepared; the final public-post action requires action-time confirmation.",
+    "visibleState": "note_article_published_view_verified",
+    "userActionRequested": "No further account action is required. Observe the published note article and YouTube external traffic at the recorded checkpoints; do not publish another article before the first decision.",
     "accountCreationState": "existing_note_account_verified_logged_in",
     "accountCreationError": null,
     "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
-    "browserHandoff": "note signup page opened in the in-app browser; four methods are visible and no credentials or personal data were entered. User takeover is required for method choice and input.",
+    "browserHandoff": "Published note article is verified at the public URL. Keep the article tab available for later metric checks; no additional external post was made.",
     "history": [
-      {"platform": "Instagram", "date": "2026-09-14", "state": "logged_out", "effect": "unmeasured"},
-      {"platform": "note", "date": "2026-09-14", "state": "logged_in_verified_draft_prepared", "effect": "unmeasured"}
+      {
+        "platform": "Instagram",
+        "date": "2026-09-14",
+        "state": "logged_out",
+        "effect": "unmeasured"
+      },
+      {
+        "platform": "note",
+        "date": "2026-09-14",
+        "state": "logged_in_verified_article_published",
+        "effect": "first_external_pilot_published"
+      }
     ]
   },
   "resumeInstructions": [
@@ -61,7 +76,12 @@
     "draftId": "color-play-guide",
     "targetVideoId": "DpgabSBgQgk",
     "secondaryVideoId": "yMyAsOK6doY",
-    "discoveryTags": ["おうち遊び", "親子時間", "子育て", "色あそび"],
+    "discoveryTags": [
+      "おうち遊び",
+      "親子時間",
+      "子育て",
+      "色あそび"
+    ],
     "articleLimitBeforeReview": 1,
     "postAuthenticationPublicationWorkBudgetMinutes": 30,
     "observationAndDecisionWorkBudgetMinutes": 30,
@@ -69,15 +89,34 @@
     "actualActiveWorkMinutes": null,
     "audienceEvidence": {
       "url": "https://note.com/hashtag/おうち遊び?f=new",
-      "observationWindow": {"notBefore": "2026-09-14T04:31:49+09:00", "notAfter": "2026-09-14T04:34:37+09:00"},
+      "observationWindow": {
+        "notBefore": "2026-09-14T04:31:49+09:00",
+        "notAfter": "2026-09-14T04:34:37+09:00"
+      },
       "displayedArticleCount": "1,011件",
       "countMeaning": "Tagged article count, not readership or reachable parents.",
       "selection": "First four entries in the new-article list, not selected by high likes.",
       "firstFour": [
-        {"url": "https://note.com/mama_work_note/n/n3de85bd6bab0", "ageDisplay": "8時間前", "likes": 1},
-        {"url": "https://note.com/hatokawayama/n/n719952ef85b6", "ageDisplay": "1日前", "likes": 2},
-        {"url": "https://note.com/quiet_pipit6226/n/n4889fda5876c", "ageDisplay": "1日前", "likes": 19},
-        {"url": "https://note.com/mama_work_note/n/n6a9d18871c29", "ageDisplay": "1日前", "likes": 8}
+        {
+          "url": "https://note.com/mama_work_note/n/n3de85bd6bab0",
+          "ageDisplay": "8時間前",
+          "likes": 1
+        },
+        {
+          "url": "https://note.com/hatokawayama/n/n719952ef85b6",
+          "ageDisplay": "1日前",
+          "likes": 2
+        },
+        {
+          "url": "https://note.com/quiet_pipit6226/n/n4889fda5876c",
+          "ageDisplay": "1日前",
+          "likes": 19
+        },
+        {
+          "url": "https://note.com/mama_work_note/n/n6a9d18871c29",
+          "ageDisplay": "1日前",
+          "likes": 8
+        }
       ],
       "limitation": "Only list titles, relative ages and displayed likes inspected. Readers' parental status and referral outcomes unknown. No platform-wide average inferred."
     },
@@ -88,9 +127,35 @@
       "With visits but no confirmed YouTube viewing, inspect embed and invitation, change one element and review after another seven days.",
       "With reported YouTube referrals or useful article response, assess counts, viewing quality and total effort before a second article using the rain video.",
       "Suppressed or delayed analytics mean unknown, not zero impact. Small sequential trials do not establish comparative causality. No automatic advertising transition."
-    ]
+    ],
+    "publishedAt": "2026-09-14T13:32:00+09:00",
+    "publishedAtPrecision": "minute_displayed",
+    "publishedUrl": "https://note.com/forifor/n/n7798c51bdbed",
+    "publicationObservedAt": "2026-09-14T13:33:57+09:00"
   },
-  "externalPublicationsByAgent": [],
+  "externalPublicationsByAgent": [
+    {
+      "platform": "note",
+      "draftId": "color-play-guide",
+      "remoteDraftId": "n7798c51bdbed",
+      "kind": "article",
+      "status": "public",
+      "title": "準備いらずの色あそび。親子で指さす3つの問いかけ",
+      "url": "https://note.com/forifor/n/n7798c51bdbed",
+      "publishedAt": "2026-09-14T13:32:00+09:00",
+      "publishedAtPrecision": "minute_displayed",
+      "observedAt": "2026-09-14T13:33:57+09:00",
+      "videoId": "DpgabSBgQgk",
+      "coverVerified": true,
+      "tags": [
+        "おうち遊び",
+        "親子時間",
+        "子育て",
+        "色あそび"
+      ],
+      "source": "note_public_article_ui"
+    }
+  ],
   "readyAssets": [
     {
       "videoId": "DpgabSBgQgk",
@@ -143,12 +208,13 @@
     {
       "id": "color-play-guide",
       "kind": "article",
-      "status": "remote_draft_ready_for_publish",
+      "status": "published",
       "copyFile": "production/distribution/note-color-play.ja.md",
       "destination": "note",
-      "publishedAt": null,
-      "url": null,
-      "remoteDraftId": "n7798c51bdbed"
+      "publishedAt": "2026-09-14T13:32:00+09:00",
+      "url": "https://note.com/forifor/n/n7798c51bdbed",
+      "remoteDraftId": "n7798c51bdbed",
+      "publishedAtPrecision": "minute_displayed"
     }
   ],
   "measurement": {
@@ -157,7 +223,35 @@
       72,
       168
     ],
-    "activeDeadlines": [],
+    "activeDeadlines": [
+      {
+        "id": "note-color-play-01-24h",
+        "draftId": "color-play-guide",
+        "platform": "note",
+        "checkpointHours": 24,
+        "windowNotBefore": "2026-09-15T13:32:00+09:00",
+        "windowNotAfter": "2026-09-15T14:32:00+09:00",
+        "status": "pending"
+      },
+      {
+        "id": "note-color-play-01-72h",
+        "draftId": "color-play-guide",
+        "platform": "note",
+        "checkpointHours": 72,
+        "windowNotBefore": "2026-09-17T13:32:00+09:00",
+        "windowNotAfter": "2026-09-17T14:32:00+09:00",
+        "status": "pending"
+      },
+      {
+        "id": "note-color-play-01-168h",
+        "draftId": "color-play-guide",
+        "platform": "note",
+        "checkpointHours": 168,
+        "windowNotBefore": "2026-09-21T13:32:00+09:00",
+        "windowNotAfter": "2026-09-21T14:32:00+09:00",
+        "status": "pending"
+      }
+    ],
     "record": [
       "published_url",
       "published_at",
@@ -185,7 +279,8 @@
       "Record YouTube external sources and playback quality only where the actual UI reports them. Source-attributed repeat viewing is unknown unless directly reported; the paid-promotion follow-on metric is not assumed available for this organic pilot.",
       "Capture a pre-publication baseline and annotate external publication overlap with the existing YouTube observations. Do not replace their strict 24/72-hour checkpoints.",
       "No cross-platform deduplication or causal attribution claimed.",
-      "Create deadlines only after real publication. Align the existing monitor with the actual external deadlines if needed; capture actual elapsed time and never backfill a missed checkpoint with later values."
+      "Create deadlines only after real publication. Align the existing monitor with the actual external deadlines if needed; capture actual elapsed time and never backfill a missed checkpoint with later values.",
+      "note color-play-guide was publicly verified at https://note.com/forifor/n/n7798c51bdbed on 2026-09-14 13:32 JST (minute-level time displayed by note). Check note impressions/PV/inbound sources separately from YouTube external traffic."
     ]
   },
   "plan": "production/distribution/free-discovery-plan.ja.md"
