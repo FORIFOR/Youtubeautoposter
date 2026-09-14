@@ -1,0 +1,123 @@
+{
+  "auditDate": "2026-09-14",
+  "timezone": "Asia/Tokyo",
+  "scope": "公開済みのYouTube Shorts 4本の技術・画面品質と、現時点のYouTube Studioデータの確認",
+  "methods": [
+    "ffprobeで映像・音声ストリームを確認",
+    "ffmpegで4本を最後までデコードし、エラーがないことを確認",
+    "ffmpeg ebur128/volumedetectで音量とピークを確認",
+    "代表フレームとコンタクトシートを目視確認",
+    "YouTube公開ページとYouTube Studioの概要・コンテンツ画面を確認"
+  ],
+  "technicalChecks": {
+    "allFourDecodeWithoutError": true,
+    "commonVideo": {
+      "resolution": "1080x1920",
+      "orientation": "vertical_9:16",
+      "frameRate": "30 fps",
+      "codec": "H.264 High",
+      "pixelFormat": "yuv420p"
+    },
+    "commonAudio": {
+      "codec": "AAC",
+      "sampleRate": "48000 Hz",
+      "channels": "mono"
+    },
+    "audio": {
+      "integratedLoudnessLufs": {
+        "n-raC3DGh4I": -17.8,
+        "1vvhk6jtLzE": -18.5,
+        "yMyAsOK6doY": -18.0,
+        "DpgabSBgQgk": -17.6
+      },
+      "maxSamplePeakDb": {
+        "n-raC3DGh4I": -2.0,
+        "1vvhk6jtLzE": -2.0,
+        "yMyAsOK6doY": -2.0,
+        "DpgabSBgQgk": -2.0
+      },
+      "interpretation": "4本ともクリップは確認されず、音量差も小さい。スマートフォンで小さく聞こえるかは実機聴感と維持率で追加検証する。"
+    }
+  },
+  "videos": [
+    {
+      "videoId": "n-raC3DGh4I",
+      "title": "あかいのはどっち？｜親子で色あそび・こぐまポコの絵本 #Shorts",
+      "file": "production/renders/poco-01-colors/r1/poco-01-colors.mp4",
+      "durationSeconds": 30.321333,
+      "videoBitrateBps": 1023414,
+      "audioBitrateBps": 116965,
+      "visualAssessment": "柔らかい絵本風の統一感があり、中央のこぐまと対象物、濃い字幕のコントラストが明瞭。冒頭の自己紹介が問題提示より先にあるため、保持率データ取得後に短縮を検証する候補。",
+      "status": "technical_pass_visual_pass_with_editorial_hypothesis"
+    },
+    {
+      "videoId": "1vvhk6jtLzE",
+      "title": "きいろいスカーフはどこ？｜親子でさがしもの・こぐまポコの絵本 #Shorts",
+      "file": "production/renders/poco-02-scarf/r1/poco-02-scarf.mp4",
+      "durationSeconds": 31.221333,
+      "videoBitrateBps": 1242177,
+      "audioBitrateBps": 119257,
+      "visualAssessment": "1本目・3本目と同じ画風、明るい背景、読みやすい字幕で、探し物の対象も画面中央で確認できる。冒頭の問いまでの時間は保持率データ取得後に検証する。",
+      "status": "technical_pass_visual_pass_with_editorial_hypothesis"
+    },
+    {
+      "videoId": "yMyAsOK6doY",
+      "title": "あめはどんな音？｜親子で音あそび・こぐまポコの絵本 #Shorts",
+      "file": "production/renders/poco-03-rain/r1/poco-03-rain.mp4",
+      "durationSeconds": 34.321333,
+      "videoBitrateBps": 1293061,
+      "audioBitrateBps": 122683,
+      "visualAssessment": "雨・バケツ・葉の場面が区別でき、絵本風の統一感と字幕の可読性は保たれている。色クイズより説明の導入が長く見えるため、視聴維持率で確認する候補。",
+      "status": "technical_pass_visual_pass_with_editorial_hypothesis"
+    },
+    {
+      "videoId": "DpgabSBgQgk",
+      "title": "あか・きいろ・あお、どっち？｜親子でいろあそび3問・こぐまポコ #Shorts",
+      "file": "production/renders/poco-04-color-game/r2/poco-04-color-game.mp4",
+      "durationSeconds": 24.221333,
+      "videoBitrateBps": 215783,
+      "audioBitrateBps": 102310,
+      "visualAssessment": "冒頭から大きな色の問いと2択が表示され、4本中もっとも即時性が高い。文字と対象物は判読できるが、映像ビットレートが他3本の約1.0〜1.3Mbpsに対して約0.216Mbpsと低く、細部の圧縮・色の段差が出る可能性がある。次回の書き出しでは高ビットレート版を候補にする。",
+      "status": "technical_pass_visual_pass_bitrate_followup_recommended"
+    }
+  ],
+  "youtubeStudio": {
+    "checkedAt": "2026-09-14",
+    "publicChannelVideos": 4,
+    "viewsShownOnPublicPages": 0,
+    "overviewPeriod": "2026-08-16〜2026-09-12（過去28日間）",
+    "overviewViews": 0,
+    "realtime48hViews": 0,
+    "latestVideo": {
+      "videoId": "DpgabSBgQgk",
+      "elapsedDisplay": "12時間49分",
+      "views": 0,
+      "averageViewRate": "0%",
+      "highRatings": 0
+    },
+    "contentAnalytics": {
+      "shownInFeed": null,
+      "howManyChoseToView": null,
+      "trafficSources": null,
+      "engagement": null,
+      "reason": "Studio画面に「レポート表示に必要なトラフィックデータが不足」「この期間には表示できるデータがない」と表示され、表示機会自体が確認できないため。"
+    },
+    "interpretation": "現在の0回だけでは、画質・冒頭・視聴維持のどれが原因か判定できない。まず表示回数（Shown in feed）と視聴を選んだ割合が出るまで、公開済み動画を同時に再編集・再投稿しない。"
+  },
+  "nextExperiment": {
+    "firstMeasurement": [
+      "Shown in feed",
+      "How many chose to view",
+      "平均視聴時間・平均視聴率",
+      "視聴者維持率の冒頭区間",
+      "Shortsフィード・検索・外部の流入元"
+    ],
+    "decisionRules": {
+      "noFeedExposure": "配信・題材との一致・外部入口を点検し、動画品質の失敗とは結論しない。",
+      "feedExposureButLowChoseToView": "冒頭1秒の問い、対象物の大きさ、タイトルとの約束を1要素だけ変更する。",
+      "choseToViewGoodButEarlyDrop": "導入を短くし、答えや変化を前へ移す。",
+      "retentionGoodButReachLow": "note記事など無料の外部入口を1媒体ずつ試し、YouTubeの外部流入として分けて測る。"
+    },
+    "paidAds": "広告は、自然流入で表示・視聴選択・維持率を測った後に、別目的として費用対効果を比較する。現時点では未配信・費用0円を維持する。"
+  }
+}
