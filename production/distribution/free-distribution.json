@@ -37,7 +37,8 @@
     "checkedDate": "2026-09-14",
     "visibleState": "login_form_no_authenticated_account",
     "userActionRequested": "No note account exists. Choose an account-creation method on note (email, Google, X or Apple) and complete the required identity/authentication input. Do not share passwords in chat. The final account-creation submission requires action-time confirmation.",
-    "accountCreationState": "note_signup_form_waiting_user_email_and_new_note_password",
+    "accountCreationState": "note_signup_error_existing_email_or_unavailable_unknown",
+    "accountCreationError": "The page visibly reports login error signup_required, says no linked note account was found for the selected Google account, and also shows 'このメールアドレスは登録できません'. The exact cause of the email message is not confirmed; check existing note login or password reset before attempting another account.",
     "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
     "browserHandoff": "note signup page opened in the in-app browser; four methods are visible and no credentials or personal data were entered. User takeover is required for method choice and input.",
     "history": [
