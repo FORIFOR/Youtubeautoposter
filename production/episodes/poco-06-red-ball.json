@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {"provider": "VOICEVOX", "speakerId": 2, "credit": "VOICEVOX:四国めたん", "speedScale": 0.94, "intonationScale": 1.06},
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "publication": {"privacyStatus": "public", "selfDeclaredMadeForKids": true, "defaultLanguage": "ja", "categoryId": "27"},
+  "revision": 1,
+  "id": "poco-06-red-ball",
+  "title": "あかいボール、どっち？｜親子で指さし・色あそび｜こぐまのポコ #Shorts",
+  "displayTitle": "あかいボール、どっち？",
+  "hook": "question",
+  "atlas": "production/assets/poco-red-ball-atlas-v1.png",
+  "description": "あかいボールは、どっち？\nこぐまのポコと、答えが出るまで指さして遊ぶ短い色あそびです。見終わったら、お部屋の中でも赤いものを一つ探してみましょう。\n\nオリジナルのキャラクター・台本です。絵は既存のポコ素材を使い、日本語音声・字幕と動きを付けて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #色あそび #親子あそび",
+  "segments": [
+    {"panel": 0, "speech": "あかいボール、どっち？", "caption": ["あかい ボール", "どっちかな？"], "pauseAfter": 2.8, "question": true},
+    {"panel": 0, "speech": "ゆびで、さしてみてね。", "caption": ["ゆびで さして", "みてね"], "pauseAfter": 2.1, "question": true},
+    {"panel": 1, "speech": "そう！ あかいボールは、こっちだね。", "caption": ["そう！", "こっちだね！"], "pauseAfter": 1.4, "question": false},
+    {"panel": 1, "speech": "ころころ、ころがるよ。", "caption": ["ころころ", "ころがるよ"], "pauseAfter": 2.0, "question": false},
+    {"panel": 2, "speech": "ポコが、つかまえた！", "caption": ["ポコが", "つかまえた！"], "pauseAfter": 2.1, "question": false},
+    {"panel": 2, "speech": "あかいボール、みつけたね。", "caption": ["あかい ボール", "みつけたね"], "pauseAfter": 2.0, "question": false},
+    {"panel": 3, "speech": "おへやの中の、あかいものも探してみよう。", "caption": ["おへやの あかも", "さがしてみよう"], "pauseAfter": 2.0, "question": false},
+    {"panel": 3, "speech": "いっしょに遊んでくれて、ありがとう！", "caption": ["いっしょに あそんでくれて", "ありがとう！"], "pauseAfter": 1.8, "question": false}
+  ],
+  "experiment": {"type": "one_question_one_answer", "source": "pasted_instruction_2026-09-15", "effectConfirmed": false, "fixed": ["日本語・子ども向け・絵本風・問いかけ・字幕・こぐまポコ"], "changed": ["冒頭3秒の問いを一つに限定", "赤青の2択を大きく提示", "答えまでの参加時間を確保", "24秒目標を制作制約に合わせて25秒以上に調整"], "limitation": "公開後の反応が得られるまで形式の効果は未確認"}
+}

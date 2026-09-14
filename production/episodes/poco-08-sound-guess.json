@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {"provider": "VOICEVOX", "speakerId": 2, "credit": "VOICEVOX:四国めたん", "speedScale": 0.94, "intonationScale": 1.06},
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "publication": {"privacyStatus": "public", "selfDeclaredMadeForKids": true, "defaultLanguage": "ja", "categoryId": "27"},
+  "revision": 1,
+  "id": "poco-08-sound-guess",
+  "title": "この音、なんの音？｜親子で音あて・こぐまのポコ #Shorts",
+  "displayTitle": "この音、なんの音？",
+  "hook": "question",
+  "atlas": "production/assets/poco-03-rain.png",
+  "description": "この音、なんの音？\n雨の日の音を、親子でことばにして楽しむ短い音あてです。答えを急がず、画面を見ながら一緒に耳をすませてみてね。\n\nオリジナルのキャラクター・台本です。絵は既存のポコ素材を使い、日本語音声・字幕と動きを付けて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #音あそび #親子あそび",
+  "segments": [
+    {"panel": 0, "speech": "この音、なんの音？", "caption": ["この おと", "なんの おと？"], "pauseAfter": 2.8, "question": true},
+    {"panel": 0, "speech": "ポツ、ポツ。聞こえるかな？", "caption": ["ポツ ポツ", "きこえるかな？"], "pauseAfter": 2.4, "question": true},
+    {"panel": 1, "speech": "バケツに落ちる、雨の音でした。", "caption": ["バケツに おちる", "あめの おと"], "pauseAfter": 1.8, "question": false},
+    {"panel": 1, "speech": "ポツ、ポツ、ポツ。", "caption": ["ポツ ポツ ポツ", "まねしてみよう"], "pauseAfter": 2.2, "question": false},
+    {"panel": 2, "speech": "大きな葉っぱは、パタ、パタ。", "caption": ["はっぱは", "パタ パタ"], "pauseAfter": 2.0, "question": false},
+    {"panel": 2, "speech": "どちらの音が、好きかな？", "caption": ["どちらの おとが", "すきかな？"], "pauseAfter": 2.6, "question": true},
+    {"panel": 3, "speech": "雨がやんで、虹が出たよ。", "caption": ["あめが やんで", "にじが でたよ"], "pauseAfter": 1.8, "question": false},
+    {"panel": 3, "speech": "耳をすませて、楽しかったね！", "caption": ["みみを すませて", "たのしかったね！"], "pauseAfter": 1.8, "question": false}
+  ],
+  "experiment": {"type": "sound_guess", "source": "pasted_instruction_2026-09-15", "effectConfirmed": false, "fixed": ["日本語・子ども向け・絵本風・問いかけ・字幕・こぐまポコ"], "changed": ["題材を色から音あてへ", "音の擬音語を冒頭から提示", "答えの後に親子でまねる行動を追加"], "limitation": "公開後の反応が得られるまで形式の効果は未確認"}
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "observedAtJst": "2026-09-15T05:25:50.116922+09:00",
+  "source": "youtube_studio_ui",
+  "channel": {
+    "id": "UCpaMwN2CdCok70qTw-EdonA",
+    "url": "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA",
+    "displayName": "こぐまのポコのおはなし",
+    "handle": "@poco_ohanashi_jp"
+  },
+  "scope": "既存公開Shortsの公開設定確認と新作3本の投稿前確認",
+  "existingPublications": [
+    {
+      "episodeId": "poco-05-shape-game",
+      "videoId": "YoSuV1PQjTs",
+      "url": "https://www.youtube.com/shorts/YoSuV1PQjTs",
+      "format": "Shorts list",
+      "privacyStatus": "public",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 2,
+      "madeForKids": "publication record says true",
+      "confirmation": "YouTube Studio コンテンツ→ショート一覧の行表示"
+    },
+    {
+      "episodeId": "poco-04-color-game",
+      "videoId": "DpgabSBgQgk",
+      "url": "https://www.youtube.com/shorts/DpgabSBgQgk",
+      "format": "Shorts list",
+      "privacyStatus": "public",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "madeForKids": "publication record says true",
+      "confirmation": "YouTube Studio コンテンツ→ショート一覧の行表示"
+    },
+    {
+      "episodeId": "poco-03-rain",
+      "videoId": "yMyAsOK6doY",
+      "url": "https://www.youtube.com/shorts/yMyAsOK6doY",
+      "format": "Shorts list",
+      "privacyStatus": "public",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "madeForKids": "publication record says true",
+      "confirmation": "YouTube Studio コンテンツ→ショート一覧の行表示"
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "videoId": "1vvhk6jtLzE",
+      "url": "https://www.youtube.com/shorts/1vvhk6jtLzE",
+      "format": "Shorts list",
+      "privacyStatus": "public",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "madeForKids": "publication record says true",
+      "confirmation": "YouTube Studio コンテンツ→ショート一覧の行表示"
+    },
+    {
+      "episodeId": "poco-01-colors",
+      "videoId": "n-raC3DGh4I",
+      "url": "https://www.youtube.com/shorts/n-raC3DGh4I",
+      "format": "Shorts list",
+      "privacyStatus": "public",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "madeForKids": "publication record says true",
+      "confirmation": "YouTube Studio コンテンツ→ショート一覧の行表示"
+    }
+  ],
+  "newEpisodes": [
+    {
+      "episodeId": "poco-06-red-ball",
+      "revision": 1,
+      "renderPath": "production/renders/poco-06-red-ball/r1/poco-06-red-ball.mp4",
+      "status": "ready_for_review",
+      "publicationStatus": "not_uploaded",
+      "durationSeconds": 34.133333,
+      "dimensions": "1080x1920",
+      "fps": 30,
+      "audio": "AAC mono",
+      "video": "H.264",
+      "contentHash": "f25677913f9e82a0cd55ceac3fc58d7bb77b03d4c6f7a0341a319c10cd78c679",
+      "visualQaFrames": [
+        "production/renders/qa-new/red-0.jpg",
+        "production/renders/qa-new/red-8.jpg",
+        "production/renders/qa-new/red-20.jpg"
+      ],
+      "effectConfirmed": false
+    },
+    {
+      "episodeId": "poco-07-hide-and-seek",
+      "revision": 3,
+      "renderPath": "production/renders/poco-07-hide-and-seek/r3/poco-07-hide-and-seek.mp4",
+      "status": "ready_for_review",
+      "publicationStatus": "not_uploaded",
+      "durationSeconds": 31.421333,
+      "dimensions": "1080x1920",
+      "fps": 30,
+      "audio": "AAC mono",
+      "video": "H.264",
+      "contentHash": "7638e9f183b72976d9c556264850a4344ef7cee400894e23122aed3aaddbca6e",
+      "visualQaFrames": [
+        "production/renders/qa-new/hide3-0.jpg"
+      ],
+      "effectConfirmed": false
+    },
+    {
+      "episodeId": "poco-08-sound-guess",
+      "revision": 1,
+      "renderPath": "production/renders/poco-08-sound-guess/r1/poco-08-sound-guess.mp4",
+      "status": "ready_for_review",
+      "publicationStatus": "not_uploaded",
+      "durationSeconds": 36.421333,
+      "dimensions": "1080x1920",
+      "fps": 30,
+      "audio": "AAC mono",
+      "video": "H.264",
+      "contentHash": "e6754a8c0627c56b419edefd2485affa5dc267b256b2fb24ce495c60b8742798",
+      "visualQaFrames": [
+        "production/renders/qa-new/sound-0.jpg",
+        "production/renders/qa-new/sound-12.jpg",
+        "production/renders/qa-new/sound-30.jpg"
+      ],
+      "effectConfirmed": false
+    }
+  ],
+  "limitations": [
+    "Studio UI upload modal is open, but this environment does not expose a file-input setter or native file chooser to the browser automation surface; publication IDs and post-publication metrics are therefore not yet available.",
+    "Studio list view numbers are the displayed view count at observation time; analytics reach/retention remain unconfirmed."
+  ],
+  "evidence": [
+    "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short",
+    "production/publications.json",
+    "production/renders/*/render.json"
+  ],
+  "recordedAtJst": "2026-09-15T05:25:50.116922+09:00"
+}

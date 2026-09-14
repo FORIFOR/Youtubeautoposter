@@ -12,7 +12,10 @@
     "poco-02-scarf",
     "poco-03-rain",
     "poco-04-color-game",
-    "poco-05-shape-game"
+    "poco-05-shape-game",
+    "poco-06-red-ball",
+    "poco-07-hide-and-seek",
+    "poco-08-sound-guess"
   ],
   "milestones": {
     "threeFinishedVideos": true,
@@ -27,7 +30,11 @@
     "fiveConfirmedPublications": true,
     "topicExplorationPublished": true,
     "initialThreeObservation24hRecorded": true,
-    "colorGameObservation24hRecorded": true
+    "colorGameObservation24hRecorded": true,
+    "threeNewVideosRendered": true,
+    "threeNewPublicationsConfirmed": false,
+    "newThreeObservation24h": false,
+    "newThreeEffectConfirmed": false
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -38,7 +45,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-14T16:02:17Z",
+  "updatedAt": "2026-09-14T20:25:50.116922Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -96,5 +103,31 @@
   "supplementalEpisodes": [
     "poco-04-color-game",
     "poco-05-shape-game"
-  ]
+  ],
+  "nextPublicationPlan": {
+    "status": "ready_for_review_not_uploaded",
+    "recommendedScheduleJst": [
+      "2026-09-15T18:00:00+09:00",
+      "2026-09-16T18:00:00+09:00",
+      "2026-09-17T18:00:00+09:00"
+    ],
+    "episodes": [
+      "poco-06-red-ball",
+      "poco-07-hide-and-seek",
+      "poco-08-sound-guess"
+    ],
+    "measureAfter": [
+      "24h",
+      "72h",
+      "7d"
+    ],
+    "metrics": [
+      "Studio views",
+      "Shown in feed",
+      "視聴を選んだ割合",
+      "平均視聴時間/率",
+      "外部流入"
+    ],
+    "source": "pasted_instruction_2026-09-15"
+  }
 }

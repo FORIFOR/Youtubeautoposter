@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "poco-pilot-01",
+  "series": "こぐまの ポコ",
+  "audience": "kids",
+  "language": "ja",
+  "voice": {"provider": "VOICEVOX", "speakerId": 2, "credit": "VOICEVOX:四国めたん", "speedScale": 0.94, "intonationScale": 1.06},
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "publication": {"privacyStatus": "public", "selfDeclaredMadeForKids": true, "defaultLanguage": "ja", "categoryId": "27"},
+  "revision": 3,
+  "id": "poco-07-hide-and-seek",
+  "title": "ポコはどこ？｜親子でかくれんぼ・こぐまのポコ #Shorts",
+  "displayTitle": "ポコはどこ？",
+  "hook": "question",
+  "atlas": "production/assets/poco-hide-atlas-v1.png",
+  "description": "ポコは、どこかな？\nお花のそばや木のかげを見ながら、親子で指さして探す短いかくれんぼです。答えが出るまで、少し待ってみてね。\n\nオリジナルのキャラクター・台本です。絵は既存のポコ素材を使い、日本語音声・字幕と動きを付けて制作しています。\n音声：VOICEVOX:四国めたん\n#こぐまのポコ #かくれんぼ #親子あそび",
+  "segments": [
+    {"panel": 0, "speech": "ポコは、どこかな？", "caption": ["ポコは どこ？", "みつけられる？"], "pauseAfter": 2.8, "question": true},
+    {"panel": 0, "speech": "お花のそばを、見てみよう。", "caption": ["おはなの そばを", "みてみよう"], "pauseAfter": 2.0, "question": true},
+    {"panel": 1, "speech": "あれ？ ここにはいないみたい。", "caption": ["あれ？", "ここには いない？"], "pauseAfter": 2.0, "question": false},
+    {"panel": 1, "speech": "木のかげに、何か見えるかな？", "caption": ["きの かげに", "なにか みえる？"], "pauseAfter": 2.8, "question": true},
+    {"panel": 2, "speech": "みつけた！ ポコの耳が見えたよ。", "caption": ["みつけた！", "おみみが みえた！"], "pauseAfter": 1.8, "question": false},
+    {"panel": 3, "speech": "ポコが、にっこり顔を出しました。", "caption": ["ポコが", "ひょっこり！"], "pauseAfter": 2.0, "question": false},
+    {"panel": 3, "speech": "いっしょに見つけてくれて、ありがとう！", "caption": ["いっしょに みつけて", "ありがとう！"], "pauseAfter": 1.8, "question": false}
+  ],
+  "experiment": {"type": "hide_and_seek", "source": "pasted_instruction_2026-09-15", "effectConfirmed": false, "fixed": ["日本語・子ども向け・絵本風・問いかけ・字幕・こぐまポコ"], "changed": ["題材を色からかくれんぼへ", "答えまでの視線探索を入れる"], "limitation": "既存の庭素材を用いた探索版で、公開後の反応が得られるまで形式の効果は未確認"}
+}
