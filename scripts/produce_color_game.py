@@ -109,7 +109,12 @@ def render(plan_path):
     concat = out/"concat.txt"
     concat.write_text("\n".join("file '"+str(p).replace("'", "'\\''")+"'" for p in videos))
     final = out/f"{plan['id']}.mp4"
-    run(["ffmpeg","-hide_banner","-loglevel","error","-y","-f","concat","-safe","0","-i",str(concat),"-c:v","copy","-af","loudnorm=I=-18:TP=-2:LRA=7","-c:a","aac","-b:a","160k","-ar","48000","-ac","1","-movflags","+faststart",str(final)])
+    # The first published color-game render was visually readable but its
+    # mostly static boards resulted in a very low video bitrate (~0.216 Mbps).
+    # Re-encode the final file at a stable 1.2 Mbps so pale backgrounds and
+    # illustrated edges have room after upload. Keep the loudness policy and
+    # audio format unchanged.
+    run(["ffmpeg","-hide_banner","-loglevel","error","-y","-f","concat","-safe","0","-i",str(concat),"-c:v","libx264","-preset","slow","-profile:v","high","-pix_fmt","yuv420p","-b:v","1200k","-minrate","1200k","-maxrate","1200k","-bufsize","2400k","-x264-params","nal-hrd=cbr","-r","30","-af","loudnorm=I=-18:TP=-2:LRA=7","-c:a","aac","-b:a","160k","-ar","48000","-ac","1","-movflags","+faststart",str(final)])
     details = probe(final)
     duration = float(details["format"]["duration"])
     if not 20 <= duration <= 35:
