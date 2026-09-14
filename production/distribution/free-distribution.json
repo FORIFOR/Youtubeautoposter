@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "poco-free-distribution-01",
   "preparedOn": "2026-09-14",
-  "status": "note_pilot_selected_account_logged_in_verification_pending",
+  "status": "note_pilot_draft_ready_for_final_publish_confirmation",
   "routeSelection": {
     "selectedPlatform": "note",
     "selectedRoute": "parent_play_guide_with_existing_youtube_embed",
@@ -35,21 +35,21 @@
     "latestPlatformChecked": "note",
     "checkedUrl": "https://note.com/login",
     "checkedDate": "2026-09-14",
-    "visibleState": "authenticated_note_home_email_verification_pending",
-    "userActionRequested": "Open the verification email sent by note and complete email verification. Do not share passwords or verification links in chat. After verification, return to the note tab and report completion.",
-    "accountCreationState": "existing_note_account_logged_in_email_verification_pending",
-    "accountCreationError": "The note home is now visibly authenticated and shows the New post entry. A notice says email verification is required to use posting, purchasing and comments. No public post has been made.",
+    "visibleState": "authenticated_note_publish_settings_open",
+    "userActionRequested": "No further account action is required. The note draft is prepared; the final public-post action requires action-time confirmation.",
+    "accountCreationState": "existing_note_account_verified_logged_in",
+    "accountCreationError": null,
     "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
     "browserHandoff": "note signup page opened in the in-app browser; four methods are visible and no credentials or personal data were entered. User takeover is required for method choice and input.",
     "history": [
       {"platform": "Instagram", "date": "2026-09-14", "state": "logged_out", "effect": "unmeasured"},
-      {"platform": "note", "date": "2026-09-14", "state": "logged_in_email_verification_pending", "effect": "unmeasured"}
+      {"platform": "note", "date": "2026-09-14", "state": "logged_in_verified_draft_prepared", "effect": "unmeasured"}
     ]
   },
   "resumeInstructions": [
     "The first external pilot is now note. Read route-comparison-2026-09-14.md; do not restart generic platform research or ask for Instagram login. No platform has proven superior YouTube impact.",
-    "Confirm email verification in the authenticated note account before drafting or publishing. The account is already logged in; no duplicate account creation is needed.",
-    "Publish the prepared color-play-guide on note with the existing DpgabSBgQgk YouTube embed and relevant tags. Verify preview and public URL. Do not include the editorial memo in the article.",
+    "The existing note account is verified and logged in. The article draft and cover are prepared in note; review the publish settings and request action-time confirmation immediately before posting.",
+    "Publish the prepared color-play-guide on note with the existing DpgabSBgQgk YouTube embed and relevant tags after action-time confirmation. Verify preview and public URL. Do not include the editorial memo in the article.",
     "If a native-video route is selected, read CUA upload guidance, upload the existing color-game MP4, apply the prepared caption and inspect the real publication preview.",
     "Proceed with the already-authorized free publication; do not ask for the same general publication permission again.",
     "Record the published URL and observed publication time, then add measurement checkpoints to monitoring.",
@@ -143,11 +143,12 @@
     {
       "id": "color-play-guide",
       "kind": "article",
-      "status": "local_draft_ready_awaiting_account",
+      "status": "remote_draft_ready_for_publish",
       "copyFile": "production/distribution/note-color-play.ja.md",
       "destination": "note",
       "publishedAt": null,
-      "url": null
+      "url": null,
+      "remoteDraftId": "n7798c51bdbed"
     }
   ],
   "measurement": {
