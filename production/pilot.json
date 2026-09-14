@@ -25,7 +25,8 @@
     "topicExplorationRendered": true,
     "topicExplorationPreviewReviewed": true,
     "fiveConfirmedPublications": true,
-    "topicExplorationPublished": true
+    "topicExplorationPublished": true,
+    "initialThreeObservation24hRecorded": true
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -36,7 +37,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-14T06:30:37Z",
+  "updatedAt": "2026-09-14T09:03:34Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -63,7 +64,10 @@
     "topicExplorationCheck72hWindowJst": [
       "2026-09-17T15:25:44+09:00",
       "2026-09-17T16:25:44+09:00"
-    ]
+    ],
+    "initialThree24hObservedAt": "2026-09-14T09:03:34Z",
+    "initialThree24hObservationFile": "production/observations/analytics-24h-initial3-2026-09-14T180334+0900.json",
+    "initialThree24hDataAvailable": false
   },
   "improvements": {
     "metadataChanges": "production/changes/packaging-2026-09-13.json",

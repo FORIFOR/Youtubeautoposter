@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-analytics-24h-initial3-2026-09-14T180334+0900",
+  "checkpoint": "24h",
+  "observedAt": "2026-09-14T18:03:34+09:00",
+  "source": "youtube_studio_video_analytics_ui",
+  "sourceUrls": [
+    "https://studio.youtube.com/video/n-raC3DGh4I/analytics/tab-overview/period-default",
+    "https://studio.youtube.com/video/n-raC3DGh4I/analytics/tab-reach_viewers/period-default",
+    "https://studio.youtube.com/video/n-raC3DGh4I/analytics/tab-interest_viewers/period-default",
+    "https://studio.youtube.com/video/1vvhk6jtLzE/analytics/tab-overview/period-default",
+    "https://studio.youtube.com/video/1vvhk6jtLzE/analytics/tab-reach_viewers/period-default",
+    "https://studio.youtube.com/video/1vvhk6jtLzE/analytics/tab-interest_viewers/period-default",
+    "https://studio.youtube.com/video/yMyAsOK6doY/analytics/tab-overview/period-default",
+    "https://studio.youtube.com/video/yMyAsOK6doY/analytics/tab-reach_viewers/period-default",
+    "https://studio.youtube.com/video/yMyAsOK6doY/analytics/tab-interest_viewers/period-default"
+  ],
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "periodDisplayed": "2026/09/13～現在 公開後",
+  "validity": {
+    "rule": "公開後24〜25時間",
+    "initialThreeOnly": true,
+    "fourthAndFifthVideos": "別の公開時刻に基づく観測窓で取得する",
+    "allElapsedSecondsWithinWindow": true
+  },
+  "videos": [
+    {
+      "episodeId": "poco-01-colors",
+      "videoId": "n-raC3DGh4I",
+      "title": "あかいのはどっち？ こぐまポコのいろさがし #Shorts",
+      "privacyStatus": "public",
+      "publicationWindow": {
+        "notBefore": "2026-09-13T08:27:27Z",
+        "notAfter": "2026-09-13T08:28:17Z"
+      },
+      "elapsedSeconds": {
+        "minimum": 88517,
+        "maximum": 88567
+      },
+      "overview": {
+        "views": null,
+        "rawViews": "—",
+        "subscribers": null,
+        "rawSubscribers": "—",
+        "realtimeViews": 0,
+        "realtimeWindow": "過去48時間",
+        "retention": null,
+        "retentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。"
+      },
+      "reach": {
+        "shownInFeed": null,
+        "howManyChoseToView": null,
+        "trafficSources": null,
+        "searchTerms": null,
+        "rawNotice": "レポート表示に必要なトラフィック データが不足しています"
+      },
+      "engagement": {
+        "engagedViews": null,
+        "watchTimeHours": null,
+        "averageViewDurationSeconds": null,
+        "viewerEngagement": null,
+        "rawNotice": "この期間には表示できるデータがありません"
+      },
+      "excludedSignals": [
+        "通知のクリック率0%・ベル通知経由の視聴0は、ショートフィードの反応指標ではないため編集判断から除外",
+        "終了画面要素のクリック率0.0%は終了画面未設定のため編集判断から除外"
+      ]
+    },
+    {
+      "episodeId": "poco-02-scarf",
+      "videoId": "1vvhk6jtLzE",
+      "title": "ポコのスカーフ、どこにある？ こぐまのおはなし #Shorts",
+      "privacyStatus": "public",
+      "publicationWindow": {
+        "notBefore": "2026-09-13T08:31:43Z",
+        "notAfter": "2026-09-13T08:32:24Z"
+      },
+      "elapsedSeconds": {
+        "minimum": 88270,
+        "maximum": 88311
+      },
+      "overview": {
+        "views": null,
+        "rawViews": "—",
+        "subscribers": null,
+        "rawSubscribers": "—",
+        "realtimeViews": 0,
+        "realtimeWindow": "過去48時間",
+        "retention": null,
+        "retentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。"
+      },
+      "reach": {
+        "shownInFeed": null,
+        "howManyChoseToView": null,
+        "trafficSources": null,
+        "searchTerms": null,
+        "rawNotice": "レポート表示に必要なトラフィック データが不足しています"
+      },
+      "engagement": {
+        "engagedViews": null,
+        "watchTimeHours": null,
+        "averageViewDurationSeconds": null,
+        "viewerEngagement": null,
+        "rawNotice": "この期間には表示できるデータがありません"
+      },
+      "excludedSignals": [
+        "通知のクリック率0%・ベル通知経由の視聴0は、ショートフィードの反応指標ではないため編集判断から除外",
+        "終了画面要素のクリック率0.0%は終了画面未設定のため編集判断から除外"
+      ]
+    },
+    {
+      "episodeId": "poco-03-rain",
+      "videoId": "yMyAsOK6doY",
+      "title": "あめのおとは、どんなおと？ ポコの小さな発見 #Shorts",
+      "privacyStatus": "public",
+      "publicationWindow": {
+        "notBefore": "2026-09-13T08:35:17Z",
+        "notAfter": "2026-09-13T08:36:04Z"
+      },
+      "elapsedSeconds": {
+        "minimum": 88050,
+        "maximum": 88097
+      },
+      "overview": {
+        "views": null,
+        "rawViews": "—",
+        "subscribers": null,
+        "rawSubscribers": "—",
+        "realtimeViews": 0,
+        "realtimeWindow": "過去48時間",
+        "retention": null,
+        "retentionNotice": "この動画には視聴者維持のデータがまだありません。処理には最長で 2 日かかることがあります。"
+      },
+      "reach": {
+        "shownInFeed": null,
+        "howManyChoseToView": null,
+        "trafficSources": null,
+        "searchTerms": null,
+        "rawNotice": "レポート表示に必要なトラフィック データが不足しています"
+      },
+      "engagement": {
+        "engagedViews": null,
+        "watchTimeHours": null,
+        "averageViewDurationSeconds": null,
+        "viewerEngagement": null,
+        "rawNotice": "この期間には表示できるデータがありません"
+      },
+      "excludedSignals": [
+        "通知のクリック率0%・ベル通知経由の視聴0は、ショートフィードの反応指標ではないため編集判断から除外",
+        "終了画面要素のクリック率0.0%は終了画面未設定のため編集判断から除外"
+      ]
+    }
+  ],
+  "decision": {
+    "dataAvailableForEditorialChange": false,
+    "interpretation": "初期3本はいずれも有効な24時間窓で確認したが、表示回数・視聴を選んだ割合・視聴維持率・エンゲージビューはまだStudioに表示されていない。コンテンツ一覧の累積表示値やAnalyticsのダッシュを視聴者の無反応と同一視しない。",
+    "nextAction": "72時間窓（2026-09-16 18:00 JST前後）で同じ3本を再取得する。なおデータ不足が続く場合は7日後の窓まで待ち、r3公開や既存動画の再編集は行わない。",
+    "r3Publication": "hold",
+    "ads": "not_run"
+  },
+  "notes": [
+    "各動画の公開時刻は秒単位の確定値がないため、publicationWindowから算出した経過時間の範囲を保存した。",
+    "この観測は初期3本の正式な24時間観測であり、4本目と5本目は各公開時刻に合わせた別窓で観測する。",
+    "表示機会が少ない可能性と、表示後に視聴されなかった可能性を分離できるデータは今回まだない。",
+    "子ども向け設定でコメントは無効。自己再生・広告配信は行っていない。"
+  ]
+}
