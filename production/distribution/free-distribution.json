@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "poco-free-distribution-01",
   "preparedOn": "2026-09-14",
-  "status": "note_pilot_selected_awaiting_destination_account",
+  "status": "note_pilot_selected_account_logged_in_verification_pending",
   "routeSelection": {
     "selectedPlatform": "note",
     "selectedRoute": "parent_play_guide_with_existing_youtube_embed",
@@ -35,20 +35,20 @@
     "latestPlatformChecked": "note",
     "checkedUrl": "https://note.com/login",
     "checkedDate": "2026-09-14",
-    "visibleState": "login_form_no_authenticated_account",
-    "userActionRequested": "No note account exists. Choose an account-creation method on note (email, Google, X or Apple) and complete the required identity/authentication input. Do not share passwords in chat. The final account-creation submission requires action-time confirmation.",
-    "accountCreationState": "note_signup_error_existing_email_or_unavailable_unknown",
-    "accountCreationError": "The page visibly reports login error signup_required, says no linked note account was found for the selected Google account, and also shows 'このメールアドレスは登録できません'. The exact cause of the email message is not confirmed; check existing note login or password reset before attempting another account.",
+    "visibleState": "authenticated_note_home_email_verification_pending",
+    "userActionRequested": "Open the verification email sent by note and complete email verification. Do not share passwords or verification links in chat. After verification, return to the note tab and report completion.",
+    "accountCreationState": "existing_note_account_logged_in_email_verification_pending",
+    "accountCreationError": "The note home is now visibly authenticated and shows the New post entry. A notice says email verification is required to use posting, purchasing and comments. No public post has been made.",
     "priorUserActionRequested": "Instagram login was requested before its priority was established; no longer a required next step.",
     "browserHandoff": "note signup page opened in the in-app browser; four methods are visible and no credentials or personal data were entered. User takeover is required for method choice and input.",
     "history": [
       {"platform": "Instagram", "date": "2026-09-14", "state": "logged_out", "effect": "unmeasured"},
-      {"platform": "note", "date": "2026-09-14", "state": "logged_out", "effect": "unmeasured"}
+      {"platform": "note", "date": "2026-09-14", "state": "logged_in_email_verification_pending", "effect": "unmeasured"}
     ]
   },
   "resumeInstructions": [
     "The first external pilot is now note. Read route-comparison-2026-09-14.md; do not restart generic platform research or ask for Instagram login. No platform has proven superior YouTube impact.",
-    "Confirm the authenticated account matches the user's specified posting destination.",
+    "Confirm email verification in the authenticated note account before drafting or publishing. The account is already logged in; no duplicate account creation is needed.",
     "Publish the prepared color-play-guide on note with the existing DpgabSBgQgk YouTube embed and relevant tags. Verify preview and public URL. Do not include the editorial memo in the article.",
     "If a native-video route is selected, read CUA upload guidance, upload the existing color-game MP4, apply the prepared caption and inspect the real publication preview.",
     "Proceed with the already-authorized free publication; do not ask for the same general publication permission again.",
