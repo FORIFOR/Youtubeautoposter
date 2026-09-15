@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-analytics-24h-poco-05-shape-game-2026-09-15T160343+0900",
+  "checkpoint": "24h",
+  "observedAt": "2026-09-15T07:03:43Z",
+  "observedAtJst": "2026-09-15T16:03:43+09:00",
+  "source": "youtube_studio_ui",
+  "sourceUrls": [
+    "https://studio.youtube.com/video/YoSuV1PQjTs/analytics/tab-overview/period-default",
+    "https://studio.youtube.com/video/YoSuV1PQjTs/analytics/tab-reach_viewers/period-default",
+    "https://studio.youtube.com/video/YoSuV1PQjTs/analytics/tab-interest_viewers/period-default"
+  ],
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "episodeId": "poco-05-shape-game",
+  "videoId": "YoSuV1PQjTs",
+  "url": "https://www.youtube.com/shorts/YoSuV1PQjTs",
+  "publishedAt": "2026-09-14T06:25:44Z",
+  "observationWindow": {
+    "periodDisplayed": "2026/09/14～現在",
+    "scope": "公開後",
+    "elapsedSeconds": 88679,
+    "elapsedHours": 24.6331,
+    "validity": "24h window (24–25h after publication)"
+  },
+  "metrics": {
+    "views": {
+      "value": 2,
+      "unit": "views",
+      "rawDisplayed": "2",
+      "definition": "動画公開以降の合計視聴回数です。",
+      "status": "observed"
+    },
+    "subscribersNetChange": {
+      "value": null,
+      "unit": "subscribers",
+      "rawDisplayed": "—",
+      "status": "unavailable_displayed_dash"
+    },
+    "engagedViews": {
+      "value": 1,
+      "unit": "views",
+      "rawDisplayed": "1",
+      "definition": "視聴者が最初の数秒を超えて視聴した回数。",
+      "status": "observed"
+    },
+    "totalWatchTimeHours": {
+      "value": 0.0,
+      "unit": "hours",
+      "rawDisplayed": "0.0",
+      "status": "observed_displayed_rounding"
+    },
+    "averageWatchTimeSeconds": {
+      "value": 29,
+      "unit": "seconds",
+      "rawDisplayed": "0:29",
+      "status": "observed"
+    },
+    "shortsFeedEngagement": {
+      "continuedWatchingPercent": {
+        "value": 100.0,
+        "unit": "percent",
+        "rawDisplayed": "100%",
+        "label": "視聴を継続"
+      },
+      "swipedAwayPercent": {
+        "value": 0.0,
+        "unit": "percent",
+        "rawDisplayed": "0%",
+        "label": "スワイプして消去"
+      },
+      "status": "observed_in_engagement_card",
+      "denominatorViews": 2
+    },
+    "shownInFeed": {
+      "value": null,
+      "unit": "impressions",
+      "rawDisplayed": null,
+      "status": "not_displayed_in_ui"
+    },
+    "retention": {
+      "value": null,
+      "unit": "percent",
+      "rawDisplayed": null,
+      "status": "processing_not_available",
+      "reason": "この動画には視聴者維持のデータがまだありません。処理には最長で2日かかることがあります。"
+    },
+    "trafficSources": {
+      "channelPagePercent": 100.0,
+      "external": "insufficient_traffic_data",
+      "search": "insufficient_traffic_data",
+      "recommendations": "insufficient_traffic_data"
+    },
+    "endScreenElementClickRatePercent": {
+      "value": 0.0,
+      "rawDisplayed": "0.0%",
+      "status": "observed_but_excluded_from_decision",
+      "reason": "この動画に終了画面要素を設定した成果とは確認できないため"
+    }
+  },
+  "interpretation": {
+    "result": "inconclusive",
+    "reason": "公開後約24時間で視聴2回のため、題材や構成の効果は判断しない。",
+    "nextCheckpointJst": "2026-09-17T15:25:44+09:00/2026-09-17T16:25:44+09:00",
+    "followUp": "72時間で再確認し、維持率が未処理なら7日後も確認する。"
+  },
+  "limitations": [
+    "視聴回数2回という小標本であり、割合の不確実性が大きい。",
+    "Shown in feedの件数は画面に表示されず未取得。",
+    "維持率は処理中で未取得。",
+    "チャンネルページ100%は視聴2回の流入内訳であり、因果や一般化を示さない。"
+  ],
+  "recordedAtJst": "2026-09-15T16:03:43+09:00"
+}

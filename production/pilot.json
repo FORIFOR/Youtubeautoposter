@@ -36,7 +36,9 @@
     "newThreeObservation24h": false,
     "newThreeEffectConfirmed": false,
     "threeNewSchedulesConfirmed": true,
-    "threeNewPublicationsCurrentlyPublic": false
+    "threeNewPublicationsCurrentlyPublic": false,
+    "shapeGameObservation24hRecorded": true,
+    "shapeGameObservation24hDataAvailable": true
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -47,7 +49,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-15T04:06:04Z",
+  "updatedAt": "2026-09-15T07:03:43Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -80,7 +82,10 @@
     "initialThree24hDataAvailable": false,
     "colorGame24hObservedAt": "2026-09-14T16:02:17Z",
     "colorGame24hObservationFile": "production/observations/analytics-24h-poco-04-color-game-2026-09-15T010217+0900.json",
-    "colorGame24hDataAvailable": false
+    "colorGame24hDataAvailable": false,
+    "shapeGame24hObservedAt": "2026-09-15T07:03:43Z",
+    "shapeGame24hObservationFile": "production/observations/analytics-24h-poco-05-shape-game-2026-09-15T160343+0900.json",
+    "shapeGame24hDataAvailable": true
   },
   "improvements": {
     "metadataChanges": "production/changes/packaging-2026-09-13.json",
