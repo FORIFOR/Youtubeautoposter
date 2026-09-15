@@ -147,7 +147,7 @@
       "revision": 1,
       "videoId": "MRbkXZDqKWY",
       "url": "https://www.youtube.com/shorts/MRbkXZDqKWY",
-      "privacyStatus": "private",
+      "privacyStatus": "public",
       "selfDeclaredMadeForKids": true,
       "language": "ja",
       "category": "教育",
@@ -157,16 +157,17 @@
       "scheduledPublishAt": "2026-09-15T18:00:00+09:00",
       "publicationWindow": {
         "notBefore": "2026-09-15T09:00:00Z",
-        "notAfter": null
+        "notAfter": "2026-09-15T09:02:34Z"
       },
       "confirmedAt": "2026-09-15T04:06:04Z",
-      "source": "youtube_studio_upload_confirmation",
+      "source": "youtube_studio_ui_publication_confirmation",
       "sourceDisplayedDate": "2026/09/15",
       "contentHash": "f25677913f9e82a0cd55ceac3fc58d7bb77b03d4c6f7a0341a319c10cd78c679",
       "durationSeconds": 34.133333,
       "notes": [
-        "YouTube Studioの予約完了ダイアログで2026年9月15日18:00の公開設定と動画リンクを確認。",
-        "公開時刻までは非公開として表示されるため、公開済み・視聴数・分析指標は未確認。"
+        "予約完了ダイアログで2026年9月15日18:00の公開設定を確認。",
+        "予約時刻後のショート一覧で「公開」と表示されたことを2026年9月15日 18:02:34（日本時間）に確認。秒単位の公開時刻は未取得。",
+        "公開直後の一覧視聴回数は0。24時間観測前の初期値であり、反響の成否を判断しない。"
       ]
     },
     {

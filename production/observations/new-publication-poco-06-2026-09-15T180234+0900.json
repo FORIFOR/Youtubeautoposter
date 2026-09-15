@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-publication-confirmation-poco-06-2026-09-15T180234+0900",
+  "checkpoint": "publication_confirmation",
+  "observedAt": "2026-09-15T09:02:34Z",
+  "observedAtJst": "2026-09-15T18:02:34+09:00",
+  "source": "youtube_studio_ui",
+  "sourceUrls": [
+    "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short",
+    "https://studio.youtube.com/video/MRbkXZDqKWY/edit"
+  ],
+  "channelId": "UCpaMwN2CdCok70qTw-EdonA",
+  "episodeId": "poco-06-red-ball",
+  "videoId": "MRbkXZDqKWY",
+  "url": "https://www.youtube.com/shorts/MRbkXZDqKWY",
+  "scheduledPublishAt": "2026-09-15T09:00:00Z",
+  "scheduledPublishAtJst": "2026-09-15T18:00:00+09:00",
+  "privacyStatus": "public",
+  "sourceDisplayedDate": "2026/09/15",
+  "contentList": {
+    "totalShorts": 8,
+    "rowPrivacyStatus": "public",
+    "rowDisplayedViews": 0,
+    "comments": "disabled",
+    "notifications": "disabled",
+    "rowConfirmation": "ショート一覧の行表示"
+  },
+  "metrics": {
+    "views": {
+      "value": 0,
+      "unit": "views",
+      "rawDisplayed": "0",
+      "status": "observed_cumulative_near_publication"
+    },
+    "shownInFeed": null,
+    "howManyChoseToView": null,
+    "retention": null
+  },
+  "limitations": [
+    "公開予約時刻後の一覧で公開状態を確認したが、秒単位のtimePublishedSecondsは未取得。",
+    "公開直後の視聴回数0は初期表示であり、反響や失敗を判断しない。",
+    "24時間観測は2026-09-16 18:00〜19:00（日本時間）に行う。"
+  ],
+  "evidence": [
+    "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short",
+    "production/publications.json"
+  ],
+  "recordedAtJst": "2026-09-15T18:02:34+09:00"
+}
