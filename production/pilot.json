@@ -32,9 +32,11 @@
     "initialThreeObservation24hRecorded": true,
     "colorGameObservation24hRecorded": true,
     "threeNewVideosRendered": true,
-    "threeNewPublicationsConfirmed": false,
+    "threeNewPublicationsConfirmed": true,
     "newThreeObservation24h": false,
-    "newThreeEffectConfirmed": false
+    "newThreeEffectConfirmed": false,
+    "threeNewSchedulesConfirmed": true,
+    "threeNewPublicationsCurrentlyPublic": false
   },
   "rules": [
     "管理画面・コード・デモの完成だけではゴール達成としない",
@@ -45,7 +47,7 @@
     "分析で使った観測ID・指標・取得時刻を残す",
     "修正版で変えた要素と、その根拠を記録する"
   ],
-  "updatedAt": "2026-09-14T20:25:50.116922Z",
+  "updatedAt": "2026-09-15T04:06:04Z",
   "monitoring": {
     "automationId": "automation",
     "kind": "heartbeat",
@@ -105,7 +107,7 @@
     "poco-05-shape-game"
   ],
   "nextPublicationPlan": {
-    "status": "ready_for_review_not_uploaded",
+    "status": "scheduled_confirmed",
     "recommendedScheduleJst": [
       "2026-09-15T18:00:00+09:00",
       "2026-09-16T18:00:00+09:00",
@@ -116,6 +118,22 @@
       "poco-07-hide-and-seek",
       "poco-08-sound-guess"
     ],
+    "actualVideoIds": [
+      "MRbkXZDqKWY",
+      "V_FgkWdXAo8",
+      "C9txXw1AiT0"
+    ],
+    "actualUrls": [
+      "https://www.youtube.com/shorts/MRbkXZDqKWY",
+      "https://www.youtube.com/shorts/V_FgkWdXAo8",
+      "https://www.youtube.com/shorts/C9txXw1AiT0"
+    ],
+    "scheduledPublishAtJst": [
+      "2026-09-15T18:00:00+09:00",
+      "2026-09-16T18:00:00+09:00",
+      "2026-09-17T18:00:00+09:00"
+    ],
+    "confirmedAt": "2026-09-15T04:06:04Z",
     "measureAfter": [
       "24h",
       "72h",
@@ -128,6 +146,6 @@
       "平均視聴時間/率",
       "外部流入"
     ],
-    "source": "pasted_instruction_2026-09-15"
+    "source": "youtube_studio_schedule_confirmation"
   }
 }

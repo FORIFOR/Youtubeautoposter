@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "observationId": "poco-new-three-schedule-2026-09-15T040604Z",
+  "observedAtJst": "2026-09-15T13:06:04+09:00",
+  "source": "youtube_studio_ui",
+  "channel": {
+    "id": "UCpaMwN2CdCok70qTw-EdonA",
+    "url": "https://www.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA",
+    "displayName": "こぐまのポコのおはなし",
+    "handle": "@poco_ohanashi_jp"
+  },
+  "scope": "新作3本のアップロード、予約公開設定、ショート一覧への反映確認",
+  "scheduledPublications": [
+    {
+      "episodeId": "poco-06-red-ball",
+      "revision": 1,
+      "videoId": "MRbkXZDqKWY",
+      "url": "https://www.youtube.com/shorts/MRbkXZDqKWY",
+      "title": "あかいボール、どっち？｜親子で指さし・色あそび｜こぐまのポコ #Shorts",
+      "privacyStatus": "private",
+      "scheduledPublishAtJst": "2026-09-15T18:00:00+09:00",
+      "durationSeconds": 34.133333,
+      "madeForKids": true,
+      "copyrightCheck": "no_issues_detected",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "confirmation": "予約完了ダイアログとショート一覧の行表示"
+    },
+    {
+      "episodeId": "poco-07-hide-and-seek",
+      "revision": 3,
+      "videoId": "V_FgkWdXAo8",
+      "url": "https://www.youtube.com/shorts/V_FgkWdXAo8",
+      "title": "ポコはどこ？｜親子でかくれんぼ・こぐまのポコ #Shorts",
+      "privacyStatus": "private",
+      "scheduledPublishAtJst": "2026-09-16T18:00:00+09:00",
+      "durationSeconds": 31.421333,
+      "madeForKids": true,
+      "copyrightCheck": "no_issues_detected",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "confirmation": "予約完了ダイアログとショート一覧の行表示"
+    },
+    {
+      "episodeId": "poco-08-sound-guess",
+      "revision": 1,
+      "videoId": "C9txXw1AiT0",
+      "url": "https://www.youtube.com/shorts/C9txXw1AiT0",
+      "title": "この音、なんの音？｜親子で音あて・こぐまのポコ #Shorts",
+      "privacyStatus": "private",
+      "scheduledPublishAtJst": "2026-09-17T18:00:00+09:00",
+      "durationSeconds": 36.421333,
+      "madeForKids": true,
+      "copyrightCheck": "no_issues_detected",
+      "comments": "disabled",
+      "notifications": "disabled",
+      "viewsDisplayedInStudio": 0,
+      "confirmation": "予約完了ダイアログとショート一覧の行表示"
+    }
+  ],
+  "listSummary": {
+    "totalShorts": 8,
+    "public": 5,
+    "scheduled": 3,
+    "scheduledRowsDisplayed": "公開予約",
+    "observationUrl": "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short"
+  },
+  "limitations": [
+    "3本は予約時刻まで非公開。公開後の視聴数・Shown in feed・視聴を選んだ割合・維持率はまだ取得できない。",
+    "一覧の視聴回数0は予約中の表示値であり、未視聴を意味しない。",
+    "予約公開が実際に時刻どおり公開されたことは公開時刻後に再確認する。"
+  ],
+  "evidence": [
+    "https://studio.youtube.com/channel/UCpaMwN2CdCok70qTw-EdonA/videos/short",
+    "production/publications.json",
+    "production/pilot.json"
+  ],
+  "recordedAtJst": "2026-09-15T13:06:04+09:00"
+}

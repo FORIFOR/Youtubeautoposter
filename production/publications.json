@@ -141,6 +141,87 @@
       "durationSeconds": 29.021333,
       "study": "production/analysis/topic-validation-plan-2026-09-14.md",
       "experiment": "topic_and_hook_exploration"
+    },
+    {
+      "episodeId": "poco-06-red-ball",
+      "revision": 1,
+      "videoId": "MRbkXZDqKWY",
+      "url": "https://www.youtube.com/shorts/MRbkXZDqKWY",
+      "privacyStatus": "private",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": false,
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": null,
+      "scheduledPublishAt": "2026-09-15T18:00:00+09:00",
+      "publicationWindow": {
+        "notBefore": "2026-09-15T09:00:00Z",
+        "notAfter": null
+      },
+      "confirmedAt": "2026-09-15T04:06:04Z",
+      "source": "youtube_studio_upload_confirmation",
+      "sourceDisplayedDate": "2026/09/15",
+      "contentHash": "f25677913f9e82a0cd55ceac3fc58d7bb77b03d4c6f7a0341a319c10cd78c679",
+      "durationSeconds": 34.133333,
+      "notes": [
+        "YouTube Studioの予約完了ダイアログで2026年9月15日18:00の公開設定と動画リンクを確認。",
+        "公開時刻までは非公開として表示されるため、公開済み・視聴数・分析指標は未確認。"
+      ]
+    },
+    {
+      "episodeId": "poco-07-hide-and-seek",
+      "revision": 3,
+      "videoId": "V_FgkWdXAo8",
+      "url": "https://www.youtube.com/shorts/V_FgkWdXAo8",
+      "privacyStatus": "private",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": false,
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": null,
+      "scheduledPublishAt": "2026-09-16T18:00:00+09:00",
+      "publicationWindow": {
+        "notBefore": "2026-09-16T09:00:00Z",
+        "notAfter": null
+      },
+      "confirmedAt": "2026-09-15T04:06:04Z",
+      "source": "youtube_studio_upload_confirmation",
+      "sourceDisplayedDate": "2026/09/15",
+      "contentHash": "7638e9f183b72976d9c556264850a4344ef7cee400894e23122aed3aaddbca6e",
+      "durationSeconds": 31.421333,
+      "notes": [
+        "YouTube Studioの予約完了ダイアログで2026年9月16日18:00の公開設定と動画リンクを確認。",
+        "公開時刻までは非公開として表示されるため、公開済み・視聴数・分析指標は未確認。"
+      ]
+    },
+    {
+      "episodeId": "poco-08-sound-guess",
+      "revision": 1,
+      "videoId": "C9txXw1AiT0",
+      "url": "https://www.youtube.com/shorts/C9txXw1AiT0",
+      "privacyStatus": "private",
+      "selfDeclaredMadeForKids": true,
+      "language": "ja",
+      "category": "教育",
+      "captionsUploaded": false,
+      "copyrightCheck": "no_issues_detected",
+      "publishedAt": null,
+      "scheduledPublishAt": "2026-09-17T18:00:00+09:00",
+      "publicationWindow": {
+        "notBefore": "2026-09-17T09:00:00Z",
+        "notAfter": null
+      },
+      "confirmedAt": "2026-09-15T04:06:04Z",
+      "source": "youtube_studio_upload_confirmation",
+      "sourceDisplayedDate": "2026/09/15",
+      "contentHash": "e6754a8c0627c56b419edefd2485affa5dc267b256b2fb24ce495c60b8742798",
+      "durationSeconds": 36.421333,
+      "notes": [
+        "YouTube Studioの予約完了ダイアログで2026年9月17日18:00の公開設定と動画リンクを確認。",
+        "公開時刻までは非公開として表示されるため、公開済み・視聴数・分析指標は未確認。"
+      ]
     }
   ]
 }
