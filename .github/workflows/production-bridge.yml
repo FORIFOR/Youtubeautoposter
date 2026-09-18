@@ -5,18 +5,6 @@ on:
 permissions:
   contents: read
 jobs:
-  source:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      - run: git archive --format=zip HEAD -o source.zip
-      - uses: actions/upload-artifact@v4
-        with:
-          name: production-source
-          path: source.zip
-          retention-days: 1
   test:
     runs-on: ubuntu-latest
     steps:
@@ -35,7 +23,5 @@ jobs:
       - run: python -m pip install 'httpx>=0.28,<0.29' 'pydantic>=2.13,<3' 'Pillow>=12,<13' 'pytest>=9,<10'
       - name: Production worker regression tests
         run: |
-          if [ -d tests/production ]; then
-            sudo apt-get update -qq && sudo apt-get install -y ffmpeg fonts-noto-cjk
-            python -m pytest tests/production -q
-          fi
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg fonts-noto-cjk
+          python -m pytest tests/production -q
