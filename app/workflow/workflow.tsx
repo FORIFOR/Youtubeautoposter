@@ -41,7 +41,7 @@ export default function Workflow() {
     event.preventDefault(); const values = new FormData(event.currentTarget);
     await perform(() => call({ action: "draft", experimentId: experiment?.id, title: values.get("title"), variant: values.get("variant") }));
   }
-  return <div className="flow-shell"><header><a href="/">Growth Studio</a><a href="/">動画登録・比較計画・従来の分析画面へ</a></header><main>
+  return <div className="flow-shell"><header><a href="/">Growth Studio</a><a href="/">動画登録・比較計画・従来の分析画面へ</a><a href="/production">AI台本・動画制作・承認後アップロード →</a></header><main>
     <p className="flow-eyebrow">CREATE → OBSERVE → NEXT EPISODE</p><h1>次の一本まで、根拠をつなぐ。</h1>
     <p>初期下書きから、計測、次の検証案へ。データがなくても企画を始められます。</p>
     <div className="flow-toolbar"><button disabled={busy} onClick={() => void perform(refresh)}>表示を更新</button><a href="/signin-with-chatgpt?return_to=/workflow" target="_top">サインイン</a></div>
@@ -68,7 +68,7 @@ export default function Workflow() {
         {!state.data.drafts.length && <p>下書きはまだありません。上のフォームから最初の一本を始められます。</p>}
       </section>
     </>}
-    <aside className="flow-panel"><h2>観測と公開判断は分けます</h2><p>数値不足は成功を断定しない理由であって、企画を止める理由ではありません。下書きはテンプレートで、LLM執筆・画像生成・映像合成を実行した結果ではありません。制作パッケージを書き出した後、完成MP4を別途確認してYouTube Studioから公開します。</p></aside>
+    <aside className="flow-panel"><h2>観測と公開判断は分けます</h2><p>数値不足は成功を断定しない理由であって、企画を止める理由ではありません。この画面の下書きは探索用テンプレートです。完成台本の執筆、画像・音声の生成、MP4合成、完成動画の確認とアップロードは「AI台本・動画制作」画面から進められます。外部生成と送信は、それぞれ明示的な許可が必要です。</p></aside>
   </main></div>;
 }
 function DraftPanel({ draft: d, videos, busy, perform }: { draft: LearningDraft; videos: Video[]; busy: boolean; perform: (fn: () => Promise<unknown>) => Promise<void> }) {
