@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "growth-studio-learning",
+  "main": "workers/learning-collector.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "triggers": { "crons": ["* * * * *"] },
+  "vars": { "LEARNING_ENABLED": "false", "LEARNING_OWNER_ID": "", "YOUTUBE_CHANNEL_ID": "" },
+  "d1_databases": [{ "binding": "DB", "database_name": "REPLACE_WITH_WEB_APP_DATABASE", "database_id": "REPLACE_WITH_WEB_APP_DATABASE_ID", "migrations_dir": "drizzle" }]
+}
