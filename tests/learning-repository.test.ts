@@ -17,7 +17,7 @@ function setup() {
     async first() {return sql.prepare(this.query).get(...this.args)??null;}
     async all() {return {results:sql.prepare(this.query).all(...this.args)};}
   }
-  const db={prepare:(q:string)=>new Statement(q),batch:async(statements:Statement[])=>{sql.exec("BEGIN IMMEDIATE");try{const results=[];for(const s of statements)results.push(await s.run());sql.exec("COMMIT");return results;}catch(e){sql.exec("ROLLBACK");throw e;}} as unknown as D1Database;
+  const db={prepare:(q:string)=>new Statement(q),batch:async(statements:Statement[])=>{sql.exec("BEGIN IMMEDIATE");try{const results=[];for(const s of statements)results.push(await s.run());sql.exec("COMMIT");return results;}catch(e){sql.exec("ROLLBACK");throw e;}}} as unknown as D1Database;
   const repo=new LearningRepository(db);
   const draft=(id="auto-a",when="2026-09-19T00:00:00Z")=>({id,experimentId:"e",createdAt:when,revision:1,status:"draft"} as LearningDraft);
   return {sql,repo,draft};
