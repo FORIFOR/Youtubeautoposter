@@ -10,8 +10,11 @@ async function call<T>(body?: unknown, path = "/api/learning", method = "POST"):
   const r = await fetch(path, { method: body === undefined ? "GET" : method,
     headers: body === undefined ? {} : { "Content-Type": "application/json" },
     body: body === undefined ? undefined : JSON.stringify(body) });
-  const value = await r.json();
-  if (!r.ok) throw new Error(value.error || `処理に失敗しました (${r.status})`);
+  const value: unknown = await r.json();
+  if (!r.ok) {
+    const detail = value && typeof value === "object" && "error" in value ? value.error : null;
+    throw new Error(typeof detail === "string" ? detail : `処理に失敗しました (${r.status})`);
+  }
   return value as T;
 }
 function download(value: unknown, filename: string) {
