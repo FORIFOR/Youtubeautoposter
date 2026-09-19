@@ -3,6 +3,7 @@ import { randomBytes, createHash, timingSafeEqual } from "node:crypto";
 import { readFile, writeFile, chmod, rename } from "node:fs/promises";
 import { spawn } from "node:child_process";
 try { process.loadEnvFile(".env"); } catch (error) { if (error.code !== "ENOENT") throw error; }
+const uploadMode = process.argv.includes("--upload");
 const clientId = process.env.GOOGLE_CLIENT_ID, clientSecret = process.env.GOOGLE_CLIENT_SECRET;
 if (!clientId || !clientSecret) throw new Error(".envにデスクトップアプリのGOOGLE_CLIENT_IDとGOOGLE_CLIENT_SECRETを設定してください。");
 const state = randomBytes(32).toString("base64url"), verifier = randomBytes(48).toString("base64url"), challenge = createHash("sha256").update(verifier).digest("base64url");
@@ -30,7 +31,7 @@ const server = createServer(async (req, res) => {
     if (!channelId || !/^UC[A-Za-z0-9_-]{22}$/.test(channelId)) throw new Error("YouTubeチャンネルが見つかりません。");
     if (process.env.YOUTUBE_CHANNEL_ID && channelId !== process.env.YOUTUBE_CHANNEL_ID) throw new Error("設定したチャンネルと認可したチャンネルが異なります。正しいアカウントでやり直してください。");
     let existing = ""; try { existing = await readFile(".env", "utf8"); } catch (e) { if (e.code !== "ENOENT") throw e; }
-    const updates = { GOOGLE_REFRESH_TOKEN: token.refresh_token, YOUTUBE_CHANNEL_ID: channelId };
+    const updates = { [uploadMode ? "GOOGLE_UPLOAD_REFRESH_TOKEN" : "GOOGLE_REFRESH_TOKEN"]: token.refresh_token, YOUTUBE_CHANNEL_ID: channelId };
     for (const [key, value] of Object.entries(updates)) { const line = `${key}=${JSON.stringify(value)}`; const pattern = new RegExp(`^${key}=.*$`, "m"); existing = pattern.test(existing) ? existing.replace(pattern, () => line) : `${existing.trimEnd()}\n${line}\n`; }
     await writeFile(".env.oauth-tmp", existing, { mode: 0o600 }); await chmod(".env.oauth-tmp", 0o600); await rename(".env.oauth-tmp", ".env");
     console.log("認可が完了しました。更新トークンを.envに保存しました。開発サーバーを再起動してください。");
@@ -41,8 +42,8 @@ const server = createServer(async (req, res) => {
 server.listen(0, "127.0.0.1", () => {
   redirectUri = `http://127.0.0.1:${server.address().port}/oauth/youtube`;
   const url = new URL("https://accounts.google.com/o/oauth2/v2/auth");
-  url.search = new URLSearchParams({ client_id: clientId, redirect_uri: redirectUri, response_type: "code", scope: "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.readonly", access_type: "offline", prompt: "consent", state, code_challenge: challenge, code_challenge_method: "S256" }).toString();
-  console.log("ブラウザーで自分のチャンネルの読み取りを許可してください。開かない場合の認可URL:\n" + url);
+  url.search = new URLSearchParams({ client_id: clientId, redirect_uri: redirectUri, response_type: "code", scope: uploadMode ? "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly" : "https://www.googleapis.com/auth/yt-analytics.readonly https://www.googleapis.com/auth/youtube.readonly", access_type: "offline", prompt: "consent", state, code_challenge: challenge, code_challenge_method: "S256" }).toString();
+  console.log((uploadMode ? "アップロード権限を別途許可します。承認済みの動画だけを送信するワーカー用です。" : "自分のチャンネルの読み取りを許可します。") + "\n認可URL:\n" + url);
   const command = process.platform === "darwin" ? "open" : process.platform === "win32" ? null : "xdg-open";
   if (command) { const child = spawn(command, [url.toString()], { stdio: "ignore" }); child.on("error", () => {}); }
 });

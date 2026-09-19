@@ -21,7 +21,7 @@ export type Video = {
   id: string; youtubeId: string; title: string; channelId: string;
   publishedAt: string; contentHash: string; durationSeconds: number;
   experimentId: string; variant: "A" | "B"; conditions: Conditions;
-  episode: string; createdAt: string; verified: boolean;
+  episode: string; createdAt: string; verified: boolean; productionProfile?: string;
 };
 export type Observation = {
   id: string; videoId: string; checkpoint: Checkpoint; observedAt: string;
@@ -88,6 +88,7 @@ export function compare(experiment: Experiment, data: StudioData, source: "youtu
     if (duplicate) reason = "同じ完成素材の再投稿";
     else if (!/^[a-f0-9]{64}$/.test(video.contentHash)) reason = "完成素材のハッシュが未確認";
     else if (!video.verified) reason = "公開状態が未確認";
+    else if (video.productionProfile !== videos.find(v => v.experimentId === experiment.id)?.productionProfile) reason = "制作プロバイダー・音声・合成方式が異なります。別の比較計画に分けてください";
     else if (video.channelId !== experiment.channelId || conditionKeys.some(key => video.conditions[key] !== experiment.conditions[key]) || video.durationSeconds < experiment.conditions.durationMin || video.durationSeconds > experiment.conditions.durationMax) reason = "比較条件が一致していません";
     else if (Date.parse(video.publishedAt) < Date.parse(experiment.createdAt)) reason = "比較計画の作成より前の投稿";
     // Choose the first observation, never the maximum or latest count.

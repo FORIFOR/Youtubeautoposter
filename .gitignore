@@ -52,3 +52,7 @@ next-env.d.ts
 .tools/
 .venv-production/
 production/renders/
+
+# Production receipts contain private upload session URLs and generated media.
+.production-worker/
+__pycache__/

@@ -16,7 +16,9 @@
     "typecheck": "tsc --noEmit",
     "db:migrate": "node scripts/migrate.mjs",
     "collector": "node --env-file-if-exists=.env scripts/collector.mjs",
-    "youtube:authorize": "node scripts/youtube-authorize.mjs"
+    "youtube:authorize": "node scripts/youtube-authorize.mjs",
+    "production:worker": "node scripts/production-worker.mjs",
+    "youtube:authorize-upload": "node scripts/youtube-authorize.mjs --upload"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
