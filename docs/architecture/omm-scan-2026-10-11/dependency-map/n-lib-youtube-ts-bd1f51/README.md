@@ -1,0 +1,32 @@
+# dependency-map/n-lib-youtube-ts-bd1f51
+
+[解析トップへ戻る](../../README.md)
+
+確認済みファイル: `lib/youtube.ts`
+
+解析: 字句抽出。静的なimport／export参照です。関数の実行順序やHTTP通信は表していません。
+
+宣言: `YouTubeError`, `counter`, `durationSeconds`, `pacificDay`, `addDays`, `YouTubeClient`
+
+- `./growth` → `lib/growth.ts`（内容確認済み）
+
+
+```mermaid
+graph TD
+    source["ソース\nlib/youtube.ts"]
+    n-growth-f9c6bf["./growth\nlib/growth.ts"]
+    source -->|"字句抽出: import／export"| n-growth-f9c6bf
+```
+
+## 要素の説明
+
+### n-growth-f9c6bf
+
+参照名: `./growth`
+
+対応する実在ソース: `lib/growth.ts`。内容確認済み。
+
+### source
+
+`lib/youtube.ts` の内容を確認しました。
+

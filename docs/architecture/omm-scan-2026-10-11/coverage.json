@@ -1,0 +1,50 @@
+{
+  "repo": "FORIFOR/Youtubeautoposter",
+  "branch": "main",
+  "tree_sha": "cf14e61e4dd85270da3d93e1851282d098d50f52",
+  "tree_files": 258,
+  "read_files": [
+    {
+      "path": "README.md",
+      "sha": "ef14c856ef82af6ac025e001183225f6ed3e523b"
+    },
+    {
+      "path": "package.json",
+      "sha": "36522c5b80ee3a23c69533ce76c942aacb38c97b"
+    },
+    {
+      "path": "db/index.ts",
+      "sha": "b7391adc243e5f9a7a8ac07c130ce80fbebeba65"
+    },
+    {
+      "path": "lib/learning-runner.ts",
+      "sha": "84a6cc53c16a53aec0a37ed47987cc06b0e78914"
+    },
+    {
+      "path": "lib/collector.ts",
+      "sha": "fa427ea6b65fc6304f060ab452dfc1f15a5ae0e5"
+    },
+    {
+      "path": "lib/growth.ts",
+      "sha": "6401f7d2bdde440ef23953ae93008b09fd4b800e"
+    },
+    {
+      "path": "lib/learning.ts",
+      "sha": "4861f3b30de25ed4026a3fd7ea8f058fe35649b2"
+    },
+    {
+      "path": "lib/learning-repository.ts",
+      "sha": "145a5c605e51dcfa8aa9e23b62825447da4c5be7"
+    },
+    {
+      "path": "lib/youtube.ts",
+      "sha": "f25e0816259d3c989553248c7ea188ceb93b666b"
+    },
+    {
+      "path": "lib/repository.ts",
+      "sha": "c86c85daf466cc46341f93acaefce2e5b4afc7e3"
+    }
+  ],
+  "not_read_count": 248,
+  "scope": "initial entry-point and direct-import analysis; not exhaustive semantic scan"
+}

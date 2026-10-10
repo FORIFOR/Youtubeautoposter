@@ -1,0 +1,24 @@
+確認したパス: `app`。配下の登録ファイルは22件。
+
+- `app/api/collect/route.ts`（一覧のみ）
+- `app/api/drafts/[id]/route.ts`（一覧のみ）
+- `app/api/drafts/route.ts`（一覧のみ）
+- `app/api/experiments/route.ts`（一覧のみ）
+- `app/api/learning/route.ts`（一覧のみ）
+- `app/api/production-worker/artifact/route.ts`（一覧のみ）
+- `app/api/production-worker/route.ts`（一覧のみ）
+- `app/api/production/[id]/video/route.ts`（一覧のみ）
+- `app/api/production/route.ts`（一覧のみ）
+- `app/api/state/route.ts`（一覧のみ）
+- `app/api/videos/route.ts`（一覧のみ）
+- `app/chatgpt-auth.ts`（一覧のみ）
+- `app/globals.css`（一覧のみ）
+- `app/layout.tsx`（一覧のみ）
+- `app/page.tsx`（一覧のみ）
+- `app/production/page.tsx`（一覧のみ）
+- `app/production/production.css`（一覧のみ）
+- `app/production/production.tsx`（一覧のみ）
+- `app/studio.tsx`（一覧のみ）
+- `app/workflow/page.tsx`（一覧のみ）
+- `app/workflow/workflow.css`（一覧のみ）
+- `app/workflow/workflow.tsx`（一覧のみ）

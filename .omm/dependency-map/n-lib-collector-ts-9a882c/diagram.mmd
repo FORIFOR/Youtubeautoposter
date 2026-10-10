@@ -1,0 +1,8 @@
+graph TD
+    source["ソース\nlib/collector.ts"]
+    n-growth-f9c6bf["./growth\nlib/growth.ts"]
+    source -->|"字句抽出: import／export"| n-growth-f9c6bf
+    n-repository-eafc79["./repository\nlib/repository.ts"]
+    source -->|"字句抽出: import／export"| n-repository-eafc79
+    n-youtube-9d1e57["./youtube\nlib/youtube.ts"]
+    source -->|"字句抽出: import／export"| n-youtube-9d1e57

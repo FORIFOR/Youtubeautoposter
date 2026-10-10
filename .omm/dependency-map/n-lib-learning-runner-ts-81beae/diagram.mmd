@@ -1,0 +1,14 @@
+graph TD
+    source["ソース\nlib/learning-runner.ts"]
+    n-collector-5b1c93["./collector\nlib/collector.ts"]
+    source -->|"字句抽出: import／export"| n-collector-5b1c93
+    n-growth-f9c6bf["./growth\nlib/growth.ts"]
+    source -->|"字句抽出: import／export"| n-growth-f9c6bf
+    n-learning-62dc7f["./learning\nlib/learning.ts"]
+    source -->|"字句抽出: import／export"| n-learning-62dc7f
+    n-learning-repository-731b9f["./learning-repository\nlib/learning-repository.ts"]
+    source -->|"字句抽出: import／export"| n-learning-repository-731b9f
+    n-youtube-9d1e57["./youtube\nlib/youtube.ts"]
+    source -->|"字句抽出: import／export"| n-youtube-9d1e57
+    n-repository-eafc79["./repository\nlib/repository.ts"]
+    source -->|"字句抽出: import／export"| n-repository-eafc79
